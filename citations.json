@@ -1,0 +1,1823 @@
+{
+    "countries": [
+        {
+            "id": "ad",
+            "name": "Andorra"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ae",
+            "name": "United Arab Emirates"
+        },
+        {
+            "id": "af",
+            "name": "Afghanistan"
+        },
+        {
+            "id": "ag",
+            "name": "Antigua and Barbuda"
+        },
+        {
+            "id": "ai",
+            "name": "Anguilla"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "al",
+            "name": "Albania"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "am",
+            "name": "Armenia"
+        },
+        {
+            "id": "ao",
+            "name": "Angola"
+        },
+        {
+            "id": "aq",
+            "name": "Antarctica"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ar",
+            "name": "Argentina"
+        },
+        {
+            "id": "as",
+            "name": "American Samoa"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "at",
+            "name": "Austria"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "au",
+            "name": "Australia"
+        },
+        {
+            "id": "aw",
+            "name": "Aruba"
+        },
+        {
+            "id": "ax",
+            "name": "\u00c5land Islands"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "az",
+            "name": "Azerbaijan"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ba",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "id": "bb",
+            "name": "Barbados"
+        },
+        {
+            "id": "bd",
+            "name": "Bangladesh"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "be",
+            "name": "Belgium"
+        },
+        {
+            "id": "bf",
+            "name": "Burkina Faso"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "bg",
+            "name": "Bulgaria"
+        },
+        {
+            "id": "bh",
+            "name": "Bahrain"
+        },
+        {
+            "id": "bi",
+            "name": "Burundi"
+        },
+        {
+            "id": "bj",
+            "name": "Benin"
+        },
+        {
+            "id": "bl",
+            "name": "Saint Barth\u00e9lemy"
+        },
+        {
+            "id": "bm",
+            "name": "Bermuda"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "bn",
+            "name": "Brunei Darussalam"
+        },
+        {
+            "id": "bo",
+            "name": "Bolivia"
+        },
+        {
+            "id": "bq",
+            "name": "Caribbean Netherlands "
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "br",
+            "name": "Brazil"
+        },
+        {
+            "id": "bs",
+            "name": "Bahamas"
+        },
+        {
+            "id": "bt",
+            "name": "Bhutan"
+        },
+        {
+            "id": "bv",
+            "name": "Bouvet Island"
+        },
+        {
+            "id": "bw",
+            "name": "Botswana"
+        },
+        {
+            "id": "by",
+            "name": "Belarus"
+        },
+        {
+            "id": "bz",
+            "name": "Belize"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ca",
+            "name": "Canada"
+        },
+        {
+            "id": "cc",
+            "name": "Cocos (Keeling) Islands"
+        },
+        {
+            "id": "cd",
+            "name": "Congo, Democratic Republic of"
+        },
+        {
+            "id": "cf",
+            "name": "Central African Republic"
+        },
+        {
+            "id": "cg",
+            "name": "Congo"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ch",
+            "name": "Switzerland"
+        },
+        {
+            "id": "ci",
+            "name": "C\u00f4te d'Ivoire"
+        },
+        {
+            "id": "ck",
+            "name": "Cook Islands"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "cl",
+            "name": "Chile"
+        },
+        {
+            "id": "cm",
+            "name": "Cameroon"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "cn",
+            "name": "China"
+        },
+        {
+            "id": "co",
+            "name": "Colombia"
+        },
+        {
+            "id": "cr",
+            "name": "Costa Rica"
+        },
+        {
+            "id": "cu",
+            "name": "Cuba"
+        },
+        {
+            "id": "cv",
+            "name": "Cape Verde"
+        },
+        {
+            "id": "cw",
+            "name": "Cura\u00e7ao"
+        },
+        {
+            "id": "cx",
+            "name": "Christmas Island"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "cy",
+            "name": "Cyprus"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "cz",
+            "name": "Czech Republic"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "de",
+            "name": "Germany"
+        },
+        {
+            "id": "dj",
+            "name": "Djibouti"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "dk",
+            "name": "Denmark"
+        },
+        {
+            "id": "dm",
+            "name": "Dominica"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "do",
+            "name": "Dominican Republic"
+        },
+        {
+            "id": "dz",
+            "name": "Algeria"
+        },
+        {
+            "id": "ec",
+            "name": "Ecuador"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ee",
+            "name": "Estonia"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "eg",
+            "name": "Egypt"
+        },
+        {
+            "id": "eh",
+            "name": "Western Sahara"
+        },
+        {
+            "id": "er",
+            "name": "Eritrea"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "es",
+            "name": "Spain"
+        },
+        {
+            "id": "et",
+            "name": "Ethiopia"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "fi",
+            "name": "Finland"
+        },
+        {
+            "id": "fj",
+            "name": "Fiji"
+        },
+        {
+            "id": "fk",
+            "name": "Falkland Islands"
+        },
+        {
+            "id": "fm",
+            "name": "Micronesia, Federated States of"
+        },
+        {
+            "id": "fo",
+            "name": "Faroe Islands"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "fr",
+            "name": "France"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ga",
+            "name": "Gabon"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                },
+                {
+                    "content": [
+                        "There was an attempt to ... [etc.](http://www.no2id.net/)"
+                    ],
+                    "tag": "idcard",
+                    "value": "Not since Churchill [cancelled them in the 50s](https://archive.today/56VM0)"
+                }
+            ],
+            "id": "gb",
+            "name": "United Kingdom"
+        },
+        {
+            "id": "gd",
+            "name": "Grenada"
+        },
+        {
+            "id": "ge",
+            "name": "Georgia"
+        },
+        {
+            "id": "gf",
+            "name": "French Guiana"
+        },
+        {
+            "id": "gg",
+            "name": "Guernsey"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "gh",
+            "name": "Ghana"
+        },
+        {
+            "id": "gi",
+            "name": "Gibraltar"
+        },
+        {
+            "id": "gl",
+            "name": "Greenland"
+        },
+        {
+            "id": "gm",
+            "name": "Gambia"
+        },
+        {
+            "id": "gn",
+            "name": "Guinea"
+        },
+        {
+            "id": "gp",
+            "name": "Guadeloupe"
+        },
+        {
+            "id": "gq",
+            "name": "Equatorial Guinea"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "gr",
+            "name": "Greece"
+        },
+        {
+            "id": "gs",
+            "name": "South Georgia and the South Sandwich Islands"
+        },
+        {
+            "id": "gt",
+            "name": "Guatemala"
+        },
+        {
+            "id": "gu",
+            "name": "Guam"
+        },
+        {
+            "id": "gw",
+            "name": "Guinea-Bissau"
+        },
+        {
+            "id": "gy",
+            "name": "Guyana"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "hk",
+            "name": "Hong Kong"
+        },
+        {
+            "id": "hm",
+            "name": "Heard and McDonald Islands"
+        },
+        {
+            "id": "hn",
+            "name": "Honduras"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "hr",
+            "name": "Croatia"
+        },
+        {
+            "id": "ht",
+            "name": "Haiti"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "hu",
+            "name": "Hungary"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "id",
+            "name": "Indonesia"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ie",
+            "name": "Ireland"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "This intro should probably come from a file, just showing how you can do this inline"
+                    ],
+                    "tag": "intro"
+                },
+                {
+                    "content": [
+                        "<biopass-wikipedia",
+                        "Having said that, citizens who refuse to volunteer for the biometric database pilot are forced to issue an easy to forge paper passport, and are charged a fee of *???* (which is waived for those who volunteer)*[citation needed]*."
+                    ],
+                    "tag": "biopass",
+                    "value": "Pending inclusion in biometric database"
+                }
+            ],
+            "id": "il",
+            "name": "Israel"
+        },
+        {
+            "id": "im",
+            "name": "Isle of Man"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "in",
+            "name": "India"
+        },
+        {
+            "id": "io",
+            "name": "British Indian Ocean Territory"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "iq",
+            "name": "Iraq"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ir",
+            "name": "Iran"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "is",
+            "name": "Iceland"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "it",
+            "name": "Italy"
+        },
+        {
+            "id": "je",
+            "name": "Jersey"
+        },
+        {
+            "id": "jm",
+            "name": "Jamaica"
+        },
+        {
+            "id": "jo",
+            "name": "Jordan"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "jp",
+            "name": "Japan"
+        },
+        {
+            "id": "ke",
+            "name": "Kenya"
+        },
+        {
+            "id": "kg",
+            "name": "Kyrgyzstan"
+        },
+        {
+            "id": "kh",
+            "name": "Cambodia"
+        },
+        {
+            "id": "ki",
+            "name": "Kiribati"
+        },
+        {
+            "id": "km",
+            "name": "Comoros"
+        },
+        {
+            "id": "kn",
+            "name": "Saint Kitts and Nevis"
+        },
+        {
+            "id": "kp",
+            "name": "North Korea"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "kr",
+            "name": "South Korea"
+        },
+        {
+            "id": "kw",
+            "name": "Kuwait"
+        },
+        {
+            "id": "ky",
+            "name": "Cayman Islands"
+        },
+        {
+            "id": "kz",
+            "name": "Kazakhstan"
+        },
+        {
+            "id": "la",
+            "name": "Lao People's Democratic Republic"
+        },
+        {
+            "id": "lb",
+            "name": "Lebanon"
+        },
+        {
+            "id": "lc",
+            "name": "Saint Lucia"
+        },
+        {
+            "id": "li",
+            "name": "Liechtenstein"
+        },
+        {
+            "id": "lk",
+            "name": "Sri Lanka"
+        },
+        {
+            "id": "lr",
+            "name": "Liberia"
+        },
+        {
+            "id": "ls",
+            "name": "Lesotho"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "lt",
+            "name": "Lithuania"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "lu",
+            "name": "Luxembourg"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "lv",
+            "name": "Latvia"
+        },
+        {
+            "id": "ly",
+            "name": "Libya"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ma",
+            "name": "Morocco"
+        },
+        {
+            "id": "mc",
+            "name": "Monaco"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "md",
+            "name": "Moldova"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "me",
+            "name": "Montenegro"
+        },
+        {
+            "id": "mf",
+            "name": "Saint-Martin (France)"
+        },
+        {
+            "id": "mg",
+            "name": "Madagascar"
+        },
+        {
+            "id": "mh",
+            "name": "Marshall Islands"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "mk",
+            "name": "Macedonia"
+        },
+        {
+            "id": "ml",
+            "name": "Mali"
+        },
+        {
+            "id": "mm",
+            "name": "Myanmar"
+        },
+        {
+            "id": "mn",
+            "name": "Mongolia"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "mo",
+            "name": "Macau"
+        },
+        {
+            "id": "mp",
+            "name": "Northern Mariana Islands"
+        },
+        {
+            "id": "mq",
+            "name": "Martinique"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "mr",
+            "name": "Mauritania"
+        },
+        {
+            "id": "ms",
+            "name": "Montserrat"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "mt",
+            "name": "Malta"
+        },
+        {
+            "id": "mu",
+            "name": "Mauritius"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "mv",
+            "name": "Maldives"
+        },
+        {
+            "id": "mw",
+            "name": "Malawi"
+        },
+        {
+            "id": "mx",
+            "name": "Mexico"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "my",
+            "name": "Malaysia"
+        },
+        {
+            "id": "mz",
+            "name": "Mozambique"
+        },
+        {
+            "id": "na",
+            "name": "Namibia"
+        },
+        {
+            "id": "nc",
+            "name": "New Caledonia"
+        },
+        {
+            "id": "ne",
+            "name": "Niger"
+        },
+        {
+            "id": "nf",
+            "name": "Norfolk Island"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ng",
+            "name": "Nigeria"
+        },
+        {
+            "id": "ni",
+            "name": "Nicaragua"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "nl",
+            "name": "The Netherlands"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "no",
+            "name": "Norway"
+        },
+        {
+            "id": "np",
+            "name": "Nepal"
+        },
+        {
+            "id": "nr",
+            "name": "Nauru"
+        },
+        {
+            "id": "nu",
+            "name": "Niue"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "nz",
+            "name": "New Zealand"
+        },
+        {
+            "id": "om",
+            "name": "Oman"
+        },
+        {
+            "id": "pa",
+            "name": "Panama"
+        },
+        {
+            "id": "pe",
+            "name": "Peru"
+        },
+        {
+            "id": "pf",
+            "name": "French Polynesia"
+        },
+        {
+            "id": "pg",
+            "name": "Papua New Guinea"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ph",
+            "name": "Philippines"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "pk",
+            "name": "Pakistan"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "pl",
+            "name": "Poland"
+        },
+        {
+            "id": "pm",
+            "name": "St. Pierre and Miquelon"
+        },
+        {
+            "id": "pn",
+            "name": "Pitcairn"
+        },
+        {
+            "id": "pr",
+            "name": "Puerto Rico"
+        },
+        {
+            "id": "ps",
+            "name": "Palestine, State of"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "pt",
+            "name": "Portugal"
+        },
+        {
+            "id": "pw",
+            "name": "Palau"
+        },
+        {
+            "id": "py",
+            "name": "Paraguay"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "qa",
+            "name": "Qatar"
+        },
+        {
+            "id": "re",
+            "name": "R\u00e9union"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ro",
+            "name": "Romania"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "rs",
+            "name": "Serbia"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ru",
+            "name": "Russian Federation"
+        },
+        {
+            "id": "rw",
+            "name": "Rwanda"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "sa",
+            "name": "Saudi Arabia"
+        },
+        {
+            "id": "sb",
+            "name": "Solomon Islands"
+        },
+        {
+            "id": "sc",
+            "name": "Seychelles"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "sd",
+            "name": "Sudan"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "se",
+            "name": "Sweden"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "sg",
+            "name": "Singapore"
+        },
+        {
+            "id": "sh",
+            "name": "Saint Helena"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "si",
+            "name": "Slovenia"
+        },
+        {
+            "id": "sj",
+            "name": "Svalbard and Jan Mayen Islands"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "sk",
+            "name": "Slovakia"
+        },
+        {
+            "id": "sl",
+            "name": "Sierra Leone"
+        },
+        {
+            "id": "sm",
+            "name": "San Marino"
+        },
+        {
+            "id": "sn",
+            "name": "Senegal"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "so",
+            "name": "Somalia"
+        },
+        {
+            "id": "sr",
+            "name": "Suriname"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ss",
+            "name": "South Sudan"
+        },
+        {
+            "id": "st",
+            "name": "Sao Tome and Principe"
+        },
+        {
+            "id": "sv",
+            "name": "El Salvador"
+        },
+        {
+            "id": "sx",
+            "name": "Sint Maarten (Dutch part)"
+        },
+        {
+            "id": "sy",
+            "name": "Syria"
+        },
+        {
+            "id": "sz",
+            "name": "Swaziland"
+        },
+        {
+            "id": "tc",
+            "name": "Turks and Caicos Islands"
+        },
+        {
+            "id": "td",
+            "name": "Chad"
+        },
+        {
+            "id": "tf",
+            "name": "French Southern Territories"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "tg",
+            "name": "Togo"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "th",
+            "name": "Thailand"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "tj",
+            "name": "Tajikistan"
+        },
+        {
+            "id": "tk",
+            "name": "Tokelau"
+        },
+        {
+            "id": "tl",
+            "name": "Timor-Leste"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "tm",
+            "name": "Turkmenistan"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "tn",
+            "name": "Tunisia"
+        },
+        {
+            "id": "to",
+            "name": "Tonga"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "tr",
+            "name": "Turkey"
+        },
+        {
+            "id": "tt",
+            "name": "Trinidad and Tobago"
+        },
+        {
+            "id": "tv",
+            "name": "Tuvalu"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "tw",
+            "name": "Taiwan"
+        },
+        {
+            "id": "tz",
+            "name": "Tanzania"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ua",
+            "name": "Ukraine"
+        },
+        {
+            "id": "ug",
+            "name": "Uganda"
+        },
+        {
+            "id": "um",
+            "name": "United States Minor Outlying Islands"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "us",
+            "name": "United States"
+        },
+        {
+            "id": "uy",
+            "name": "Uruguay"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "uz",
+            "name": "Uzbekistan"
+        },
+        {
+            "id": "va",
+            "name": "Vatican"
+        },
+        {
+            "id": "vc",
+            "name": "Saint Vincent and the Grenadines"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "ve",
+            "name": "Venezuela"
+        },
+        {
+            "id": "vg",
+            "name": "Virgin Islands (British)"
+        },
+        {
+            "id": "vi",
+            "name": "Virgin Islands (U.S.)"
+        },
+        {
+            "id": "vn",
+            "name": "Vietnam"
+        },
+        {
+            "id": "vu",
+            "name": "Vanuatu"
+        },
+        {
+            "id": "wf",
+            "name": "Wallis and Futuna Islands"
+        },
+        {
+            "id": "ws",
+            "name": "Samoa"
+        },
+        {
+            "citations": [
+                {
+                    "content": [
+                        "<biopass-wikipedia"
+                    ],
+                    "tag": "biopass",
+                    "value": "Yes"
+                }
+            ],
+            "id": "xk",
+            "name": "Kosovo"
+        },
+        {
+            "id": "ye",
+            "name": "Yemen"
+        },
+        {
+            "id": "yt",
+            "name": "Mayotte"
+        },
+        {
+            "id": "za",
+            "name": "South Africa"
+        },
+        {
+            "id": "zm",
+            "name": "Zambia"
+        },
+        {
+            "id": "zw",
+            "name": "Zimbabwe"
+        }
+    ],
+    "tags": [
+        {
+            "description": "",
+            "name": "intro"
+        },
+        {
+            "description": "Biometric passport",
+            "name": "biopass"
+        },
+        {
+            "description": "Retains biometric information of minorities, foreigners, prisoners, unemployed, etc.",
+            "name": "minoritybiodb"
+        },
+        {
+            "description": "ID card for all citizens",
+            "name": "idcard"
+        },
+        {
+            "description": "Biometric database of all citizens",
+            "name": "biodb"
+        }
+    ]
+}
