@@ -3,7 +3,7 @@
 The only non-repetitive stuff is at Israel and United Kingdom, but I hope the
 standard of `citations.json` is simple and flexible enough for what we need.
 
-As for implementation, we should probably do it in jekyll ;)
+Coming soon: this will be a map
 
 {{#countries}}
 * [{{name}}](country-{{id}}.html)
