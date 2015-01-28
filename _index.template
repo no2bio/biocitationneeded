@@ -1,7 +1,5 @@
-### [No2bio](http://english.no2bio.org) presents
 ## The #BioCitationNeeded project
 
-This is a draft. Gist is [here](https://gist.github.com/thedod/70f3e820380598c352c3).
 The only non-repetitive stuff is at Israel and United Kingdom, but I hope the
 standard of `citations.json` is simple and flexible enough for what we need.
 
@@ -13,3 +11,7 @@ As for implementation, we should probably do it in jekyll ;)
     {{#value}}* {{tag.description}}: *{{.}}*{{/value}}
   {{/citations}}
 {{/countries}}
+
+----
+
+[Fork this](https://gist.github.com/thedod/70f3e820380598c352c3)
