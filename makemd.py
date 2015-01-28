@@ -23,4 +23,6 @@ for country in content['countries']:
         citation['rendered'] = pystache.render(template,citation,country=country)
     file("country-{}.md".format(country['id']),"w").write(pystache.render(t_country,country).encode('utf-8'))
 
+content['countries'].sort(key=lambda x:x['name']) # D'Oh
+
 file('index.md',"w").write(pystache.render(import_template('_index'),content).encode('utf-8'))

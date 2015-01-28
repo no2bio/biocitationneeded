@@ -1,5 +1,3 @@
-## The #BioCitationNeeded project
-
 The only non-repetitive stuff is at Israel and United Kingdom, but I hope the
 standard of `citations.json` is simple and flexible enough for what we need.
 
@@ -11,7 +9,3 @@ Coming soon: this will be a map
     {{#value}}* {{tag.description}}: *{{.}}*{{/value}}
   {{/citations}}
 {{/countries}}
-
-----
-
-[Fork this](https://gist.github.com/thedod/70f3e820380598c352c3)
