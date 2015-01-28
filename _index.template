@@ -8,12 +8,8 @@ standard of `citations.json` is simple and flexible enough for what we need.
 As for implementation, we should probably do it in jekyll ;)
 
 {{#countries}}
-### {{name}}
-{{#citations}}
-
-{{rendered}}
-{{/citations}}
-{{^citations}}
-*No information yet...*
-{{/citations}}
+* [{{name}}](country-{{id}}.html)
+  {{#citations}}
+    {{#value}}* {{tag.description}}: *{{.}}*{{/value}}
+  {{/citations}}
 {{/countries}}

@@ -1,0 +1,7 @@
+{{#citations}}
+
+{{rendered}}
+{{/citations}}
+{{^citations}}
+*No information yet...*
+{{/citations}}
