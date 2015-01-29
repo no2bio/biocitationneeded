@@ -12,8 +12,10 @@
     <a style="float:right" target="_blank" href="https://gist.github.com/thedod/70f3e820380598c352c3">Fork this</a>
     <h2>The #BioCitationNeeded project</h2>
   
-    <p>The only non-repetitive stuff is at Israel and United Kingdom, but I hope the
+    <p>The only non-repetitive stuff is at <a href="#il">Israel</a> and <a href="#gb">UK</a>, but I hope the
     standard of <code>citations.json</code> is simple and flexible enough for what we need.</p>
+    <p>Map has a crazy projection so that Israel won't come out too small for fill color ;)
+    Problem is that now it crops some countries. Better solutions are welcome.</p>
     <div style="text-align:center">
       <select id="tag" onchange="colormap(this.value)">
           <option selected value="">--select topic--</option>
@@ -30,71 +32,14 @@
     </div>
     <ul>
         <dl>
-          <dt><a href="country-af.html">Afghanistan</a></dt>
+          <dt id="af"><a href="country-af.html">Afghanistan</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-al.html">Albania</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-dz.html">Algeria</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-as.html">American Samoa</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ad.html">Andorra</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ao.html">Angola</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ai.html">Anguilla</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-aq.html">Antarctica</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ag.html">Antigua and Barbuda</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ar.html">Argentina</a></dt>
+          <dt id="al"><a href="country-al.html">Albania</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -102,7 +47,56 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-am.html">Armenia</a></dt>
+          <dt id="dz"><a href="country-dz.html">Algeria</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="as"><a href="country-as.html">American Samoa</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ad"><a href="country-ad.html">Andorra</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ao"><a href="country-ao.html">Angola</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ai"><a href="country-ai.html">Anguilla</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="aq"><a href="country-aq.html">Antarctica</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ag"><a href="country-ag.html">Antigua and Barbuda</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ar"><a href="country-ar.html">Argentina</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -110,14 +104,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-aw.html">Aruba</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-au.html">Australia</a></dt>
+          <dt id="am"><a href="country-am.html">Armenia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -125,7 +112,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-at.html">Austria</a></dt>
+          <dt id="aw"><a href="country-aw.html">Aruba</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="au"><a href="country-au.html">Australia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -133,7 +127,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-az.html">Azerbaijan</a></dt>
+          <dt id="at"><a href="country-at.html">Austria</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -141,42 +135,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-bs.html">Bahamas</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-bh.html">Bahrain</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-bd.html">Bangladesh</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-bb.html">Barbados</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-by.html">Belarus</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-be.html">Belgium</a></dt>
+          <dt id="az"><a href="country-az.html">Azerbaijan</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -184,64 +143,42 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-bz.html">Belize</a></dt>
+          <dt id="bs"><a href="country-bs.html">Bahamas</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-bj.html">Benin</a></dt>
+          <dt id="bh"><a href="country-bh.html">Bahrain</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-bm.html">Bermuda</a></dt>
+          <dt id="bd"><a href="country-bd.html">Bangladesh</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-bt.html">Bhutan</a></dt>
+          <dt id="bb"><a href="country-bb.html">Barbados</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-bo.html">Bolivia</a></dt>
+          <dt id="by"><a href="country-by.html">Belarus</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ba.html">Bosnia and Herzegovina</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-bw.html">Botswana</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-bv.html">Bouvet Island</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-br.html">Brazil</a></dt>
+          <dt id="be"><a href="country-be.html">Belgium</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -249,58 +186,42 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-io.html">British Indian Ocean Territory</a></dt>
+          <dt id="bz"><a href="country-bz.html">Belize</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-bn.html">Brunei Darussalam</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-bg.html">Bulgaria</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-bf.html">Burkina Faso</a></dt>
+          <dt id="bj"><a href="country-bj.html">Benin</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-bi.html">Burundi</a></dt>
+          <dt id="bm"><a href="country-bm.html">Bermuda</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-kh.html">Cambodia</a></dt>
+          <dt id="bt"><a href="country-bt.html">Bhutan</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-cm.html">Cameroon</a></dt>
+          <dt id="bo"><a href="country-bo.html">Bolivia</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ca.html">Canada</a></dt>
+          <dt id="ba"><a href="country-ba.html">Bosnia and Herzegovina</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -308,35 +229,21 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-cv.html">Cape Verde</a></dt>
+          <dt id="bw"><a href="country-bw.html">Botswana</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ky.html">Cayman Islands</a></dt>
+          <dt id="bv"><a href="country-bv.html">Bouvet Island</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-cf.html">Central African Republic</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-td.html">Chad</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-cl.html">Chile</a></dt>
+          <dt id="br"><a href="country-br.html">Brazil</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -344,7 +251,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-cn.html">China</a></dt>
+          <dt id="io"><a href="country-io.html">British Indian Ocean Territory</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="bn"><a href="country-bn.html">Brunei Darussalam</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -352,63 +266,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-cx.html">Christmas Island</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-cc.html">Cocos (Keeling) Islands</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-co.html">Colombia</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-km.html">Comoros</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-cg.html">Congo</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-cd.html">Congo, Democratic Republic of</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ck.html">Cook Islands</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-cr.html">Costa Rica</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-hr.html">Croatia</a></dt>
+          <dt id="bg"><a href="country-bg.html">Bulgaria</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -416,59 +274,35 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-cu.html">Cuba</a></dt>
+          <dt id="bf"><a href="country-bf.html">Burkina Faso</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-cy.html">Cyprus</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-cz.html">Czech Republic</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ci.html">Côte d'Ivoire</a></dt>
+          <dt id="bi"><a href="country-bi.html">Burundi</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-dk.html">Denmark</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-dj.html">Djibouti</a></dt>
+          <dt id="kh"><a href="country-kh.html">Cambodia</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-dm.html">Dominica</a></dt>
+          <dt id="cm"><a href="country-cm.html">Cameroon</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-do.html">Dominican Republic</a></dt>
+          <dt id="ca"><a href="country-ca.html">Canada</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -476,43 +310,35 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ec.html">Ecuador</a></dt>
+          <dt id="cv"><a href="country-cv.html">Cape Verde</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-eg.html">Egypt</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-sv.html">El Salvador</a></dt>
+          <dt id="ky"><a href="country-ky.html">Cayman Islands</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-gq.html">Equatorial Guinea</a></dt>
+          <dt id="cf"><a href="country-cf.html">Central African Republic</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-er.html">Eritrea</a></dt>
+          <dt id="td"><a href="country-td.html">Chad</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ee.html">Estonia</a></dt>
+          <dt id="cl"><a href="country-cl.html">Chile</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -520,35 +346,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-et.html">Ethiopia</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-fk.html">Falkland Islands</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-fo.html">Faroe Islands</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-fj.html">Fiji</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-fi.html">Finland</a></dt>
+          <dt id="cn"><a href="country-cn.html">China</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -556,7 +354,63 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-fr.html">France</a></dt>
+          <dt id="cx"><a href="country-cx.html">Christmas Island</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="cc"><a href="country-cc.html">Cocos (Keeling) Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="co"><a href="country-co.html">Colombia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="km"><a href="country-km.html">Comoros</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="cg"><a href="country-cg.html">Congo</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="cd"><a href="country-cd.html">Congo, Democratic Republic of</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ck"><a href="country-ck.html">Cook Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="cr"><a href="country-cr.html">Costa Rica</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="hr"><a href="country-hr.html">Croatia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -564,28 +418,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-gf.html">French Guiana</a></dt>
+          <dt id="cu"><a href="country-cu.html">Cuba</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-pf.html">French Polynesia</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-tf.html">French Southern Territories</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ga.html">Gabon</a></dt>
+          <dt id="cy"><a href="country-cy.html">Cyprus</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -593,21 +433,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-gm.html">Gambia</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ge.html">Georgia</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-de.html">Germany</a></dt>
+          <dt id="cz"><a href="country-cz.html">Czech Republic</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -615,7 +441,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-gh.html">Ghana</a></dt>
+          <dt id="ci"><a href="country-ci.html">Côte d'Ivoire</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="dk"><a href="country-dk.html">Denmark</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -623,106 +456,21 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-gi.html">Gibraltar</a></dt>
+          <dt id="dj"><a href="country-dj.html">Djibouti</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-gr.html">Greece</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-gl.html">Greenland</a></dt>
+          <dt id="dm"><a href="country-dm.html">Dominica</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-gd.html">Grenada</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-gp.html">Guadeloupe</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-gu.html">Guam</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-gt.html">Guatemala</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-gg.html">Guernsey</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-gn.html">Guinea</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-gw.html">Guinea-Bissau</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-gy.html">Guyana</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ht.html">Haiti</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-hm.html">Heard and McDonald Islands</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-hn.html">Honduras</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-hk.html">Hong Kong</a></dt>
+          <dt id="do"><a href="country-do.html">Dominican Republic</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -730,7 +478,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-hu.html">Hungary</a></dt>
+          <dt id="ec"><a href="country-ec.html">Ecuador</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="eg"><a href="country-eg.html">Egypt</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -738,7 +493,28 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-is.html">Iceland</a></dt>
+          <dt id="sv"><a href="country-sv.html">El Salvador</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="gq"><a href="country-gq.html">Equatorial Guinea</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="er"><a href="country-er.html">Eritrea</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ee"><a href="country-ee.html">Estonia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -746,7 +522,35 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-in.html">India</a></dt>
+          <dt id="et"><a href="country-et.html">Ethiopia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="fk"><a href="country-fk.html">Falkland Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="fo"><a href="country-fo.html">Faroe Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="fj"><a href="country-fj.html">Fiji</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="fi"><a href="country-fi.html">Finland</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -754,7 +558,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-id.html">Indonesia</a></dt>
+          <dt id="fr"><a href="country-fr.html">France</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -762,7 +566,28 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ir.html">Iran</a></dt>
+          <dt id="gf"><a href="country-gf.html">French Guiana</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="pf"><a href="country-pf.html">French Polynesia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tf"><a href="country-tf.html">French Southern Territories</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ga"><a href="country-ga.html">Gabon</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -770,7 +595,21 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-iq.html">Iraq</a></dt>
+          <dt id="gm"><a href="country-gm.html">Gambia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ge"><a href="country-ge.html">Georgia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="de"><a href="country-de.html">Germany</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -778,7 +617,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ie.html">Ireland</a></dt>
+          <dt id="gh"><a href="country-gh.html">Ghana</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -786,14 +625,177 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-im.html">Isle of Man</a></dt>
+          <dt id="gi"><a href="country-gi.html">Gibraltar</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-il.html">Israel</a></dt>
+          <dt id="gr"><a href="country-gr.html">Greece</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="gl"><a href="country-gl.html">Greenland</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="gd"><a href="country-gd.html">Grenada</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="gp"><a href="country-gp.html">Guadeloupe</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="gu"><a href="country-gu.html">Guam</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="gt"><a href="country-gt.html">Guatemala</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="gg"><a href="country-gg.html">Guernsey</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="gn"><a href="country-gn.html">Guinea</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="gw"><a href="country-gw.html">Guinea-Bissau</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="gy"><a href="country-gy.html">Guyana</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ht"><a href="country-ht.html">Haiti</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="hm"><a href="country-hm.html">Heard and McDonald Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="hn"><a href="country-hn.html">Honduras</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="hk"><a href="country-hk.html">Hong Kong</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="hu"><a href="country-hu.html">Hungary</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="is"><a href="country-is.html">Iceland</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="in"><a href="country-in.html">India</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="id"><a href="country-id.html">Indonesia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ir"><a href="country-ir.html">Iran</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="iq"><a href="country-iq.html">Iraq</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ie"><a href="country-ie.html">Ireland</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="im"><a href="country-im.html">Isle of Man</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="il"><a href="country-il.html">Israel</a></dt>
           <dd>
             <ul>
                   <li>ID card for all citizens: <span class="bad">Yes</span></li>
@@ -802,7 +804,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-it.html">Italy</a></dt>
+          <dt id="it"><a href="country-it.html">Italy</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -810,57 +812,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-jm.html">Jamaica</a></dt>
+          <dt id="jm"><a href="country-jm.html">Jamaica</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-jp.html">Japan</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-je.html">Jersey</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-jo.html">Jordan</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-kz.html">Kazakhstan</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ke.html">Kenya</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ki.html">Kiribati</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-xk.html">Kosovo</a></dt>
+          <dt id="jp"><a href="country-jp.html">Japan</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -868,71 +827,42 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-kw.html">Kuwait</a></dt>
+          <dt id="je"><a href="country-je.html">Jersey</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-kg.html">Kyrgyzstan</a></dt>
+          <dt id="jo"><a href="country-jo.html">Jordan</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-la.html">Lao People's Democratic Republic</a></dt>
+          <dt id="kz"><a href="country-kz.html">Kazakhstan</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-lv.html">Latvia</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-lb.html">Lebanon</a></dt>
+          <dt id="ke"><a href="country-ke.html">Kenya</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ls.html">Lesotho</a></dt>
+          <dt id="ki"><a href="country-ki.html">Kiribati</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-lr.html">Liberia</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ly.html">Libya</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-li.html">Liechtenstein</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-lt.html">Lithuania</a></dt>
+          <dt id="xk"><a href="country-xk.html">Kosovo</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -940,7 +870,28 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-lu.html">Luxembourg</a></dt>
+          <dt id="kw"><a href="country-kw.html">Kuwait</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="kg"><a href="country-kg.html">Kyrgyzstan</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="la"><a href="country-la.html">Lao People's Democratic Republic</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="lv"><a href="country-lv.html">Latvia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -948,7 +899,42 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-mo.html">Macau</a></dt>
+          <dt id="lb"><a href="country-lb.html">Lebanon</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ls"><a href="country-ls.html">Lesotho</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="lr"><a href="country-lr.html">Liberia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ly"><a href="country-ly.html">Libya</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="li"><a href="country-li.html">Liechtenstein</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="lt"><a href="country-lt.html">Lithuania</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -956,7 +942,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-mk.html">Macedonia</a></dt>
+          <dt id="lu"><a href="country-lu.html">Luxembourg</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -964,21 +950,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-mg.html">Madagascar</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-mw.html">Malawi</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-my.html">Malaysia</a></dt>
+          <dt id="mo"><a href="country-mo.html">Macau</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -986,7 +958,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-mv.html">Maldives</a></dt>
+          <dt id="mk"><a href="country-mk.html">Macedonia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -994,36 +966,21 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ml.html">Mali</a></dt>
+          <dt id="mg"><a href="country-mg.html">Madagascar</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-mt.html">Malta</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-mh.html">Marshall Islands</a></dt>
+          <dt id="mw"><a href="country-mw.html">Malawi</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-mq.html">Martinique</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-mr.html">Mauritania</a></dt>
+          <dt id="my"><a href="country-my.html">Malaysia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1031,35 +988,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-mu.html">Mauritius</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-yt.html">Mayotte</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-mx.html">Mexico</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-fm.html">Micronesia, Federated States of</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-md.html">Moldova</a></dt>
+          <dt id="mv"><a href="country-mv.html">Maldives</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1067,21 +996,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-mc.html">Monaco</a></dt>
+          <dt id="ml"><a href="country-ml.html">Mali</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-mn.html">Mongolia</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-me.html">Montenegro</a></dt>
+          <dt id="mt"><a href="country-mt.html">Malta</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1089,64 +1011,21 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ms.html">Montserrat</a></dt>
+          <dt id="mh"><a href="country-mh.html">Marshall Islands</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ma.html">Morocco</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-mz.html">Mozambique</a></dt>
+          <dt id="mq"><a href="country-mq.html">Martinique</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-mm.html">Myanmar</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-na.html">Namibia</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-nr.html">Nauru</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-np.html">Nepal</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-nc.html">New Caledonia</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-nz.html">New Zealand</a></dt>
+          <dt id="mr"><a href="country-mr.html">Mauritania</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1154,57 +1033,35 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ni.html">Nicaragua</a></dt>
+          <dt id="mu"><a href="country-mu.html">Mauritius</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ne.html">Niger</a></dt>
+          <dt id="yt"><a href="country-yt.html">Mayotte</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ng.html">Nigeria</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-nu.html">Niue</a></dt>
+          <dt id="mx"><a href="country-mx.html">Mexico</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-nf.html">Norfolk Island</a></dt>
+          <dt id="fm"><a href="country-fm.html">Micronesia, Federated States of</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-kp.html">North Korea</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-mp.html">Northern Mariana Islands</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-no.html">Norway</a></dt>
+          <dt id="md"><a href="country-md.html">Moldova</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1212,64 +1069,21 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-om.html">Oman</a></dt>
+          <dt id="mc"><a href="country-mc.html">Monaco</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-pk.html">Pakistan</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-pw.html">Palau</a></dt>
+          <dt id="mn"><a href="country-mn.html">Mongolia</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ps.html">Palestine, State of</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-pa.html">Panama</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-pg.html">Papua New Guinea</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-py.html">Paraguay</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-pe.html">Peru</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ph.html">Philippines</a></dt>
+          <dt id="me"><a href="country-me.html">Montenegro</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1277,22 +1091,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-pn.html">Pitcairn</a></dt>
+          <dt id="ms"><a href="country-ms.html">Montserrat</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-pl.html">Poland</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-pt.html">Portugal</a></dt>
+          <dt id="ma"><a href="country-ma.html">Morocco</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1300,101 +1106,49 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-pr.html">Puerto Rico</a></dt>
+          <dt id="mz"><a href="country-mz.html">Mozambique</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-qa.html">Qatar</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ro.html">Romania</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ru.html">Russian Federation</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-rw.html">Rwanda</a></dt>
+          <dt id="mm"><a href="country-mm.html">Myanmar</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-re.html">Réunion</a></dt>
+          <dt id="na"><a href="country-na.html">Namibia</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-sh.html">Saint Helena</a></dt>
+          <dt id="nr"><a href="country-nr.html">Nauru</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-kn.html">Saint Kitts and Nevis</a></dt>
+          <dt id="np"><a href="country-np.html">Nepal</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-lc.html">Saint Lucia</a></dt>
+          <dt id="nc"><a href="country-nc.html">New Caledonia</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-vc.html">Saint Vincent and the Grenadines</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ws.html">Samoa</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-sm.html">San Marino</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-st.html">Sao Tome and Principe</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-sa.html">Saudi Arabia</a></dt>
+          <dt id="nz"><a href="country-nz.html">New Zealand</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1402,36 +1156,21 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-sn.html">Senegal</a></dt>
+          <dt id="ni"><a href="country-ni.html">Nicaragua</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-rs.html">Serbia</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-sc.html">Seychelles</a></dt>
+          <dt id="ne"><a href="country-ne.html">Niger</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-sl.html">Sierra Leone</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-sg.html">Singapore</a></dt>
+          <dt id="ng"><a href="country-ng.html">Nigeria</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1439,7 +1178,35 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-sk.html">Slovakia</a></dt>
+          <dt id="nu"><a href="country-nu.html">Niue</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="nf"><a href="country-nf.html">Norfolk Island</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="kp"><a href="country-kp.html">North Korea</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="mp"><a href="country-mp.html">Northern Mariana Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="no"><a href="country-no.html">Norway</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1447,7 +1214,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-si.html">Slovenia</a></dt>
+          <dt id="om"><a href="country-om.html">Oman</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="pk"><a href="country-pk.html">Pakistan</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1455,52 +1229,49 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-sb.html">Solomon Islands</a></dt>
+          <dt id="pw"><a href="country-pw.html">Palau</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-so.html">Somalia</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-za.html">South Africa</a></dt>
+          <dt id="ps"><a href="country-ps.html">Palestine, State of</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-gs.html">South Georgia and the South Sandwich Islands</a></dt>
+          <dt id="pa"><a href="country-pa.html">Panama</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-kr.html">South Korea</a></dt>
+          <dt id="pg"><a href="country-pg.html">Papua New Guinea</a></dt>
           <dd>
             <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ss.html">South Sudan</a></dt>
+          <dt id="py"><a href="country-py.html">Paraguay</a></dt>
           <dd>
             <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-es.html">Spain</a></dt>
+          <dt id="pe"><a href="country-pe.html">Peru</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ph"><a href="country-ph.html">Philippines</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1508,21 +1279,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-lk.html">Sri Lanka</a></dt>
+          <dt id="pn"><a href="country-pn.html">Pitcairn</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-pm.html">St. Pierre and Miquelon</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-sd.html">Sudan</a></dt>
+          <dt id="pl"><a href="country-pl.html">Poland</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1530,28 +1294,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-sr.html">Suriname</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-sj.html">Svalbard and Jan Mayen Islands</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-sz.html">Swaziland</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-se.html">Sweden</a></dt>
+          <dt id="pt"><a href="country-pt.html">Portugal</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1559,7 +1302,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ch.html">Switzerland</a></dt>
+          <dt id="pr"><a href="country-pr.html">Puerto Rico</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="qa"><a href="country-qa.html">Qatar</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1567,14 +1317,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-sy.html">Syria</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-tw.html">Taiwan</a></dt>
+          <dt id="ro"><a href="country-ro.html">Romania</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1582,7 +1325,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-tj.html">Tajikistan</a></dt>
+          <dt id="ru"><a href="country-ru.html">Russian Federation</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1590,74 +1333,70 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-tz.html">Tanzania</a></dt>
+          <dt id="rw"><a href="country-rw.html">Rwanda</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-th.html">Thailand</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-nl.html">The Netherlands</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-tl.html">Timor-Leste</a></dt>
+          <dt id="re"><a href="country-re.html">Réunion</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-tg.html">Togo</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-tk.html">Tokelau</a></dt>
+          <dt id="sh"><a href="country-sh.html">Saint Helena</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-to.html">Tonga</a></dt>
+          <dt id="kn"><a href="country-kn.html">Saint Kitts and Nevis</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-tt.html">Trinidad and Tobago</a></dt>
+          <dt id="lc"><a href="country-lc.html">Saint Lucia</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-tn.html">Tunisia</a></dt>
+          <dt id="vc"><a href="country-vc.html">Saint Vincent and the Grenadines</a></dt>
           <dd>
             <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-tr.html">Turkey</a></dt>
+          <dt id="ws"><a href="country-ws.html">Samoa</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="sm"><a href="country-sm.html">San Marino</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="st"><a href="country-st.html">Sao Tome and Principe</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="sa"><a href="country-sa.html">Saudi Arabia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1665,7 +1404,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-tm.html">Turkmenistan</a></dt>
+          <dt id="sn"><a href="country-sn.html">Senegal</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="rs"><a href="country-rs.html">Serbia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1673,28 +1419,21 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-tc.html">Turks and Caicos Islands</a></dt>
+          <dt id="sc"><a href="country-sc.html">Seychelles</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-tv.html">Tuvalu</a></dt>
+          <dt id="sl"><a href="country-sl.html">Sierra Leone</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ug.html">Uganda</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-ua.html">Ukraine</a></dt>
+          <dt id="sg"><a href="country-sg.html">Singapore</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1702,7 +1441,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ae.html">United Arab Emirates</a></dt>
+          <dt id="sk"><a href="country-sk.html">Slovakia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1710,16 +1449,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-gb.html">United Kingdom</a></dt>
-          <dd>
-            <ul>
-                  <li>Biometric passport: <span class="good">Yes</span></li>
-                  <li>ID card for all citizens: <span class="good">Not since Churchill &lt;a href=&quot;https://archive.today/56VM0&quot;&gt;cancelled them in the 50s&lt;/a&gt;.</span></li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-us.html">United States</a></dt>
+          <dt id="si"><a href="country-si.html">Slovenia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1727,21 +1457,14 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-um.html">United States Minor Outlying Islands</a></dt>
+          <dt id="sb"><a href="country-sb.html">Solomon Islands</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-uy.html">Uruguay</a></dt>
-          <dd>
-            <ul>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="country-uz.html">Uzbekistan</a></dt>
+          <dt id="so"><a href="country-so.html">Somalia</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1749,21 +1472,21 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-vu.html">Vanuatu</a></dt>
+          <dt id="za"><a href="country-za.html">South Africa</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-va.html">Vatican</a></dt>
+          <dt id="gs"><a href="country-gs.html">South Georgia and the South Sandwich Islands</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ve.html">Venezuela</a></dt>
+          <dt id="kr"><a href="country-kr.html">South Korea</a></dt>
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
@@ -1771,56 +1494,335 @@
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-vn.html">Vietnam</a></dt>
+          <dt id="ss"><a href="country-ss.html">South Sudan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="es"><a href="country-es.html">Spain</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="lk"><a href="country-lk.html">Sri Lanka</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-vg.html">Virgin Islands (British)</a></dt>
+          <dt id="pm"><a href="country-pm.html">St. Pierre and Miquelon</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-vi.html">Virgin Islands (U.S.)</a></dt>
+          <dt id="sd"><a href="country-sd.html">Sudan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="sr"><a href="country-sr.html">Suriname</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-wf.html">Wallis and Futuna Islands</a></dt>
+          <dt id="sj"><a href="country-sj.html">Svalbard and Jan Mayen Islands</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-eh.html">Western Sahara</a></dt>
+          <dt id="sz"><a href="country-sz.html">Swaziland</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-ye.html">Yemen</a></dt>
+          <dt id="se"><a href="country-se.html">Sweden</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ch"><a href="country-ch.html">Switzerland</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="sy"><a href="country-sy.html">Syria</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-zm.html">Zambia</a></dt>
+          <dt id="tw"><a href="country-tw.html">Taiwan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tj"><a href="country-tj.html">Tajikistan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tz"><a href="country-tz.html">Tanzania</a></dt>
           <dd>
             <ul>
             </ul>
           </dd>
         </dl>
         <dl>
-          <dt><a href="country-zw.html">Zimbabwe</a></dt>
+          <dt id="th"><a href="country-th.html">Thailand</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="nl"><a href="country-nl.html">The Netherlands</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tl"><a href="country-tl.html">Timor-Leste</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tg"><a href="country-tg.html">Togo</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tk"><a href="country-tk.html">Tokelau</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="to"><a href="country-to.html">Tonga</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tt"><a href="country-tt.html">Trinidad and Tobago</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tn"><a href="country-tn.html">Tunisia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tr"><a href="country-tr.html">Turkey</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tm"><a href="country-tm.html">Turkmenistan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tc"><a href="country-tc.html">Turks and Caicos Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="tv"><a href="country-tv.html">Tuvalu</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ug"><a href="country-ug.html">Uganda</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ua"><a href="country-ua.html">Ukraine</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ae"><a href="country-ae.html">United Arab Emirates</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="gb"><a href="country-gb.html">United Kingdom</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+                  <li>ID card for all citizens: <span class="good">Not since Churchill <a href="https://archive.today/56VM0">cancelled them in the 50s</a>.</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="us"><a href="country-us.html">United States</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="um"><a href="country-um.html">United States Minor Outlying Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="uy"><a href="country-uy.html">Uruguay</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="uz"><a href="country-uz.html">Uzbekistan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="vu"><a href="country-vu.html">Vanuatu</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="va"><a href="country-va.html">Vatican</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ve"><a href="country-ve.html">Venezuela</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="vn"><a href="country-vn.html">Vietnam</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="vg"><a href="country-vg.html">Virgin Islands (British)</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="vi"><a href="country-vi.html">Virgin Islands (U.S.)</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="wf"><a href="country-wf.html">Wallis and Futuna Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="eh"><a href="country-eh.html">Western Sahara</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="ye"><a href="country-ye.html">Yemen</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="zm"><a href="country-zm.html">Zambia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt id="zw"><a href="country-zw.html">Zimbabwe</a></dt>
           <dd>
             <ul>
             </ul>
