@@ -1,5 +1,7 @@
 You can see a demo [**here**](http://bl.ocks.org/thedod/raw/70f3e820380598c352c3/)
 
+Map was done with [DataMaps](http://datamaps.github.io/). Respect
+
 Note: no more markdown. Things are simpler now ;)
 
 ### Prerequsites
@@ -14,13 +16,13 @@ Note: no more markdown. Things are simpler now ;)
 ### Files
 
 
-#### Html templates
+#### Layout html templates (`_*.template`)
 * `_index.template` &mdash; html template of homepage
 
 * `_country.template` &mdash; html template of a country's page
 
 #### Data
-* `citations.json` &mdash; theoretically, contains all data. Practically,
+* `citations.json` &mdash; Theoretically, contains all data. Practically,
   partial templates are used (and reused) when there's need to write more than a single paragraph
   of html (easier to edit text when it's not inside a json string ;) ).
 
