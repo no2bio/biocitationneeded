@@ -1,6 +1,6 @@
 ## The #BioCitationNeeded project
 
-You can see the latest version at [https://dubiousdod/biocitationneeded](https://gist.github.com/thedod/70f3e820380598c352c3#file-readme-md).
+You can see the latest version at [https://dubiousdod/biocitationneeded](https://dubiousdod/biocitationneeded).
 
 Map was done with [DataMaps](http://datamaps.github.io/). Respect.
 
