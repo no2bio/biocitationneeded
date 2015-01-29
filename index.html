@@ -2911,10 +2911,9 @@
         // This projection is a tweak so that Israel doesn't look too small
         // but it crops out stuff. To do: something better.
         setProjection: function(element) {
-          var projection = d3.geo.azimuthalEquidistant()
-            .center([31, 34])
-            .clipAngle(180 - 1e-3)
-            .scale(275)
+          var projection = d3.geo.conicEquidistant()
+            .center([31.3, 34.5])
+            .scale(300)
             .translate([element.clientWidth / 2, element.clientHeight / 2])
             .precision(.1);
           var path = d3.geo.path()
