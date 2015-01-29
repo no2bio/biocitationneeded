@@ -1,13 +1,2 @@
 #!/bin/sh
-echo Markdown...
-python2 makemd.py
-echo Countries...
-for f in country-*.md ; do
-    echo ... $f
-    markdown "$f" | python2 makecountry.py "$f"
-done
-echo index...
-markdown < index.md | python2 makeindex.py
-echo removing temporary files...
-rm country-*.md index.md
-echo done
+python2 makehtml.py

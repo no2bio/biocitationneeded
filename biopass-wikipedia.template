@@ -1,1 +1,3 @@
-According to [Wikipedia](https://en.wikipedia.org/wiki/Biometric_passport#Countries_using_biometric_passports), citizens of *{{country.name}}* can/must have biometric passports [doesn't imply retaining biometric information].
+<p>According to
+<a href="https://en.wikipedia.org/wiki/Biometric_passport#Countries_using_biometric_passports">Wikipedia</a>,
+citizens of <em>{{country.name}}</em> can/must have biometric passports [doesn't imply retaining biometric information].</p>

@@ -1,7 +1,30 @@
-{{#citations}}
-
-{{rendered}}
-{{/citations}}
-{{^citations}}
-*No information yet...*
-{{/citations}}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>#BioCitationNeeded: {{name}} ({{id}})</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <h3>{{name}} ({{id}})</h3>
+  {{#citations}}
+    {{^tag.description}}{{! get only intro (no tag description) }}
+      <p>{{{rendered}}}</p>
+    {{/tag.description}}
+  {{/citations}}
+  <dl>
+    {{#citations}}
+      {{#tag.description}}{{! all but intro }}
+        <dt><h4>{{.}}: <span{{#styling}} class="{{.}}"{{/styling}}>{{value}}</span></h4><dt>
+        <dd>
+          <p>{{{rendered}}}</p>
+        </dd>
+      {{/tag.description}}
+    {{/citations}}
+  </dl>
+  {{^citations}}
+    <em>No information yet...</em>
+  {{/citations}}
+  <hr>[<a href="index.html">back</a>]
+</body>
+</html>

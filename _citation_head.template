@@ -1,3 +1,0 @@
-{{#tag.description}}
-#### {{.}}: *{{value}}*
-{{/tag.description}}

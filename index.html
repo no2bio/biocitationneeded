@@ -1,526 +1,2942 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title></title>
-</head>
-<body>
-  <a style="float:right" target="_blank" href="https://gist.github.com/thedod/70f3e820380598c352c3">Fork this</a>
-  <h2>The #BioCitationNeeded project</h2>
-  <p>The only non-repetitive stuff is at Israel and United Kingdom, but I hope the
-standard of <code>citations.json</code> is simple and flexible enough for what we need.</p>
+  <head>
+    <meta charset="utf-8">
+    <title>The #BioCitationNeeded project</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="/datamaps.world.min.js"></script>
+  </head>
+  <body onload="colormap(document.getElementById('tag').value)">
+    <a style="float:right" target="_blank" href="https://gist.github.com/thedod/70f3e820380598c352c3">Fork this</a>
+    <h2>The #BioCitationNeeded project</h2>
+  
+    <p>The only non-repetitive stuff is at Israel and United Kingdom, but I hope the
+    standard of <code>citations.json</code> is simple and flexible enough for what we need.</p>
+    <div style="text-align:center">
+      <select id="tag" onchange="colormap(this.value)">
+          <option selected value="">--select topic--</option>
+                        
+              <option value="biopass">Biometric passport
+            
+              <option value="minoritybiodb">Retains biometric information of minorities, foreigners, prisoners, unemployed, etc.
+            
+              <option value="idcard">ID card for all citizens
+            
+              <option value="biodb">Biometric database of all citizens
+      </select>
+      <div id="worldmap" style="margin:0 auto; position:relative; width: 900px; height: 400px"></div>
+    </div>
+    <ul>
+        <dl>
+          <dt><a href="country-af.html">Afghanistan</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-al.html">Albania</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-dz.html">Algeria</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-as.html">American Samoa</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ad.html">Andorra</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ao.html">Angola</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ai.html">Anguilla</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-aq.html">Antarctica</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ag.html">Antigua and Barbuda</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ar.html">Argentina</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-am.html">Armenia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-aw.html">Aruba</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-au.html">Australia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-at.html">Austria</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-az.html">Azerbaijan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bs.html">Bahamas</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bh.html">Bahrain</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bd.html">Bangladesh</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bb.html">Barbados</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-by.html">Belarus</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-be.html">Belgium</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bz.html">Belize</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bj.html">Benin</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bm.html">Bermuda</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bt.html">Bhutan</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bo.html">Bolivia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ba.html">Bosnia and Herzegovina</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bw.html">Botswana</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bv.html">Bouvet Island</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-br.html">Brazil</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-io.html">British Indian Ocean Territory</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bn.html">Brunei Darussalam</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bg.html">Bulgaria</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bf.html">Burkina Faso</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-bi.html">Burundi</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-kh.html">Cambodia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cm.html">Cameroon</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ca.html">Canada</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cv.html">Cape Verde</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ky.html">Cayman Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cf.html">Central African Republic</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-td.html">Chad</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cl.html">Chile</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cn.html">China</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cx.html">Christmas Island</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cc.html">Cocos (Keeling) Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-co.html">Colombia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-km.html">Comoros</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cg.html">Congo</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cd.html">Congo, Democratic Republic of</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ck.html">Cook Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cr.html">Costa Rica</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-hr.html">Croatia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cu.html">Cuba</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cy.html">Cyprus</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-cz.html">Czech Republic</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ci.html">Côte d'Ivoire</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-dk.html">Denmark</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-dj.html">Djibouti</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-dm.html">Dominica</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-do.html">Dominican Republic</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ec.html">Ecuador</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-eg.html">Egypt</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sv.html">El Salvador</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gq.html">Equatorial Guinea</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-er.html">Eritrea</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ee.html">Estonia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-et.html">Ethiopia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-fk.html">Falkland Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-fo.html">Faroe Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-fj.html">Fiji</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-fi.html">Finland</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-fr.html">France</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gf.html">French Guiana</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-pf.html">French Polynesia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tf.html">French Southern Territories</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ga.html">Gabon</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gm.html">Gambia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ge.html">Georgia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-de.html">Germany</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gh.html">Ghana</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gi.html">Gibraltar</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gr.html">Greece</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gl.html">Greenland</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gd.html">Grenada</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gp.html">Guadeloupe</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gu.html">Guam</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gt.html">Guatemala</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gg.html">Guernsey</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gn.html">Guinea</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gw.html">Guinea-Bissau</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gy.html">Guyana</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ht.html">Haiti</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-hm.html">Heard and McDonald Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-hn.html">Honduras</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-hk.html">Hong Kong</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-hu.html">Hungary</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-is.html">Iceland</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-in.html">India</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-id.html">Indonesia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ir.html">Iran</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-iq.html">Iraq</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ie.html">Ireland</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-im.html">Isle of Man</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-il.html">Israel</a></dt>
+          <dd>
+            <ul>
+                  <li>ID card for all citizens: <span class="bad">Yes</span></li>
+                  <li>Biometric passport: <span class="bad">Pending inclusion in biometric database</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-it.html">Italy</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-jm.html">Jamaica</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-jp.html">Japan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-je.html">Jersey</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-jo.html">Jordan</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-kz.html">Kazakhstan</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ke.html">Kenya</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ki.html">Kiribati</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-xk.html">Kosovo</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-kw.html">Kuwait</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-kg.html">Kyrgyzstan</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-la.html">Lao People's Democratic Republic</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-lv.html">Latvia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-lb.html">Lebanon</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ls.html">Lesotho</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-lr.html">Liberia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ly.html">Libya</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-li.html">Liechtenstein</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-lt.html">Lithuania</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-lu.html">Luxembourg</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mo.html">Macau</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mk.html">Macedonia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mg.html">Madagascar</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mw.html">Malawi</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-my.html">Malaysia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mv.html">Maldives</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ml.html">Mali</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mt.html">Malta</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mh.html">Marshall Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mq.html">Martinique</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mr.html">Mauritania</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mu.html">Mauritius</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-yt.html">Mayotte</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mx.html">Mexico</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-fm.html">Micronesia, Federated States of</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-md.html">Moldova</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mc.html">Monaco</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mn.html">Mongolia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-me.html">Montenegro</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ms.html">Montserrat</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ma.html">Morocco</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mz.html">Mozambique</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mm.html">Myanmar</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-na.html">Namibia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-nr.html">Nauru</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-np.html">Nepal</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-nc.html">New Caledonia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-nz.html">New Zealand</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ni.html">Nicaragua</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ne.html">Niger</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ng.html">Nigeria</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-nu.html">Niue</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-nf.html">Norfolk Island</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-kp.html">North Korea</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-mp.html">Northern Mariana Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-no.html">Norway</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-om.html">Oman</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-pk.html">Pakistan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-pw.html">Palau</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ps.html">Palestine, State of</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-pa.html">Panama</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-pg.html">Papua New Guinea</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-py.html">Paraguay</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-pe.html">Peru</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ph.html">Philippines</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-pn.html">Pitcairn</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-pl.html">Poland</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-pt.html">Portugal</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-pr.html">Puerto Rico</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-qa.html">Qatar</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ro.html">Romania</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ru.html">Russian Federation</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-rw.html">Rwanda</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-re.html">Réunion</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sh.html">Saint Helena</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-kn.html">Saint Kitts and Nevis</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-lc.html">Saint Lucia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-vc.html">Saint Vincent and the Grenadines</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ws.html">Samoa</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sm.html">San Marino</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-st.html">Sao Tome and Principe</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sa.html">Saudi Arabia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sn.html">Senegal</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-rs.html">Serbia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sc.html">Seychelles</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sl.html">Sierra Leone</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sg.html">Singapore</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sk.html">Slovakia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-si.html">Slovenia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sb.html">Solomon Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-so.html">Somalia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-za.html">South Africa</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gs.html">South Georgia and the South Sandwich Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-kr.html">South Korea</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ss.html">South Sudan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-es.html">Spain</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-lk.html">Sri Lanka</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-pm.html">St. Pierre and Miquelon</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sd.html">Sudan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sr.html">Suriname</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sj.html">Svalbard and Jan Mayen Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sz.html">Swaziland</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-se.html">Sweden</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ch.html">Switzerland</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-sy.html">Syria</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tw.html">Taiwan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tj.html">Tajikistan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tz.html">Tanzania</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-th.html">Thailand</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-nl.html">The Netherlands</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tl.html">Timor-Leste</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tg.html">Togo</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tk.html">Tokelau</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-to.html">Tonga</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tt.html">Trinidad and Tobago</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tn.html">Tunisia</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tr.html">Turkey</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tm.html">Turkmenistan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tc.html">Turks and Caicos Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-tv.html">Tuvalu</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ug.html">Uganda</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ua.html">Ukraine</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ae.html">United Arab Emirates</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-gb.html">United Kingdom</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+                  <li>ID card for all citizens: <span class="good">Not since Churchill &lt;a href=&quot;https://archive.today/56VM0&quot;&gt;cancelled them in the 50s&lt;/a&gt;.</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-us.html">United States</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-um.html">United States Minor Outlying Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-uy.html">Uruguay</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-uz.html">Uzbekistan</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-vu.html">Vanuatu</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-va.html">Vatican</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ve.html">Venezuela</a></dt>
+          <dd>
+            <ul>
+                  <li>Biometric passport: <span class="good">Yes</span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-vn.html">Vietnam</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-vg.html">Virgin Islands (British)</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-vi.html">Virgin Islands (U.S.)</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-wf.html">Wallis and Futuna Islands</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-eh.html">Western Sahara</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-ye.html">Yemen</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-zm.html">Zambia</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="country-zw.html">Zimbabwe</a></dt>
+          <dd>
+            <ul>
+            </ul>
+          </dd>
+        </dl>
+    </ul>
+    <script>
+      var map_data = {
+          AFG: {
+            fillKey: "defaultFill",
+          },
+          ALB: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          DZA: {
+            fillKey: "defaultFill",
+          },
+          ASM: {
+            fillKey: "defaultFill",
+          },
+          AND: {
+            fillKey: "defaultFill",
+          },
+          AGO: {
+            fillKey: "defaultFill",
+          },
+          AIA: {
+            fillKey: "defaultFill",
+          },
+          ATA: {
+            fillKey: "defaultFill",
+          },
+          ATG: {
+            fillKey: "defaultFill",
+          },
+          ARG: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          ARM: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          ABW: {
+            fillKey: "defaultFill",
+          },
+          AUS: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          AUT: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          AZE: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          BHS: {
+            fillKey: "defaultFill",
+          },
+          BHR: {
+            fillKey: "defaultFill",
+          },
+          BGD: {
+            fillKey: "defaultFill",
+          },
+          BRB: {
+            fillKey: "defaultFill",
+          },
+          BLR: {
+            fillKey: "defaultFill",
+          },
+          BEL: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          BLZ: {
+            fillKey: "defaultFill",
+          },
+          BEN: {
+            fillKey: "defaultFill",
+          },
+          BMU: {
+            fillKey: "defaultFill",
+          },
+          BTN: {
+            fillKey: "defaultFill",
+          },
+          BOL: {
+            fillKey: "defaultFill",
+          },
+          BIH: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          BWA: {
+            fillKey: "defaultFill",
+          },
+          BVT: {
+            fillKey: "defaultFill",
+          },
+          BRA: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          IOT: {
+            fillKey: "defaultFill",
+          },
+          BRN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          BGR: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          BFA: {
+            fillKey: "defaultFill",
+          },
+          BDI: {
+            fillKey: "defaultFill",
+          },
+          KHM: {
+            fillKey: "defaultFill",
+          },
+          CMR: {
+            fillKey: "defaultFill",
+          },
+          CAN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          CPV: {
+            fillKey: "defaultFill",
+          },
+          CYM: {
+            fillKey: "defaultFill",
+          },
+          CAF: {
+            fillKey: "defaultFill",
+          },
+          TCD: {
+            fillKey: "defaultFill",
+          },
+          CHL: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          CHN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          CXR: {
+            fillKey: "defaultFill",
+          },
+          CCK: {
+            fillKey: "defaultFill",
+          },
+          COL: {
+            fillKey: "defaultFill",
+          },
+          COM: {
+            fillKey: "defaultFill",
+          },
+          COG: {
+            fillKey: "defaultFill",
+          },
+          COD: {
+            fillKey: "defaultFill",
+          },
+          COK: {
+            fillKey: "defaultFill",
+          },
+          CRI: {
+            fillKey: "defaultFill",
+          },
+          HRV: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          CUB: {
+            fillKey: "defaultFill",
+          },
+          CYP: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          CZE: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          CIV: {
+            fillKey: "defaultFill",
+          },
+          DNK: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          DJI: {
+            fillKey: "defaultFill",
+          },
+          DMA: {
+            fillKey: "defaultFill",
+          },
+          DOM: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          ECU: {
+            fillKey: "defaultFill",
+          },
+          EGY: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          SLV: {
+            fillKey: "defaultFill",
+          },
+          GNQ: {
+            fillKey: "defaultFill",
+          },
+          ERI: {
+            fillKey: "defaultFill",
+          },
+          EST: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          ETH: {
+            fillKey: "defaultFill",
+          },
+          FLK: {
+            fillKey: "defaultFill",
+          },
+          FRO: {
+            fillKey: "defaultFill",
+          },
+          FJI: {
+            fillKey: "defaultFill",
+          },
+          FIN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          FRA: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          GUF: {
+            fillKey: "defaultFill",
+          },
+          PYF: {
+            fillKey: "defaultFill",
+          },
+          ATF: {
+            fillKey: "defaultFill",
+          },
+          GAB: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          GMB: {
+            fillKey: "defaultFill",
+          },
+          GEO: {
+            fillKey: "defaultFill",
+          },
+          DEU: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          GHA: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          GIB: {
+            fillKey: "defaultFill",
+          },
+          GRC: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          GRL: {
+            fillKey: "defaultFill",
+          },
+          GRD: {
+            fillKey: "defaultFill",
+          },
+          GLP: {
+            fillKey: "defaultFill",
+          },
+          GUM: {
+            fillKey: "defaultFill",
+          },
+          GTM: {
+            fillKey: "defaultFill",
+          },
+          GGY: {
+            fillKey: "defaultFill",
+          },
+          GIN: {
+            fillKey: "defaultFill",
+          },
+          GNB: {
+            fillKey: "defaultFill",
+          },
+          GUY: {
+            fillKey: "defaultFill",
+          },
+          HTI: {
+            fillKey: "defaultFill",
+          },
+          HMD: {
+            fillKey: "defaultFill",
+          },
+          HND: {
+            fillKey: "defaultFill",
+          },
+          HKG: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          HUN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          ISL: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          IND: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          IDN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          IRN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          IRQ: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          IRL: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          IMN: {
+            fillKey: "defaultFill",
+          },
+          ISR: {
+            fillKey: "defaultFill",
+              idcard: "bad",
+              biopass: "bad",
+          },
+          ITA: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          JAM: {
+            fillKey: "defaultFill",
+          },
+          JPN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          JEY: {
+            fillKey: "defaultFill",
+          },
+          JOR: {
+            fillKey: "defaultFill",
+          },
+          KAZ: {
+            fillKey: "defaultFill",
+          },
+          KEN: {
+            fillKey: "defaultFill",
+          },
+          KIR: {
+            fillKey: "defaultFill",
+          },
+          UNK: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          KWT: {
+            fillKey: "defaultFill",
+          },
+          KGZ: {
+            fillKey: "defaultFill",
+          },
+          LAO: {
+            fillKey: "defaultFill",
+          },
+          LVA: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          LBN: {
+            fillKey: "defaultFill",
+          },
+          LSO: {
+            fillKey: "defaultFill",
+          },
+          LBR: {
+            fillKey: "defaultFill",
+          },
+          LBY: {
+            fillKey: "defaultFill",
+          },
+          LIE: {
+            fillKey: "defaultFill",
+          },
+          LTU: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          LUX: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          MAC: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          MKD: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          MDG: {
+            fillKey: "defaultFill",
+          },
+          MWI: {
+            fillKey: "defaultFill",
+          },
+          MYS: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          MDV: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          MLI: {
+            fillKey: "defaultFill",
+          },
+          MLT: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          MHL: {
+            fillKey: "defaultFill",
+          },
+          MTQ: {
+            fillKey: "defaultFill",
+          },
+          MRT: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          MUS: {
+            fillKey: "defaultFill",
+          },
+          MYT: {
+            fillKey: "defaultFill",
+          },
+          MEX: {
+            fillKey: "defaultFill",
+          },
+          FSM: {
+            fillKey: "defaultFill",
+          },
+          MDA: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          MCO: {
+            fillKey: "defaultFill",
+          },
+          MNG: {
+            fillKey: "defaultFill",
+          },
+          MNE: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          MSR: {
+            fillKey: "defaultFill",
+          },
+          MAR: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          MOZ: {
+            fillKey: "defaultFill",
+          },
+          MMR: {
+            fillKey: "defaultFill",
+          },
+          NAM: {
+            fillKey: "defaultFill",
+          },
+          NRU: {
+            fillKey: "defaultFill",
+          },
+          NPL: {
+            fillKey: "defaultFill",
+          },
+          NCL: {
+            fillKey: "defaultFill",
+          },
+          NZL: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          NIC: {
+            fillKey: "defaultFill",
+          },
+          NER: {
+            fillKey: "defaultFill",
+          },
+          NGA: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          NIU: {
+            fillKey: "defaultFill",
+          },
+          NFK: {
+            fillKey: "defaultFill",
+          },
+          PRK: {
+            fillKey: "defaultFill",
+          },
+          MNP: {
+            fillKey: "defaultFill",
+          },
+          NOR: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          OMN: {
+            fillKey: "defaultFill",
+          },
+          PAK: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          PLW: {
+            fillKey: "defaultFill",
+          },
+          PSE: {
+            fillKey: "defaultFill",
+          },
+          PAN: {
+            fillKey: "defaultFill",
+          },
+          PNG: {
+            fillKey: "defaultFill",
+          },
+          PRY: {
+            fillKey: "defaultFill",
+          },
+          PER: {
+            fillKey: "defaultFill",
+          },
+          PHL: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          PCN: {
+            fillKey: "defaultFill",
+          },
+          POL: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          PRT: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          PRI: {
+            fillKey: "defaultFill",
+          },
+          QAT: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          ROU: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          RUS: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          RWA: {
+            fillKey: "defaultFill",
+          },
+          REU: {
+            fillKey: "defaultFill",
+          },
+          SHN: {
+            fillKey: "defaultFill",
+          },
+          KNA: {
+            fillKey: "defaultFill",
+          },
+          LCA: {
+            fillKey: "defaultFill",
+          },
+          VCT: {
+            fillKey: "defaultFill",
+          },
+          WSM: {
+            fillKey: "defaultFill",
+          },
+          SMR: {
+            fillKey: "defaultFill",
+          },
+          STP: {
+            fillKey: "defaultFill",
+          },
+          SAU: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          SEN: {
+            fillKey: "defaultFill",
+          },
+          SRB: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          SYC: {
+            fillKey: "defaultFill",
+          },
+          SLE: {
+            fillKey: "defaultFill",
+          },
+          SGP: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          SVK: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          SVN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          SLB: {
+            fillKey: "defaultFill",
+          },
+          SOM: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          ZAF: {
+            fillKey: "defaultFill",
+          },
+          SGS: {
+            fillKey: "defaultFill",
+          },
+          KOR: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          SSD: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          ESP: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          LKA: {
+            fillKey: "defaultFill",
+          },
+          SPM: {
+            fillKey: "defaultFill",
+          },
+          SDN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          SUR: {
+            fillKey: "defaultFill",
+          },
+          SJM: {
+            fillKey: "defaultFill",
+          },
+          SWZ: {
+            fillKey: "defaultFill",
+          },
+          SWE: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          CHE: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          SYR: {
+            fillKey: "defaultFill",
+          },
+          TWN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          TJK: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          TZA: {
+            fillKey: "defaultFill",
+          },
+          THA: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          NLD: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          TLS: {
+            fillKey: "defaultFill",
+          },
+          TGO: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          TKL: {
+            fillKey: "defaultFill",
+          },
+          TON: {
+            fillKey: "defaultFill",
+          },
+          TTO: {
+            fillKey: "defaultFill",
+          },
+          TUN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          TUR: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          TKM: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          TCA: {
+            fillKey: "defaultFill",
+          },
+          TUV: {
+            fillKey: "defaultFill",
+          },
+          UGA: {
+            fillKey: "defaultFill",
+          },
+          UKR: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          ARE: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          GBR: {
+            fillKey: "defaultFill",
+              biopass: "good",
+              idcard: "good",
+          },
+          USA: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          UMI: {
+            fillKey: "defaultFill",
+          },
+          URY: {
+            fillKey: "defaultFill",
+          },
+          UZB: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          VUT: {
+            fillKey: "defaultFill",
+          },
+          VAT: {
+            fillKey: "defaultFill",
+          },
+          VEN: {
+            fillKey: "defaultFill",
+              biopass: "good",
+          },
+          VNM: {
+            fillKey: "defaultFill",
+          },
+          VGB: {
+            fillKey: "defaultFill",
+          },
+          VIR: {
+            fillKey: "defaultFill",
+          },
+          WLF: {
+            fillKey: "defaultFill",
+          },
+          ESH: {
+            fillKey: "defaultFill",
+          },
+          YEM: {
+            fillKey: "defaultFill",
+          },
+          ZMB: {
+            fillKey: "defaultFill",
+          },
+          ZWE: {
+            fillKey: "defaultFill",
+          },
+      };
+      var slugs = {
+          AFG: "af",
+          ALB: "al",
+          DZA: "dz",
+          ASM: "as",
+          AND: "ad",
+          AGO: "ao",
+          AIA: "ai",
+          ATA: "aq",
+          ATG: "ag",
+          ARG: "ar",
+          ARM: "am",
+          ABW: "aw",
+          AUS: "au",
+          AUT: "at",
+          AZE: "az",
+          BHS: "bs",
+          BHR: "bh",
+          BGD: "bd",
+          BRB: "bb",
+          BLR: "by",
+          BEL: "be",
+          BLZ: "bz",
+          BEN: "bj",
+          BMU: "bm",
+          BTN: "bt",
+          BOL: "bo",
+          BIH: "ba",
+          BWA: "bw",
+          BVT: "bv",
+          BRA: "br",
+          IOT: "io",
+          BRN: "bn",
+          BGR: "bg",
+          BFA: "bf",
+          BDI: "bi",
+          KHM: "kh",
+          CMR: "cm",
+          CAN: "ca",
+          CPV: "cv",
+          CYM: "ky",
+          CAF: "cf",
+          TCD: "td",
+          CHL: "cl",
+          CHN: "cn",
+          CXR: "cx",
+          CCK: "cc",
+          COL: "co",
+          COM: "km",
+          COG: "cg",
+          COD: "cd",
+          COK: "ck",
+          CRI: "cr",
+          HRV: "hr",
+          CUB: "cu",
+          CYP: "cy",
+          CZE: "cz",
+          CIV: "ci",
+          DNK: "dk",
+          DJI: "dj",
+          DMA: "dm",
+          DOM: "do",
+          ECU: "ec",
+          EGY: "eg",
+          SLV: "sv",
+          GNQ: "gq",
+          ERI: "er",
+          EST: "ee",
+          ETH: "et",
+          FLK: "fk",
+          FRO: "fo",
+          FJI: "fj",
+          FIN: "fi",
+          FRA: "fr",
+          GUF: "gf",
+          PYF: "pf",
+          ATF: "tf",
+          GAB: "ga",
+          GMB: "gm",
+          GEO: "ge",
+          DEU: "de",
+          GHA: "gh",
+          GIB: "gi",
+          GRC: "gr",
+          GRL: "gl",
+          GRD: "gd",
+          GLP: "gp",
+          GUM: "gu",
+          GTM: "gt",
+          GGY: "gg",
+          GIN: "gn",
+          GNB: "gw",
+          GUY: "gy",
+          HTI: "ht",
+          HMD: "hm",
+          HND: "hn",
+          HKG: "hk",
+          HUN: "hu",
+          ISL: "is",
+          IND: "in",
+          IDN: "id",
+          IRN: "ir",
+          IRQ: "iq",
+          IRL: "ie",
+          IMN: "im",
+          ISR: "il",
+          ITA: "it",
+          JAM: "jm",
+          JPN: "jp",
+          JEY: "je",
+          JOR: "jo",
+          KAZ: "kz",
+          KEN: "ke",
+          KIR: "ki",
+          UNK: "xk",
+          KWT: "kw",
+          KGZ: "kg",
+          LAO: "la",
+          LVA: "lv",
+          LBN: "lb",
+          LSO: "ls",
+          LBR: "lr",
+          LBY: "ly",
+          LIE: "li",
+          LTU: "lt",
+          LUX: "lu",
+          MAC: "mo",
+          MKD: "mk",
+          MDG: "mg",
+          MWI: "mw",
+          MYS: "my",
+          MDV: "mv",
+          MLI: "ml",
+          MLT: "mt",
+          MHL: "mh",
+          MTQ: "mq",
+          MRT: "mr",
+          MUS: "mu",
+          MYT: "yt",
+          MEX: "mx",
+          FSM: "fm",
+          MDA: "md",
+          MCO: "mc",
+          MNG: "mn",
+          MNE: "me",
+          MSR: "ms",
+          MAR: "ma",
+          MOZ: "mz",
+          MMR: "mm",
+          NAM: "na",
+          NRU: "nr",
+          NPL: "np",
+          NCL: "nc",
+          NZL: "nz",
+          NIC: "ni",
+          NER: "ne",
+          NGA: "ng",
+          NIU: "nu",
+          NFK: "nf",
+          PRK: "kp",
+          MNP: "mp",
+          NOR: "no",
+          OMN: "om",
+          PAK: "pk",
+          PLW: "pw",
+          PSE: "ps",
+          PAN: "pa",
+          PNG: "pg",
+          PRY: "py",
+          PER: "pe",
+          PHL: "ph",
+          PCN: "pn",
+          POL: "pl",
+          PRT: "pt",
+          PRI: "pr",
+          QAT: "qa",
+          ROU: "ro",
+          RUS: "ru",
+          RWA: "rw",
+          REU: "re",
+          SHN: "sh",
+          KNA: "kn",
+          LCA: "lc",
+          VCT: "vc",
+          WSM: "ws",
+          SMR: "sm",
+          STP: "st",
+          SAU: "sa",
+          SEN: "sn",
+          SRB: "rs",
+          SYC: "sc",
+          SLE: "sl",
+          SGP: "sg",
+          SVK: "sk",
+          SVN: "si",
+          SLB: "sb",
+          SOM: "so",
+          ZAF: "za",
+          SGS: "gs",
+          KOR: "kr",
+          SSD: "ss",
+          ESP: "es",
+          LKA: "lk",
+          SPM: "pm",
+          SDN: "sd",
+          SUR: "sr",
+          SJM: "sj",
+          SWZ: "sz",
+          SWE: "se",
+          CHE: "ch",
+          SYR: "sy",
+          TWN: "tw",
+          TJK: "tj",
+          TZA: "tz",
+          THA: "th",
+          NLD: "nl",
+          TLS: "tl",
+          TGO: "tg",
+          TKL: "tk",
+          TON: "to",
+          TTO: "tt",
+          TUN: "tn",
+          TUR: "tr",
+          TKM: "tm",
+          TCA: "tc",
+          TUV: "tv",
+          UGA: "ug",
+          UKR: "ua",
+          ARE: "ae",
+          GBR: "gb",
+          USA: "us",
+          UMI: "um",
+          URY: "uy",
+          UZB: "uz",
+          VUT: "vu",
+          VAT: "va",
+          VEN: "ve",
+          VNM: "vn",
+          VGB: "vg",
+          VIR: "vi",
+          WLF: "wf",
+          ESH: "eh",
+          YEM: "ye",
+          ZMB: "zm",
+          ZWE: "zw",
+      };
+      var map = new Datamap({
+        element: document.getElementById('worldmap'),
+        fills: {
+          defaultFill: "#7F7F7F",
+          good: "#00FF00",
+          bad: "#FF0000"
+        },
+        data: map_data,
+        hideAntarctica: true,
+        // This projection is a tweak so that Israel doesn't look too small
+        // but it crops out stuff. To do: something better.
+        setProjection: function(element) {
+          var projection = d3.geo.azimuthalEquidistant()
+            .center([31, 34])
+            .clipAngle(180 - 1e-3)
+            .scale(275)
+            .translate([element.clientWidth / 2, element.clientHeight / 2])
+            .precision(.1);
+          var path = d3.geo.path()
+            .projection(projection);
+          return {path: path, projection: projection};
+       },
+       geographyConfig: {
+         highlightFillColor: '#FFFF00'
+       },
+       done: function(datamap) {
+         var svg = datamap.svg;
+         svg.selectAll('.datamaps-subunit').on('click', function(d) {
+           location.href='country-'+slugs[d.id]+'.html';
+         });
+       }
+      });
 
-<p>Coming soon: this will be a map</p>
-
-<ul>
-<li><a href="country-af.html">Afghanistan</a></li>
-<li><a href="country-al.html">Albania</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-dz.html">Algeria</a></li>
-<li><a href="country-as.html">American Samoa</a></li>
-<li><a href="country-ad.html">Andorra</a></li>
-<li><a href="country-ao.html">Angola</a></li>
-<li><a href="country-ai.html">Anguilla</a></li>
-<li><a href="country-aq.html">Antarctica</a></li>
-<li><a href="country-ag.html">Antigua and Barbuda</a></li>
-<li><a href="country-ar.html">Argentina</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-am.html">Armenia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-aw.html">Aruba</a></li>
-<li><a href="country-au.html">Australia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-at.html">Austria</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-az.html">Azerbaijan</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-bs.html">Bahamas</a></li>
-<li><a href="country-bh.html">Bahrain</a></li>
-<li><a href="country-bd.html">Bangladesh</a></li>
-<li><a href="country-bb.html">Barbados</a></li>
-<li><a href="country-by.html">Belarus</a></li>
-<li><a href="country-be.html">Belgium</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-bz.html">Belize</a></li>
-<li><a href="country-bj.html">Benin</a></li>
-<li><a href="country-bm.html">Bermuda</a></li>
-<li><a href="country-bt.html">Bhutan</a></li>
-<li><a href="country-bo.html">Bolivia</a></li>
-<li><a href="country-ba.html">Bosnia and Herzegovina</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-bw.html">Botswana</a></li>
-<li><a href="country-bv.html">Bouvet Island</a></li>
-<li><a href="country-br.html">Brazil</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-io.html">British Indian Ocean Territory</a></li>
-<li><a href="country-bn.html">Brunei Darussalam</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-bg.html">Bulgaria</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-bf.html">Burkina Faso</a></li>
-<li><a href="country-bi.html">Burundi</a></li>
-<li><a href="country-kh.html">Cambodia</a></li>
-<li><a href="country-cm.html">Cameroon</a></li>
-<li><a href="country-ca.html">Canada</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-cv.html">Cape Verde</a></li>
-<li><a href="country-ky.html">Cayman Islands</a></li>
-<li><a href="country-cf.html">Central African Republic</a></li>
-<li><a href="country-td.html">Chad</a></li>
-<li><a href="country-cl.html">Chile</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-cn.html">China</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-cx.html">Christmas Island</a></li>
-<li><a href="country-cc.html">Cocos (Keeling) Islands</a></li>
-<li><a href="country-co.html">Colombia</a></li>
-<li><a href="country-km.html">Comoros</a></li>
-<li><a href="country-cg.html">Congo</a></li>
-<li><a href="country-cd.html">Congo, Democratic Republic of</a></li>
-<li><a href="country-ck.html">Cook Islands</a></li>
-<li><a href="country-cr.html">Costa Rica</a></li>
-<li><a href="country-hr.html">Croatia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-cu.html">Cuba</a></li>
-<li><a href="country-cy.html">Cyprus</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-cz.html">Czech Republic</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ci.html">Côte d'Ivoire</a></li>
-<li><a href="country-dk.html">Denmark</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-dj.html">Djibouti</a></li>
-<li><a href="country-dm.html">Dominica</a></li>
-<li><a href="country-do.html">Dominican Republic</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ec.html">Ecuador</a></li>
-<li><a href="country-eg.html">Egypt</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-sv.html">El Salvador</a></li>
-<li><a href="country-gq.html">Equatorial Guinea</a></li>
-<li><a href="country-er.html">Eritrea</a></li>
-<li><a href="country-ee.html">Estonia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-et.html">Ethiopia</a></li>
-<li><a href="country-fk.html">Falkland Islands</a></li>
-<li><a href="country-fo.html">Faroe Islands</a></li>
-<li><a href="country-fj.html">Fiji</a></li>
-<li><a href="country-fi.html">Finland</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-fr.html">France</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-gf.html">French Guiana</a></li>
-<li><a href="country-pf.html">French Polynesia</a></li>
-<li><a href="country-tf.html">French Southern Territories</a></li>
-<li><a href="country-ga.html">Gabon</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-gm.html">Gambia</a></li>
-<li><a href="country-ge.html">Georgia</a></li>
-<li><a href="country-de.html">Germany</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-gh.html">Ghana</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-gi.html">Gibraltar</a></li>
-<li><a href="country-gr.html">Greece</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-gl.html">Greenland</a></li>
-<li><a href="country-gd.html">Grenada</a></li>
-<li><a href="country-gp.html">Guadeloupe</a></li>
-<li><a href="country-gu.html">Guam</a></li>
-<li><a href="country-gt.html">Guatemala</a></li>
-<li><a href="country-gg.html">Guernsey</a></li>
-<li><a href="country-gn.html">Guinea</a></li>
-<li><a href="country-gw.html">Guinea-Bissau</a></li>
-<li><a href="country-gy.html">Guyana</a></li>
-<li><a href="country-ht.html">Haiti</a></li>
-<li><a href="country-hm.html">Heard and McDonald Islands</a></li>
-<li><a href="country-hn.html">Honduras</a></li>
-<li><a href="country-hk.html">Hong Kong</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-hu.html">Hungary</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-is.html">Iceland</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-in.html">India</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-id.html">Indonesia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ir.html">Iran</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-iq.html">Iraq</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ie.html">Ireland</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-im.html">Isle of Man</a></li>
-<li><p><a href="country-il.html">Israel</a></p>
-
-<ul>
-<li>Biometric passport: <em>Pending inclusion in biometric database</em></li>
-</ul></li>
-<li><a href="country-it.html">Italy</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-jm.html">Jamaica</a></li>
-<li><a href="country-jp.html">Japan</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-je.html">Jersey</a></li>
-<li><a href="country-jo.html">Jordan</a></li>
-<li><a href="country-kz.html">Kazakhstan</a></li>
-<li><a href="country-ke.html">Kenya</a></li>
-<li><a href="country-ki.html">Kiribati</a></li>
-<li><a href="country-xk.html">Kosovo</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-kw.html">Kuwait</a></li>
-<li><a href="country-kg.html">Kyrgyzstan</a></li>
-<li><a href="country-la.html">Lao People's Democratic Republic</a></li>
-<li><a href="country-lv.html">Latvia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-lb.html">Lebanon</a></li>
-<li><a href="country-ls.html">Lesotho</a></li>
-<li><a href="country-lr.html">Liberia</a></li>
-<li><a href="country-ly.html">Libya</a></li>
-<li><a href="country-li.html">Liechtenstein</a></li>
-<li><a href="country-lt.html">Lithuania</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-lu.html">Luxembourg</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-mo.html">Macau</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-mk.html">Macedonia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-mg.html">Madagascar</a></li>
-<li><a href="country-mw.html">Malawi</a></li>
-<li><a href="country-my.html">Malaysia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-mv.html">Maldives</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ml.html">Mali</a></li>
-<li><a href="country-mt.html">Malta</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-mh.html">Marshall Islands</a></li>
-<li><a href="country-mq.html">Martinique</a></li>
-<li><a href="country-mr.html">Mauritania</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-mu.html">Mauritius</a></li>
-<li><a href="country-yt.html">Mayotte</a></li>
-<li><a href="country-mx.html">Mexico</a></li>
-<li><a href="country-fm.html">Micronesia, Federated States of</a></li>
-<li><a href="country-md.html">Moldova</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-mc.html">Monaco</a></li>
-<li><a href="country-mn.html">Mongolia</a></li>
-<li><a href="country-me.html">Montenegro</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ms.html">Montserrat</a></li>
-<li><a href="country-ma.html">Morocco</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-mz.html">Mozambique</a></li>
-<li><a href="country-mm.html">Myanmar</a></li>
-<li><a href="country-na.html">Namibia</a></li>
-<li><a href="country-nr.html">Nauru</a></li>
-<li><a href="country-np.html">Nepal</a></li>
-<li><a href="country-nc.html">New Caledonia</a></li>
-<li><a href="country-nz.html">New Zealand</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ni.html">Nicaragua</a></li>
-<li><a href="country-ne.html">Niger</a></li>
-<li><a href="country-ng.html">Nigeria</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-nu.html">Niue</a></li>
-<li><a href="country-nf.html">Norfolk Island</a></li>
-<li><a href="country-kp.html">North Korea</a></li>
-<li><a href="country-mp.html">Northern Mariana Islands</a></li>
-<li><a href="country-no.html">Norway</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-om.html">Oman</a></li>
-<li><a href="country-pk.html">Pakistan</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-pw.html">Palau</a></li>
-<li><a href="country-ps.html">Palestine, State of</a></li>
-<li><a href="country-pa.html">Panama</a></li>
-<li><a href="country-pg.html">Papua New Guinea</a></li>
-<li><a href="country-py.html">Paraguay</a></li>
-<li><a href="country-pe.html">Peru</a></li>
-<li><a href="country-ph.html">Philippines</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-pn.html">Pitcairn</a></li>
-<li><a href="country-pl.html">Poland</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-pt.html">Portugal</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-pr.html">Puerto Rico</a></li>
-<li><a href="country-qa.html">Qatar</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ro.html">Romania</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ru.html">Russian Federation</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-rw.html">Rwanda</a></li>
-<li><a href="country-re.html">Réunion</a></li>
-<li><a href="country-sh.html">Saint Helena</a></li>
-<li><a href="country-kn.html">Saint Kitts and Nevis</a></li>
-<li><a href="country-lc.html">Saint Lucia</a></li>
-<li><a href="country-vc.html">Saint Vincent and the Grenadines</a></li>
-<li><a href="country-ws.html">Samoa</a></li>
-<li><a href="country-sm.html">San Marino</a></li>
-<li><a href="country-st.html">Sao Tome and Principe</a></li>
-<li><a href="country-sa.html">Saudi Arabia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-sn.html">Senegal</a></li>
-<li><a href="country-rs.html">Serbia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-sc.html">Seychelles</a></li>
-<li><a href="country-sl.html">Sierra Leone</a></li>
-<li><a href="country-sg.html">Singapore</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-sk.html">Slovakia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-si.html">Slovenia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-sb.html">Solomon Islands</a></li>
-<li><a href="country-so.html">Somalia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-za.html">South Africa</a></li>
-<li><a href="country-gs.html">South Georgia and the South Sandwich Islands</a></li>
-<li><a href="country-kr.html">South Korea</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ss.html">South Sudan</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-es.html">Spain</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-lk.html">Sri Lanka</a></li>
-<li><a href="country-pm.html">St. Pierre and Miquelon</a></li>
-<li><a href="country-sd.html">Sudan</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-sr.html">Suriname</a></li>
-<li><a href="country-sj.html">Svalbard and Jan Mayen Islands</a></li>
-<li><a href="country-sz.html">Swaziland</a></li>
-<li><a href="country-se.html">Sweden</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ch.html">Switzerland</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-sy.html">Syria</a></li>
-<li><a href="country-tw.html">Taiwan</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-tj.html">Tajikistan</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-tz.html">Tanzania</a></li>
-<li><a href="country-th.html">Thailand</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-nl.html">The Netherlands</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-tl.html">Timor-Leste</a></li>
-<li><a href="country-tg.html">Togo</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-tk.html">Tokelau</a></li>
-<li><a href="country-to.html">Tonga</a></li>
-<li><a href="country-tt.html">Trinidad and Tobago</a></li>
-<li><a href="country-tn.html">Tunisia</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-tr.html">Turkey</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-tm.html">Turkmenistan</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-tc.html">Turks and Caicos Islands</a></li>
-<li><a href="country-tv.html">Tuvalu</a></li>
-<li><a href="country-ug.html">Uganda</a></li>
-<li><a href="country-ua.html">Ukraine</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-ae.html">United Arab Emirates</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-gb.html">United Kingdom</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-<li>ID card for all citizens: <em>Not since Churchill <a href="https://archive.today/56VM0">cancelled them in the 50s</a></em></li>
-</ul></li>
-<li><a href="country-us.html">United States</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-um.html">United States Minor Outlying Islands</a></li>
-<li><a href="country-uy.html">Uruguay</a></li>
-<li><a href="country-uz.html">Uzbekistan</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-vu.html">Vanuatu</a></li>
-<li><a href="country-va.html">Vatican</a></li>
-<li><a href="country-ve.html">Venezuela</a>
-<ul>
-<li>Biometric passport: <em>Yes</em></li>
-</ul></li>
-<li><a href="country-vn.html">Vietnam</a></li>
-<li><a href="country-vg.html">Virgin Islands (British)</a></li>
-<li><a href="country-vi.html">Virgin Islands (U.S.)</a></li>
-<li><a href="country-wf.html">Wallis and Futuna Islands</a></li>
-<li><a href="country-eh.html">Western Sahara</a></li>
-<li><a href="country-ye.html">Yemen</a></li>
-<li><a href="country-zm.html">Zambia</a></li>
-<li><a href="country-zw.html">Zimbabwe</a></li>
-</ul>
-
-</body>
+      function colormap(tag) {
+        var colors = {}
+        for (country in map_data) {
+          colors[country] = { fillKey: map_data[country][tag] || "defaultFill" };
+        }
+        map.updateChoropleth(colors);
+      }
+    </script>
+  </body>
 </html>

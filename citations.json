@@ -1,2286 +1,2138 @@
 {
     "tags": [
         {
-            "description": "",
+            "description": "", 
             "name": "intro"
-        },
+        }, 
         {
-            "description": "Biometric passport",
+            "description": "Biometric passport", 
             "name": "biopass"
-        },
+        }, 
         {
-            "description": "Retains biometric information of minorities, foreigners, prisoners, unemployed, etc.",
+            "description": "Retains biometric information of minorities, foreigners, prisoners, unemployed, etc.", 
             "name": "minoritybiodb"
-        },
+        }, 
         {
-            "description": "ID card for all citizens",
+            "description": "ID card for all citizens", 
             "name": "idcard"
-        },
+        }, 
         {
-            "description": "Biometric database of all citizens",
+            "description": "Biometric database of all citizens", 
             "name": "biodb"
         }
-    ],
+    ], 
     "countries": [
         {
-            "name": "Andorra",
-            "lat": 42.5,
-            "id": "ad",
-            "long": 1.6
-        },
+            "mapid": "AND", 
+            "name": "Andorra", 
+            "id": "ad"
+        }, 
         {
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "name": "United Arab Emirates",
-            "lat": 24.0,
-            "id": "ae",
-            "long": 54.0
-        },
+            ], 
+            "mapid": "ARE", 
+            "name": "United Arab Emirates", 
+            "id": "ae"
+        }, 
         {
-            "name": "Afghanistan",
-            "lat": 33.0,
-            "id": "af",
-            "long": 65.0
-        },
+            "mapid": "AFG", 
+            "name": "Afghanistan", 
+            "id": "af"
+        }, 
         {
-            "name": "Antigua and Barbuda",
-            "lat": 17.05,
-            "id": "ag",
-            "long": -61.8
-        },
+            "mapid": "ATG", 
+            "name": "Antigua and Barbuda", 
+            "id": "ag"
+        }, 
         {
-            "name": "Anguilla",
-            "lat": 18.25,
-            "id": "ai",
-            "long": -63.1667
-        },
+            "mapid": "AIA", 
+            "name": "Anguilla", 
+            "id": "ai"
+        }, 
         {
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "name": "Albania",
-            "lat": 41.0,
-            "id": "al",
-            "long": 20.0
-        },
+            ], 
+            "mapid": "ALB", 
+            "name": "Albania", 
+            "id": "al"
+        }, 
         {
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "name": "Armenia",
-            "lat": 40.0,
-            "id": "am",
-            "long": 45.0
-        },
+            ], 
+            "mapid": "ARM", 
+            "name": "Armenia", 
+            "id": "am"
+        }, 
         {
-            "name": "Angola",
-            "lat": -12.5,
-            "id": "ao",
-            "long": 18.5
-        },
+            "mapid": "AGO", 
+            "name": "Angola", 
+            "id": "ao"
+        }, 
         {
-            "name": "Antarctica",
-            "lat": -90.0,
-            "id": "aq",
-            "long": 0.0
-        },
+            "mapid": "ATA", 
+            "name": "Antarctica", 
+            "id": "aq"
+        }, 
         {
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "name": "Argentina",
-            "lat": -34.0,
-            "id": "ar",
-            "long": -64.0
-        },
+            ], 
+            "mapid": "ARG", 
+            "name": "Argentina", 
+            "id": "ar"
+        }, 
         {
-            "name": "American Samoa",
-            "lat": -14.3333,
-            "id": "as",
-            "long": -170.0
-        },
+            "mapid": "ASM", 
+            "name": "American Samoa", 
+            "id": "as"
+        }, 
         {
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "name": "Austria",
-            "lat": 47.3333,
-            "id": "at",
-            "long": 13.3333
-        },
+            ], 
+            "mapid": "AUT", 
+            "name": "Austria", 
+            "id": "at"
+        }, 
         {
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "name": "Australia",
-            "lat": -27.0,
-            "id": "au",
-            "long": 133.0
-        },
+            ], 
+            "mapid": "AUS", 
+            "name": "Australia", 
+            "id": "au"
+        }, 
         {
-            "name": "Aruba",
-            "lat": 12.5,
-            "id": "aw",
-            "long": -69.9667
-        },
+            "mapid": "ABW", 
+            "name": "Aruba", 
+            "id": "aw"
+        }, 
         {
-            "lat": 40.5,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "az",
-            "long": 47.5,
-            "name": "Azerbaijan"
-        },
+            ], 
+            "mapid": "AZE", 
+            "name": "Azerbaijan", 
+            "id": "az"
+        }, 
         {
-            "lat": 44.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ba",
-            "long": 18.0,
-            "name": "Bosnia and Herzegovina"
-        },
+            ], 
+            "mapid": "BIH", 
+            "name": "Bosnia and Herzegovina", 
+            "id": "ba"
+        }, 
         {
-            "lat": 13.1667,
-            "id": "bb",
-            "long": -59.5333,
+            "mapid": "BRB", 
+            "id": "bb", 
             "name": "Barbados"
-        },
+        }, 
         {
-            "lat": 24.0,
-            "id": "bd",
-            "long": 90.0,
+            "mapid": "BGD", 
+            "id": "bd", 
             "name": "Bangladesh"
-        },
+        }, 
         {
-            "lat": 50.8333,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "be",
-            "long": 4.0,
-            "name": "Belgium"
-        },
+            ], 
+            "mapid": "BEL", 
+            "name": "Belgium", 
+            "id": "be"
+        }, 
         {
-            "lat": 13.0,
-            "id": "bf",
-            "long": -2.0,
+            "mapid": "BFA", 
+            "id": "bf", 
             "name": "Burkina Faso"
-        },
+        }, 
         {
-            "lat": 43.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "bg",
-            "long": 25.0,
-            "name": "Bulgaria"
-        },
+            ], 
+            "mapid": "BGR", 
+            "name": "Bulgaria", 
+            "id": "bg"
+        }, 
         {
-            "lat": 26.0,
-            "id": "bh",
-            "long": 50.55,
+            "mapid": "BHR", 
+            "id": "bh", 
             "name": "Bahrain"
-        },
+        }, 
         {
-            "lat": -3.5,
-            "id": "bi",
-            "long": 30.0,
+            "mapid": "BDI", 
+            "id": "bi", 
             "name": "Burundi"
-        },
+        }, 
         {
-            "lat": 9.5,
-            "id": "bj",
-            "long": 2.25,
+            "mapid": "BEN", 
+            "id": "bj", 
             "name": "Benin"
-        },
+        }, 
         {
-            "lat": 32.3333,
-            "id": "bm",
-            "long": -64.75,
+            "mapid": "BMU", 
+            "id": "bm", 
             "name": "Bermuda"
-        },
+        }, 
         {
-            "lat": 4.5,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "bn",
-            "long": 114.6667,
-            "name": "Brunei Darussalam"
-        },
+            ], 
+            "mapid": "BRN", 
+            "name": "Brunei Darussalam", 
+            "id": "bn"
+        }, 
         {
-            "lat": -17.0,
-            "id": "bo",
-            "long": -65.0,
+            "mapid": "BOL", 
+            "id": "bo", 
             "name": "Bolivia"
-        },
+        }, 
         {
-            "lat": -10.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "br",
-            "long": -55.0,
-            "name": "Brazil"
-        },
+            ], 
+            "mapid": "BRA", 
+            "name": "Brazil", 
+            "id": "br"
+        }, 
         {
-            "lat": 24.25,
-            "id": "bs",
-            "long": -76.0,
+            "mapid": "BHS", 
+            "id": "bs", 
             "name": "Bahamas"
-        },
+        }, 
         {
-            "lat": 27.5,
-            "id": "bt",
-            "long": 90.5,
+            "mapid": "BTN", 
+            "id": "bt", 
             "name": "Bhutan"
-        },
+        }, 
         {
-            "lat": -54.4333,
-            "id": "bv",
-            "long": 3.4,
+            "mapid": "BVT", 
+            "id": "bv", 
             "name": "Bouvet Island"
-        },
+        }, 
         {
-            "lat": -22.0,
-            "id": "bw",
-            "long": 24.0,
+            "mapid": "BWA", 
+            "id": "bw", 
             "name": "Botswana"
-        },
+        }, 
         {
-            "lat": 53.0,
-            "id": "by",
-            "long": 28.0,
+            "mapid": "BLR", 
+            "id": "by", 
             "name": "Belarus"
-        },
+        }, 
         {
-            "lat": 17.25,
-            "id": "bz",
-            "long": -88.75,
+            "mapid": "BLZ", 
+            "id": "bz", 
             "name": "Belize"
-        },
+        }, 
         {
-            "lat": 60.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ca",
-            "long": -95.0,
-            "name": "Canada"
-        },
+            ], 
+            "mapid": "CAN", 
+            "name": "Canada", 
+            "id": "ca"
+        }, 
         {
-            "lat": -12.5,
-            "id": "cc",
-            "long": 96.8333,
+            "mapid": "CCK", 
+            "id": "cc", 
             "name": "Cocos (Keeling) Islands"
-        },
+        }, 
         {
-            "lat": 0.0,
-            "id": "cd",
-            "long": 25.0,
+            "mapid": "COD", 
+            "id": "cd", 
             "name": "Congo, Democratic Republic of"
-        },
+        }, 
         {
-            "lat": 7.0,
-            "id": "cf",
-            "long": 21.0,
+            "mapid": "CAF", 
+            "id": "cf", 
             "name": "Central African Republic"
-        },
+        }, 
         {
-            "lat": -1.0,
-            "id": "cg",
-            "long": 15.0,
+            "mapid": "COG", 
+            "id": "cg", 
             "name": "Congo"
-        },
+        }, 
         {
-            "lat": 47.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ch",
-            "long": 8.0,
-            "name": "Switzerland"
-        },
+            ], 
+            "mapid": "CHE", 
+            "name": "Switzerland", 
+            "id": "ch"
+        }, 
         {
-            "lat": 8.0,
-            "id": "ci",
-            "long": -5.0,
+            "mapid": "CIV", 
+            "id": "ci", 
             "name": "C\u00f4te d'Ivoire"
-        },
+        }, 
         {
-            "lat": -21.2333,
-            "id": "ck",
-            "long": -159.7667,
+            "mapid": "COK", 
+            "id": "ck", 
             "name": "Cook Islands"
-        },
+        }, 
         {
-            "lat": -30.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "cl",
-            "long": -71.0,
-            "name": "Chile"
-        },
+            ], 
+            "mapid": "CHL", 
+            "name": "Chile", 
+            "id": "cl"
+        }, 
         {
-            "lat": 6.0,
-            "id": "cm",
-            "long": 12.0,
+            "mapid": "CMR", 
+            "id": "cm", 
             "name": "Cameroon"
-        },
+        }, 
         {
-            "lat": 35.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "cn",
-            "long": 105.0,
-            "name": "China"
-        },
+            ], 
+            "mapid": "CHN", 
+            "name": "China", 
+            "id": "cn"
+        }, 
         {
-            "lat": 4.0,
-            "id": "co",
-            "long": -72.0,
+            "mapid": "COL", 
+            "id": "co", 
             "name": "Colombia"
-        },
+        }, 
         {
-            "lat": 10.0,
-            "id": "cr",
-            "long": -84.0,
+            "mapid": "CRI", 
+            "id": "cr", 
             "name": "Costa Rica"
-        },
+        }, 
         {
-            "lat": 21.5,
-            "id": "cu",
-            "long": -80.0,
+            "mapid": "CUB", 
+            "id": "cu", 
             "name": "Cuba"
-        },
+        }, 
         {
-            "lat": 16.0,
-            "id": "cv",
-            "long": -24.0,
+            "mapid": "CPV", 
+            "id": "cv", 
             "name": "Cape Verde"
-        },
+        }, 
         {
-            "lat": -10.5,
-            "id": "cx",
-            "long": 105.6667,
+            "mapid": "CXR", 
+            "id": "cx", 
             "name": "Christmas Island"
-        },
+        }, 
         {
-            "lat": 35.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "cy",
-            "long": 33.0,
-            "name": "Cyprus"
-        },
+            ], 
+            "mapid": "CYP", 
+            "name": "Cyprus", 
+            "id": "cy"
+        }, 
         {
-            "lat": 49.75,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "cz",
-            "long": 15.5,
-            "name": "Czech Republic"
-        },
+            ], 
+            "mapid": "CZE", 
+            "name": "Czech Republic", 
+            "id": "cz"
+        }, 
         {
-            "lat": 51.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "de",
-            "long": 9.0,
-            "name": "Germany"
-        },
+            ], 
+            "mapid": "DEU", 
+            "name": "Germany", 
+            "id": "de"
+        }, 
         {
-            "lat": 11.5,
-            "id": "dj",
-            "long": 43.0,
+            "mapid": "DJI", 
+            "id": "dj", 
             "name": "Djibouti"
-        },
+        }, 
         {
-            "lat": 56.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "dk",
-            "long": 10.0,
-            "name": "Denmark"
-        },
+            ], 
+            "mapid": "DNK", 
+            "name": "Denmark", 
+            "id": "dk"
+        }, 
         {
-            "lat": 15.4167,
-            "id": "dm",
-            "long": -61.3333,
+            "mapid": "DMA", 
+            "id": "dm", 
             "name": "Dominica"
-        },
+        }, 
         {
-            "lat": 19.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "do",
-            "long": -70.6667,
-            "name": "Dominican Republic"
-        },
+            ], 
+            "mapid": "DOM", 
+            "name": "Dominican Republic", 
+            "id": "do"
+        }, 
         {
-            "lat": 28.0,
-            "id": "dz",
-            "long": 3.0,
+            "mapid": "DZA", 
+            "id": "dz", 
             "name": "Algeria"
-        },
+        }, 
         {
-            "lat": -2.0,
-            "id": "ec",
-            "long": -77.5,
+            "mapid": "ECU", 
+            "id": "ec", 
             "name": "Ecuador"
-        },
+        }, 
         {
-            "lat": 59.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ee",
-            "long": 26.0,
-            "name": "Estonia"
-        },
+            ], 
+            "mapid": "EST", 
+            "name": "Estonia", 
+            "id": "ee"
+        }, 
         {
-            "lat": 27.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "eg",
-            "long": 30.0,
-            "name": "Egypt"
-        },
+            ], 
+            "mapid": "EGY", 
+            "name": "Egypt", 
+            "id": "eg"
+        }, 
         {
-            "lat": 24.5,
-            "id": "eh",
-            "long": -13.0,
+            "mapid": "ESH", 
+            "id": "eh", 
             "name": "Western Sahara"
-        },
+        }, 
         {
-            "lat": 15.0,
-            "id": "er",
-            "long": 39.0,
+            "mapid": "ERI", 
+            "id": "er", 
             "name": "Eritrea"
-        },
+        }, 
         {
-            "lat": 40.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "es",
-            "long": -4.0,
-            "name": "Spain"
-        },
+            ], 
+            "mapid": "ESP", 
+            "name": "Spain", 
+            "id": "es"
+        }, 
         {
-            "lat": 8.0,
-            "id": "et",
-            "long": 38.0,
+            "mapid": "ETH", 
+            "id": "et", 
             "name": "Ethiopia"
-        },
+        }, 
         {
-            "lat": 64.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "fi",
-            "long": 26.0,
-            "name": "Finland"
-        },
+            ], 
+            "mapid": "FIN", 
+            "name": "Finland", 
+            "id": "fi"
+        }, 
         {
-            "lat": -18.0,
-            "id": "fj",
-            "long": 175.0,
+            "mapid": "FJI", 
+            "id": "fj", 
             "name": "Fiji"
-        },
+        }, 
         {
-            "lat": -51.75,
-            "id": "fk",
-            "long": -59.0,
+            "mapid": "FLK", 
+            "id": "fk", 
             "name": "Falkland Islands"
-        },
+        }, 
         {
-            "lat": 6.9167,
-            "id": "fm",
-            "long": 158.25,
+            "mapid": "FSM", 
+            "id": "fm", 
             "name": "Micronesia, Federated States of"
-        },
+        }, 
         {
-            "lat": 62.0,
-            "id": "fo",
-            "long": -7.0,
+            "mapid": "FRO", 
+            "id": "fo", 
             "name": "Faroe Islands"
-        },
+        }, 
         {
-            "lat": 46.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "fr",
-            "long": 2.0,
-            "name": "France"
-        },
+            ], 
+            "mapid": "FRA", 
+            "name": "France", 
+            "id": "fr"
+        }, 
         {
-            "lat": -1.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ga",
-            "long": 11.75,
-            "name": "Gabon"
-        },
+            ], 
+            "mapid": "GAB", 
+            "name": "Gabon", 
+            "id": "ga"
+        }, 
         {
-            "lat": 54.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
-                },
+                }, 
                 {
                     "content": [
-                        "There was an attempt to ... [etc.](http://www.no2id.net/)"
-                    ],
-                    "tag": "idcard",
-                    "value": "Not since Churchill [cancelled them in the 50s](https://archive.today/56VM0)"
+                        "There was an attempt to ... <a href=\"https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3\">etc.</a>"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not since Churchill <a href=\"https://archive.today/56VM0\">cancelled them in the 50s</a>."
                 }
-            ],
-            "id": "gb",
-            "long": -2.0,
-            "name": "United Kingdom"
-        },
+            ], 
+            "mapid": "GBR", 
+            "name": "United Kingdom", 
+            "id": "gb"
+        }, 
         {
-            "lat": 12.1167,
-            "id": "gd",
-            "long": -61.6667,
+            "mapid": "GRD", 
+            "id": "gd", 
             "name": "Grenada"
-        },
+        }, 
         {
-            "lat": 42.0,
-            "id": "ge",
-            "long": 43.5,
+            "mapid": "GEO", 
+            "id": "ge", 
             "name": "Georgia"
-        },
+        }, 
         {
-            "lat": 4.0,
-            "id": "gf",
-            "long": -53.0,
+            "mapid": "GUF", 
+            "id": "gf", 
             "name": "French Guiana"
-        },
+        }, 
         {
-            "lat": 49.5,
-            "id": "gg",
-            "long": -2.56,
+            "mapid": "GGY", 
+            "id": "gg", 
             "name": "Guernsey"
-        },
+        }, 
         {
-            "lat": 8.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "gh",
-            "long": -2.0,
-            "name": "Ghana"
-        },
+            ], 
+            "mapid": "GHA", 
+            "name": "Ghana", 
+            "id": "gh"
+        }, 
         {
-            "lat": 36.1833,
-            "id": "gi",
-            "long": -5.3667,
+            "mapid": "GIB", 
+            "id": "gi", 
             "name": "Gibraltar"
-        },
+        }, 
         {
-            "lat": 72.0,
-            "id": "gl",
-            "long": -40.0,
+            "mapid": "GRL", 
+            "id": "gl", 
             "name": "Greenland"
-        },
+        }, 
         {
-            "lat": 13.4667,
-            "id": "gm",
-            "long": -16.5667,
+            "mapid": "GMB", 
+            "id": "gm", 
             "name": "Gambia"
-        },
+        }, 
         {
-            "lat": 11.0,
-            "id": "gn",
-            "long": -10.0,
+            "mapid": "GIN", 
+            "id": "gn", 
             "name": "Guinea"
-        },
+        }, 
         {
-            "lat": 16.25,
-            "id": "gp",
-            "long": -61.5833,
+            "mapid": "GLP", 
+            "id": "gp", 
             "name": "Guadeloupe"
-        },
+        }, 
         {
-            "lat": 2.0,
-            "id": "gq",
-            "long": 10.0,
+            "mapid": "GNQ", 
+            "id": "gq", 
             "name": "Equatorial Guinea"
-        },
+        }, 
         {
-            "lat": 39.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "gr",
-            "long": 22.0,
-            "name": "Greece"
-        },
+            ], 
+            "mapid": "GRC", 
+            "name": "Greece", 
+            "id": "gr"
+        }, 
         {
-            "lat": -54.5,
-            "id": "gs",
-            "long": -37.0,
+            "mapid": "SGS", 
+            "id": "gs", 
             "name": "South Georgia and the South Sandwich Islands"
-        },
+        }, 
         {
-            "lat": 15.5,
-            "id": "gt",
-            "long": -90.25,
+            "mapid": "GTM", 
+            "id": "gt", 
             "name": "Guatemala"
-        },
+        }, 
         {
-            "lat": 13.4667,
-            "id": "gu",
-            "long": 144.7833,
+            "mapid": "GUM", 
+            "id": "gu", 
             "name": "Guam"
-        },
+        }, 
         {
-            "lat": 12.0,
-            "id": "gw",
-            "long": -15.0,
+            "mapid": "GNB", 
+            "id": "gw", 
             "name": "Guinea-Bissau"
-        },
+        }, 
         {
-            "lat": 5.0,
-            "id": "gy",
-            "long": -59.0,
+            "mapid": "GUY", 
+            "id": "gy", 
             "name": "Guyana"
-        },
+        }, 
         {
-            "lat": 22.25,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "hk",
-            "long": 114.1667,
-            "name": "Hong Kong"
-        },
+            ], 
+            "mapid": "HKG", 
+            "name": "Hong Kong", 
+            "id": "hk"
+        }, 
         {
-            "lat": -53.1,
-            "id": "hm",
-            "long": 72.5167,
+            "mapid": "HMD", 
+            "id": "hm", 
             "name": "Heard and McDonald Islands"
-        },
+        }, 
         {
-            "lat": 15.0,
-            "id": "hn",
-            "long": -86.5,
+            "mapid": "HND", 
+            "id": "hn", 
             "name": "Honduras"
-        },
+        }, 
         {
-            "lat": 45.1667,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "hr",
-            "long": 15.5,
-            "name": "Croatia"
-        },
+            ], 
+            "mapid": "HRV", 
+            "name": "Croatia", 
+            "id": "hr"
+        }, 
         {
-            "lat": 19.0,
-            "id": "ht",
-            "long": -72.4167,
+            "mapid": "HTI", 
+            "id": "ht", 
             "name": "Haiti"
-        },
+        }, 
         {
-            "lat": 47.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "hu",
-            "long": 20.0,
-            "name": "Hungary"
-        },
+            ], 
+            "mapid": "HUN", 
+            "name": "Hungary", 
+            "id": "hu"
+        }, 
         {
-            "lat": -5.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "id",
-            "long": 120.0,
-            "name": "Indonesia"
-        },
+            ], 
+            "mapid": "IDN", 
+            "name": "Indonesia", 
+            "id": "id"
+        }, 
         {
-            "lat": 53.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ie",
-            "long": -8.0,
-            "name": "Ireland"
-        },
+            ], 
+            "mapid": "IRL", 
+            "name": "Ireland", 
+            "id": "ie"
+        }, 
         {
-            "lat": 31.5,
             "citations": [
                 {
                     "content": [
                         "This intro should probably come from a file, just showing how you can do this inline"
-                    ],
+                    ], 
                     "tag": "intro"
                 },
                 {
                     "content": [
-                        "<biopass-wikipedia",
-                        "Having said that, citizens who refuse to volunteer for the biometric database pilot are forced to issue an easy to forge paper passport, and are charged a fee of *???* (which is waived for those who volunteer)*[citation needed]*."
-                    ],
-                    "tag": "biopass",
+                        "To do: document agron etc."
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<biopass-wikipedia", 
+                        "Having said that, citizens who refuse to volunteer for the biometric database pilot are forced to issue an easy to forge paper passport, and are charged a fee of *???* (which is waived for those who volunteer)<sup><em>[citation needed]</em></sup>."
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "bad", 
                     "value": "Pending inclusion in biometric database"
                 }
-            ],
-            "id": "il",
-            "long": 34.75,
-            "name": "Israel"
-        },
+            ], 
+            "mapid": "ISR", 
+            "name": "Israel", 
+            "id": "il"
+        }, 
         {
-            "lat": 54.23,
-            "id": "im",
-            "long": -4.55,
+            "mapid": "IMN", 
+            "id": "im", 
             "name": "Isle of Man"
-        },
+        }, 
         {
-            "lat": 20.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "in",
-            "long": 77.0,
-            "name": "India"
-        },
+            ], 
+            "mapid": "IND", 
+            "name": "India", 
+            "id": "in"
+        }, 
         {
-            "lat": -6.0,
-            "id": "io",
-            "long": 71.5,
+            "mapid": "IOT", 
+            "id": "io", 
             "name": "British Indian Ocean Territory"
-        },
+        }, 
         {
-            "lat": 33.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "iq",
-            "long": 44.0,
-            "name": "Iraq"
-        },
+            ], 
+            "mapid": "IRQ", 
+            "name": "Iraq", 
+            "id": "iq"
+        }, 
         {
-            "lat": 32.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ir",
-            "long": 53.0,
-            "name": "Iran"
-        },
+            ], 
+            "mapid": "IRN", 
+            "name": "Iran", 
+            "id": "ir"
+        }, 
         {
-            "lat": 65.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "is",
-            "long": -18.0,
-            "name": "Iceland"
-        },
+            ], 
+            "mapid": "ISL", 
+            "name": "Iceland", 
+            "id": "is"
+        }, 
         {
-            "lat": 42.8333,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "it",
-            "long": 12.8333,
-            "name": "Italy"
-        },
+            ], 
+            "mapid": "ITA", 
+            "name": "Italy", 
+            "id": "it"
+        }, 
         {
-            "lat": 49.21,
-            "id": "je",
-            "long": -2.13,
+            "mapid": "JEY", 
+            "id": "je", 
             "name": "Jersey"
-        },
+        }, 
         {
-            "lat": 18.25,
-            "id": "jm",
-            "long": -77.5,
+            "mapid": "JAM", 
+            "id": "jm", 
             "name": "Jamaica"
-        },
+        }, 
         {
-            "lat": 31.0,
-            "id": "jo",
-            "long": 36.0,
+            "mapid": "JOR", 
+            "id": "jo", 
             "name": "Jordan"
-        },
+        }, 
         {
-            "lat": 36.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "jp",
-            "long": 138.0,
-            "name": "Japan"
-        },
+            ], 
+            "mapid": "JPN", 
+            "name": "Japan", 
+            "id": "jp"
+        }, 
         {
-            "lat": 1.0,
-            "id": "ke",
-            "long": 38.0,
+            "mapid": "KEN", 
+            "id": "ke", 
             "name": "Kenya"
-        },
+        }, 
         {
-            "lat": 41.0,
-            "id": "kg",
-            "long": 75.0,
+            "mapid": "KGZ", 
+            "id": "kg", 
             "name": "Kyrgyzstan"
-        },
+        }, 
         {
-            "lat": 13.0,
-            "id": "kh",
-            "long": 105.0,
+            "mapid": "KHM", 
+            "id": "kh", 
             "name": "Cambodia"
-        },
+        }, 
         {
-            "lat": 1.4167,
-            "id": "ki",
-            "long": 173.0,
+            "mapid": "KIR", 
+            "id": "ki", 
             "name": "Kiribati"
-        },
+        }, 
         {
-            "lat": -12.1667,
-            "id": "km",
-            "long": 44.25,
+            "mapid": "COM", 
+            "id": "km", 
             "name": "Comoros"
-        },
+        }, 
         {
-            "lat": 17.3333,
-            "id": "kn",
-            "long": -62.75,
+            "mapid": "KNA", 
+            "id": "kn", 
             "name": "Saint Kitts and Nevis"
-        },
+        }, 
         {
-            "lat": 40.0,
-            "id": "kp",
-            "long": 127.0,
+            "mapid": "PRK", 
+            "id": "kp", 
             "name": "North Korea"
-        },
+        }, 
         {
-            "lat": 37.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "kr",
-            "long": 127.5,
-            "name": "South Korea"
-        },
+            ], 
+            "mapid": "KOR", 
+            "name": "South Korea", 
+            "id": "kr"
+        }, 
         {
-            "lat": 29.3375,
-            "id": "kw",
-            "long": 47.6581,
+            "mapid": "KWT", 
+            "id": "kw", 
             "name": "Kuwait"
-        },
+        }, 
         {
-            "lat": 19.5,
-            "id": "ky",
-            "long": -80.5,
+            "mapid": "CYM", 
+            "id": "ky", 
             "name": "Cayman Islands"
-        },
+        }, 
         {
-            "lat": 48.0,
-            "id": "kz",
-            "long": 68.0,
+            "mapid": "KAZ", 
+            "id": "kz", 
             "name": "Kazakhstan"
-        },
+        }, 
         {
-            "lat": 18.0,
-            "id": "la",
-            "long": 105.0,
+            "mapid": "LAO", 
+            "id": "la", 
             "name": "Lao People's Democratic Republic"
-        },
+        }, 
         {
-            "lat": 33.8333,
-            "id": "lb",
-            "long": 35.8333,
+            "mapid": "LBN", 
+            "id": "lb", 
             "name": "Lebanon"
-        },
+        }, 
         {
-            "lat": 13.8833,
-            "id": "lc",
-            "long": -61.1333,
+            "mapid": "LCA", 
+            "id": "lc", 
             "name": "Saint Lucia"
-        },
+        }, 
         {
-            "lat": 47.1667,
-            "id": "li",
-            "long": 9.5333,
+            "mapid": "LIE", 
+            "id": "li", 
             "name": "Liechtenstein"
-        },
+        }, 
         {
-            "lat": 7.0,
-            "id": "lk",
-            "long": 81.0,
+            "mapid": "LKA", 
+            "id": "lk", 
             "name": "Sri Lanka"
-        },
+        }, 
         {
-            "lat": 6.5,
-            "id": "lr",
-            "long": -9.5,
+            "mapid": "LBR", 
+            "id": "lr", 
             "name": "Liberia"
-        },
+        }, 
         {
-            "lat": -29.5,
-            "id": "ls",
-            "long": 28.5,
+            "mapid": "LSO", 
+            "id": "ls", 
             "name": "Lesotho"
-        },
+        }, 
         {
-            "lat": 56.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "lt",
-            "long": 24.0,
-            "name": "Lithuania"
-        },
+            ], 
+            "mapid": "LTU", 
+            "name": "Lithuania", 
+            "id": "lt"
+        }, 
         {
-            "lat": 49.75,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "lu",
-            "long": 6.1667,
-            "name": "Luxembourg"
-        },
+            ], 
+            "mapid": "LUX", 
+            "name": "Luxembourg", 
+            "id": "lu"
+        }, 
         {
-            "lat": 57.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "lv",
-            "long": 25.0,
-            "name": "Latvia"
-        },
+            ], 
+            "mapid": "LVA", 
+            "name": "Latvia", 
+            "id": "lv"
+        }, 
         {
-            "lat": 25.0,
-            "id": "ly",
-            "long": 17.0,
+            "mapid": "LBY", 
+            "id": "ly", 
             "name": "Libya"
-        },
+        }, 
         {
-            "lat": 32.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ma",
-            "long": -5.0,
-            "name": "Morocco"
-        },
+            ], 
+            "mapid": "MAR", 
+            "name": "Morocco", 
+            "id": "ma"
+        }, 
         {
-            "lat": 43.7333,
-            "id": "mc",
-            "long": 7.4,
+            "mapid": "MCO", 
+            "id": "mc", 
             "name": "Monaco"
-        },
+        }, 
         {
-            "lat": 47.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "md",
-            "long": 29.0,
-            "name": "Moldova"
-        },
+            ], 
+            "mapid": "MDA", 
+            "name": "Moldova", 
+            "id": "md"
+        }, 
         {
-            "lat": 42.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "me",
-            "long": 19.0,
-            "name": "Montenegro"
-        },
+            ], 
+            "mapid": "MNE", 
+            "name": "Montenegro", 
+            "id": "me"
+        }, 
         {
-            "lat": -20.0,
-            "id": "mg",
-            "long": 47.0,
+            "mapid": "MDG", 
+            "id": "mg", 
             "name": "Madagascar"
-        },
+        }, 
         {
-            "lat": 9.0,
-            "id": "mh",
-            "long": 168.0,
+            "mapid": "MHL", 
+            "id": "mh", 
             "name": "Marshall Islands"
-        },
+        }, 
         {
-            "lat": 41.8333,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "mk",
-            "long": 22.0,
-            "name": "Macedonia"
-        },
+            ], 
+            "mapid": "MKD", 
+            "name": "Macedonia", 
+            "id": "mk"
+        }, 
         {
-            "lat": 17.0,
-            "id": "ml",
-            "long": -4.0,
+            "mapid": "MLI", 
+            "id": "ml", 
             "name": "Mali"
-        },
+        }, 
         {
-            "lat": 22.0,
-            "id": "mm",
-            "long": 98.0,
+            "mapid": "MMR", 
+            "id": "mm", 
             "name": "Myanmar"
-        },
+        }, 
         {
-            "lat": 46.0,
-            "id": "mn",
-            "long": 105.0,
+            "mapid": "MNG", 
+            "id": "mn", 
             "name": "Mongolia"
-        },
+        }, 
         {
-            "lat": 22.1667,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "mo",
-            "long": 113.55,
-            "name": "Macau"
-        },
+            ], 
+            "mapid": "MAC", 
+            "name": "Macau", 
+            "id": "mo"
+        }, 
         {
-            "lat": 15.2,
-            "id": "mp",
-            "long": 145.75,
+            "mapid": "MNP", 
+            "id": "mp", 
             "name": "Northern Mariana Islands"
-        },
+        }, 
         {
-            "lat": 14.6667,
-            "id": "mq",
-            "long": -61.0,
+            "mapid": "MTQ", 
+            "id": "mq", 
             "name": "Martinique"
-        },
+        }, 
         {
-            "lat": 20.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "mr",
-            "long": -12.0,
-            "name": "Mauritania"
-        },
+            ], 
+            "mapid": "MRT", 
+            "name": "Mauritania", 
+            "id": "mr"
+        }, 
         {
-            "lat": 16.75,
-            "id": "ms",
-            "long": -62.2,
+            "mapid": "MSR", 
+            "id": "ms", 
             "name": "Montserrat"
-        },
+        }, 
         {
-            "lat": 35.8333,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "mt",
-            "long": 14.5833,
-            "name": "Malta"
-        },
+            ], 
+            "mapid": "MLT", 
+            "name": "Malta", 
+            "id": "mt"
+        }, 
         {
-            "lat": -20.2833,
-            "id": "mu",
-            "long": 57.55,
+            "mapid": "MUS", 
+            "id": "mu", 
             "name": "Mauritius"
-        },
+        }, 
         {
-            "lat": 3.25,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "mv",
-            "long": 73.0,
-            "name": "Maldives"
-        },
+            ], 
+            "mapid": "MDV", 
+            "name": "Maldives", 
+            "id": "mv"
+        }, 
         {
-            "lat": -13.5,
-            "id": "mw",
-            "long": 34.0,
+            "mapid": "MWI", 
+            "id": "mw", 
             "name": "Malawi"
-        },
+        }, 
         {
-            "lat": 23.0,
-            "id": "mx",
-            "long": -102.0,
+            "mapid": "MEX", 
+            "id": "mx", 
             "name": "Mexico"
-        },
+        }, 
         {
-            "lat": 2.5,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "my",
-            "long": 112.5,
-            "name": "Malaysia"
-        },
+            ], 
+            "mapid": "MYS", 
+            "name": "Malaysia", 
+            "id": "my"
+        }, 
         {
-            "lat": -18.25,
-            "id": "mz",
-            "long": 35.0,
+            "mapid": "MOZ", 
+            "id": "mz", 
             "name": "Mozambique"
-        },
+        }, 
         {
-            "lat": -22.0,
-            "id": "na",
-            "long": 17.0,
+            "mapid": "NAM", 
+            "id": "na", 
             "name": "Namibia"
-        },
+        }, 
         {
-            "lat": -21.5,
-            "id": "nc",
-            "long": 165.5,
+            "mapid": "NCL", 
+            "id": "nc", 
             "name": "New Caledonia"
-        },
+        }, 
         {
-            "lat": 16.0,
-            "id": "ne",
-            "long": 8.0,
+            "mapid": "NER", 
+            "id": "ne", 
             "name": "Niger"
-        },
+        }, 
         {
-            "lat": -29.0333,
-            "id": "nf",
-            "long": 167.95,
+            "mapid": "NFK", 
+            "id": "nf", 
             "name": "Norfolk Island"
-        },
+        }, 
         {
-            "lat": 10.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ng",
-            "long": 8.0,
-            "name": "Nigeria"
-        },
+            ], 
+            "mapid": "NGA", 
+            "name": "Nigeria", 
+            "id": "ng"
+        }, 
         {
-            "lat": 13.0,
-            "id": "ni",
-            "long": -85.0,
+            "mapid": "NIC", 
+            "id": "ni", 
             "name": "Nicaragua"
-        },
+        }, 
         {
-            "lat": 52.5,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "nl",
-            "long": 5.75,
-            "name": "The Netherlands"
-        },
+            ], 
+            "mapid": "NLD", 
+            "name": "The Netherlands", 
+            "id": "nl"
+        }, 
         {
-            "lat": 62.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "no",
-            "long": 10.0,
-            "name": "Norway"
-        },
+            ], 
+            "mapid": "NOR", 
+            "name": "Norway", 
+            "id": "no"
+        }, 
         {
-            "lat": 28.0,
-            "id": "np",
-            "long": 84.0,
+            "mapid": "NPL", 
+            "id": "np", 
             "name": "Nepal"
-        },
+        }, 
         {
-            "lat": -0.5333,
-            "id": "nr",
-            "long": 166.9167,
+            "mapid": "NRU", 
+            "id": "nr", 
             "name": "Nauru"
-        },
+        }, 
         {
-            "lat": -19.0333,
-            "id": "nu",
-            "long": -169.8667,
+            "mapid": "NIU", 
+            "id": "nu", 
             "name": "Niue"
-        },
+        }, 
         {
-            "lat": -41.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "nz",
-            "long": 174.0,
-            "name": "New Zealand"
-        },
+            ], 
+            "mapid": "NZL", 
+            "name": "New Zealand", 
+            "id": "nz"
+        }, 
         {
-            "lat": 21.0,
-            "id": "om",
-            "long": 57.0,
+            "mapid": "OMN", 
+            "id": "om", 
             "name": "Oman"
-        },
+        }, 
         {
-            "lat": 9.0,
-            "id": "pa",
-            "long": -80.0,
+            "mapid": "PAN", 
+            "id": "pa", 
             "name": "Panama"
-        },
+        }, 
         {
-            "lat": -10.0,
-            "id": "pe",
-            "long": -76.0,
+            "mapid": "PER", 
+            "id": "pe", 
             "name": "Peru"
-        },
+        }, 
         {
-            "lat": -15.0,
-            "id": "pf",
-            "long": -140.0,
+            "mapid": "PYF", 
+            "id": "pf", 
             "name": "French Polynesia"
-        },
+        }, 
         {
-            "lat": -6.0,
-            "id": "pg",
-            "long": 147.0,
+            "mapid": "PNG", 
+            "id": "pg", 
             "name": "Papua New Guinea"
-        },
+        }, 
         {
-            "lat": 13.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ph",
-            "long": 122.0,
-            "name": "Philippines"
-        },
+            ], 
+            "mapid": "PHL", 
+            "name": "Philippines", 
+            "id": "ph"
+        }, 
         {
-            "lat": 30.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "pk",
-            "long": 70.0,
-            "name": "Pakistan"
-        },
+            ], 
+            "mapid": "PAK", 
+            "name": "Pakistan", 
+            "id": "pk"
+        }, 
         {
-            "lat": 52.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "pl",
-            "long": 20.0,
-            "name": "Poland"
-        },
+            ], 
+            "mapid": "POL", 
+            "name": "Poland", 
+            "id": "pl"
+        }, 
         {
-            "lat": 46.8333,
-            "id": "pm",
-            "long": -56.3333,
+            "mapid": "SPM", 
+            "id": "pm", 
             "name": "St. Pierre and Miquelon"
-        },
+        }, 
         {
-            "lat": -24.7,
-            "id": "pn",
-            "long": -127.4,
+            "mapid": "PCN", 
+            "id": "pn", 
             "name": "Pitcairn"
-        },
+        }, 
         {
-            "lat": 18.25,
-            "id": "pr",
-            "long": -66.5,
+            "mapid": "PRI", 
+            "id": "pr", 
             "name": "Puerto Rico"
-        },
+        }, 
         {
-            "lat": 32.0,
-            "id": "ps",
-            "long": 35.25,
+            "mapid": "PSE", 
+            "id": "ps", 
             "name": "Palestine, State of"
-        },
+        }, 
         {
-            "lat": 39.5,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "pt",
-            "long": -8.0,
-            "name": "Portugal"
-        },
+            ], 
+            "mapid": "PRT", 
+            "name": "Portugal", 
+            "id": "pt"
+        }, 
         {
-            "lat": 7.5,
-            "id": "pw",
-            "long": 134.5,
+            "mapid": "PLW", 
+            "id": "pw", 
             "name": "Palau"
-        },
+        }, 
         {
-            "lat": -23.0,
-            "id": "py",
-            "long": -58.0,
+            "mapid": "PRY", 
+            "id": "py", 
             "name": "Paraguay"
-        },
+        }, 
         {
-            "lat": 25.5,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "qa",
-            "long": 51.25,
-            "name": "Qatar"
-        },
+            ], 
+            "mapid": "QAT", 
+            "name": "Qatar", 
+            "id": "qa"
+        }, 
         {
-            "lat": -21.1,
-            "id": "re",
-            "long": 55.6,
+            "mapid": "REU", 
+            "id": "re", 
             "name": "R\u00e9union"
-        },
+        }, 
         {
-            "lat": 46.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ro",
-            "long": 25.0,
-            "name": "Romania"
-        },
+            ], 
+            "mapid": "ROU", 
+            "name": "Romania", 
+            "id": "ro"
+        }, 
         {
-            "lat": 44.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "rs",
-            "long": 21.0,
-            "name": "Serbia"
-        },
+            ], 
+            "mapid": "SRB", 
+            "name": "Serbia", 
+            "id": "rs"
+        }, 
         {
-            "lat": 60.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ru",
-            "long": 100.0,
-            "name": "Russian Federation"
-        },
+            ], 
+            "mapid": "RUS", 
+            "name": "Russian Federation", 
+            "id": "ru"
+        }, 
         {
-            "lat": -2.0,
-            "id": "rw",
-            "long": 30.0,
+            "mapid": "RWA", 
+            "id": "rw", 
             "name": "Rwanda"
-        },
+        }, 
         {
-            "lat": 25.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "sa",
-            "long": 45.0,
-            "name": "Saudi Arabia"
-        },
+            ], 
+            "mapid": "SAU", 
+            "name": "Saudi Arabia", 
+            "id": "sa"
+        }, 
         {
-            "lat": -8.0,
-            "id": "sb",
-            "long": 159.0,
+            "mapid": "SLB", 
+            "id": "sb", 
             "name": "Solomon Islands"
-        },
+        }, 
         {
-            "lat": -4.5833,
-            "id": "sc",
-            "long": 55.6667,
+            "mapid": "SYC", 
+            "id": "sc", 
             "name": "Seychelles"
-        },
+        }, 
         {
-            "lat": 15.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "sd",
-            "long": 30.0,
-            "name": "Sudan"
-        },
+            ], 
+            "mapid": "SDN", 
+            "name": "Sudan", 
+            "id": "sd"
+        }, 
         {
-            "lat": 62.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "se",
-            "long": 15.0,
-            "name": "Sweden"
-        },
+            ], 
+            "mapid": "SWE", 
+            "name": "Sweden", 
+            "id": "se"
+        }, 
         {
-            "lat": 1.3667,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "sg",
-            "long": 103.8,
-            "name": "Singapore"
-        },
+            ], 
+            "mapid": "SGP", 
+            "name": "Singapore", 
+            "id": "sg"
+        }, 
         {
-            "lat": -15.9333,
-            "id": "sh",
-            "long": -5.7,
+            "mapid": "SHN", 
+            "id": "sh", 
             "name": "Saint Helena"
-        },
+        }, 
         {
-            "lat": 46.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "si",
-            "long": 15.0,
-            "name": "Slovenia"
-        },
+            ], 
+            "mapid": "SVN", 
+            "name": "Slovenia", 
+            "id": "si"
+        }, 
         {
-            "lat": 78.0,
-            "id": "sj",
-            "long": 20.0,
+            "mapid": "SJM", 
+            "id": "sj", 
             "name": "Svalbard and Jan Mayen Islands"
-        },
+        }, 
         {
-            "lat": 48.6667,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "sk",
-            "long": 19.5,
-            "name": "Slovakia"
-        },
+            ], 
+            "mapid": "SVK", 
+            "name": "Slovakia", 
+            "id": "sk"
+        }, 
         {
-            "lat": 8.5,
-            "id": "sl",
-            "long": -11.5,
+            "mapid": "SLE", 
+            "id": "sl", 
             "name": "Sierra Leone"
-        },
+        }, 
         {
-            "lat": 43.7667,
-            "id": "sm",
-            "long": 12.4167,
+            "mapid": "SMR", 
+            "id": "sm", 
             "name": "San Marino"
-        },
+        }, 
         {
-            "lat": 14.0,
-            "id": "sn",
-            "long": -14.0,
+            "mapid": "SEN", 
+            "id": "sn", 
             "name": "Senegal"
-        },
+        }, 
         {
-            "lat": 10.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "so",
-            "long": 49.0,
-            "name": "Somalia"
-        },
+            ], 
+            "mapid": "SOM", 
+            "name": "Somalia", 
+            "id": "so"
+        }, 
         {
-            "lat": 4.0,
-            "id": "sr",
-            "long": -56.0,
+            "mapid": "SUR", 
+            "id": "sr", 
             "name": "Suriname"
-        },
+        }, 
         {
-            "lat": 4.85,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ss",
-            "long": 31.6,
-            "name": "South Sudan"
-        },
+            ], 
+            "mapid": "SSD", 
+            "name": "South Sudan", 
+            "id": "ss"
+        }, 
         {
-            "lat": 1.0,
-            "id": "st",
-            "long": 7.0,
+            "mapid": "STP", 
+            "id": "st", 
             "name": "Sao Tome and Principe"
-        },
+        }, 
         {
-            "lat": 13.8333,
-            "id": "sv",
-            "long": -88.9167,
+            "mapid": "SLV", 
+            "id": "sv", 
             "name": "El Salvador"
-        },
+        }, 
         {
-            "lat": 35.0,
-            "id": "sy",
-            "long": 38.0,
+            "mapid": "SYR", 
+            "id": "sy", 
             "name": "Syria"
-        },
+        }, 
         {
-            "lat": -26.5,
-            "id": "sz",
-            "long": 31.5,
+            "mapid": "SWZ", 
+            "id": "sz", 
             "name": "Swaziland"
-        },
+        }, 
         {
-            "lat": 21.75,
-            "id": "tc",
-            "long": -71.5833,
+            "mapid": "TCA", 
+            "id": "tc", 
             "name": "Turks and Caicos Islands"
-        },
+        }, 
         {
-            "lat": 15.0,
-            "id": "td",
-            "long": 19.0,
+            "mapid": "TCD", 
+            "id": "td", 
             "name": "Chad"
-        },
+        }, 
         {
-            "lat": -43.0,
-            "id": "tf",
-            "long": 67.0,
+            "mapid": "ATF", 
+            "id": "tf", 
             "name": "French Southern Territories"
-        },
+        }, 
         {
-            "lat": 8.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "tg",
-            "long": 1.1667,
-            "name": "Togo"
-        },
+            ], 
+            "mapid": "TGO", 
+            "name": "Togo", 
+            "id": "tg"
+        }, 
         {
-            "lat": 15.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "th",
-            "long": 100.0,
-            "name": "Thailand"
-        },
+            ], 
+            "mapid": "THA", 
+            "name": "Thailand", 
+            "id": "th"
+        }, 
         {
-            "lat": 39.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "tj",
-            "long": 71.0,
-            "name": "Tajikistan"
-        },
+            ], 
+            "mapid": "TJK", 
+            "name": "Tajikistan", 
+            "id": "tj"
+        }, 
         {
-            "lat": -9.0,
-            "id": "tk",
-            "long": -172.0,
+            "mapid": "TKL", 
+            "id": "tk", 
             "name": "Tokelau"
-        },
+        }, 
         {
-            "lat": -8.55,
-            "id": "tl",
-            "long": 125.5167,
+            "mapid": "TLS", 
+            "id": "tl", 
             "name": "Timor-Leste"
-        },
+        }, 
         {
-            "lat": 40.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "tm",
-            "long": 60.0,
-            "name": "Turkmenistan"
-        },
+            ], 
+            "mapid": "TKM", 
+            "name": "Turkmenistan", 
+            "id": "tm"
+        }, 
         {
-            "lat": 34.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "tn",
-            "long": 9.0,
-            "name": "Tunisia"
-        },
+            ], 
+            "mapid": "TUN", 
+            "name": "Tunisia", 
+            "id": "tn"
+        }, 
         {
-            "lat": -20.0,
-            "id": "to",
-            "long": -175.0,
+            "mapid": "TON", 
+            "id": "to", 
             "name": "Tonga"
-        },
+        }, 
         {
-            "lat": 39.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "tr",
-            "long": 35.0,
-            "name": "Turkey"
-        },
+            ], 
+            "mapid": "TUR", 
+            "name": "Turkey", 
+            "id": "tr"
+        }, 
         {
-            "lat": 11.0,
-            "id": "tt",
-            "long": -61.0,
+            "mapid": "TTO", 
+            "id": "tt", 
             "name": "Trinidad and Tobago"
-        },
+        }, 
         {
-            "lat": -8.0,
-            "id": "tv",
-            "long": 178.0,
+            "mapid": "TUV", 
+            "id": "tv", 
             "name": "Tuvalu"
-        },
+        }, 
         {
-            "lat": 23.5,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "tw",
-            "long": 121.0,
-            "name": "Taiwan"
-        },
+            ], 
+            "mapid": "TWN", 
+            "name": "Taiwan", 
+            "id": "tw"
+        }, 
         {
-            "lat": -6.0,
-            "id": "tz",
-            "long": 35.0,
+            "mapid": "TZA", 
+            "id": "tz", 
             "name": "Tanzania"
-        },
+        }, 
         {
-            "lat": 49.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ua",
-            "long": 32.0,
-            "name": "Ukraine"
-        },
+            ], 
+            "mapid": "UKR", 
+            "name": "Ukraine", 
+            "id": "ua"
+        }, 
         {
-            "lat": 1.0,
-            "id": "ug",
-            "long": 32.0,
+            "mapid": "UGA", 
+            "id": "ug", 
             "name": "Uganda"
-        },
+        }, 
         {
-            "lat": 19.2833,
-            "id": "um",
-            "long": 166.6,
+            "mapid": "UMI", 
+            "id": "um", 
             "name": "United States Minor Outlying Islands"
-        },
+        }, 
         {
-            "lat": 38.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "us",
-            "long": -97.0,
-            "name": "United States"
-        },
+            ], 
+            "mapid": "USA", 
+            "name": "United States", 
+            "id": "us"
+        }, 
         {
-            "lat": -33.0,
-            "id": "uy",
-            "long": -56.0,
+            "mapid": "URY", 
+            "id": "uy", 
             "name": "Uruguay"
-        },
+        }, 
         {
-            "lat": 41.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "uz",
-            "long": 64.0,
-            "name": "Uzbekistan"
-        },
+            ], 
+            "mapid": "UZB", 
+            "name": "Uzbekistan", 
+            "id": "uz"
+        }, 
         {
-            "lat": 41.9,
-            "id": "va",
-            "long": 12.45,
+            "mapid": "VAT", 
+            "id": "va", 
             "name": "Vatican"
-        },
+        }, 
         {
-            "lat": 13.25,
-            "id": "vc",
-            "long": -61.2,
+            "mapid": "VCT", 
+            "id": "vc", 
             "name": "Saint Vincent and the Grenadines"
-        },
+        }, 
         {
-            "lat": 8.0,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "ve",
-            "long": -66.0,
-            "name": "Venezuela"
-        },
+            ], 
+            "mapid": "VEN", 
+            "name": "Venezuela", 
+            "id": "ve"
+        }, 
         {
-            "lat": 18.5,
-            "id": "vg",
-            "long": -64.5,
+            "mapid": "VGB", 
+            "id": "vg", 
             "name": "Virgin Islands (British)"
-        },
+        }, 
         {
-            "lat": 18.3333,
-            "id": "vi",
-            "long": -64.8333,
+            "mapid": "VIR", 
+            "id": "vi", 
             "name": "Virgin Islands (U.S.)"
-        },
+        }, 
         {
-            "lat": 16.0,
-            "id": "vn",
-            "long": 106.0,
+            "mapid": "VNM", 
+            "id": "vn", 
             "name": "Vietnam"
-        },
+        }, 
         {
-            "lat": -16.0,
-            "id": "vu",
-            "long": 167.0,
+            "mapid": "VUT", 
+            "id": "vu", 
             "name": "Vanuatu"
-        },
+        }, 
         {
-            "lat": -13.3,
-            "id": "wf",
-            "long": -176.2,
+            "mapid": "WLF", 
+            "id": "wf", 
             "name": "Wallis and Futuna Islands"
-        },
+        }, 
         {
-            "lat": -13.5833,
-            "id": "ws",
-            "long": -172.3333,
+            "mapid": "WSM", 
+            "id": "ws", 
             "name": "Samoa"
-        },
+        }, 
         {
-            "lat": 42.666667,
             "citations": [
                 {
                     "content": [
                         "<biopass-wikipedia"
-                    ],
-                    "tag": "biopass",
+                    ], 
+                    "tag": "biopass", 
+                    "styling": "good", 
                     "value": "Yes"
                 }
-            ],
-            "id": "xk",
-            "long": 21.166667,
-            "name": "Kosovo"
-        },
+            ], 
+            "mapid": "UNK", 
+            "name": "Kosovo", 
+            "id": "xk"
+        }, 
         {
-            "lat": 15.0,
-            "id": "ye",
-            "long": 48.0,
+            "mapid": "YEM", 
+            "id": "ye", 
             "name": "Yemen"
-        },
+        }, 
         {
-            "lat": -12.8333,
-            "id": "yt",
-            "long": 45.1667,
+            "mapid": "MYT", 
+            "id": "yt", 
             "name": "Mayotte"
-        },
+        }, 
         {
-            "lat": -29.0,
-            "id": "za",
-            "long": 24.0,
+            "mapid": "ZAF", 
+            "id": "za", 
             "name": "South Africa"
-        },
+        }, 
         {
-            "lat": -15.0,
-            "id": "zm",
-            "long": 30.0,
+            "mapid": "ZMB", 
+            "id": "zm", 
             "name": "Zambia"
-        },
+        }, 
         {
-            "lat": -20.0,
-            "id": "zw",
-            "long": 30.0,
+            "mapid": "ZWE", 
+            "id": "zw", 
             "name": "Zimbabwe"
         }
     ]
