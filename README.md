@@ -15,14 +15,14 @@ deals with the *Israeli* law that might soon force all citizens to submit their 
 Intuitively, one would assume Israel is the only country in the world that has such a world,
 but - as the saying goes - *[citation needed]* :).
 
-Among the propaganda being spread by the supporters of the Israeli database it's common for
-them to claim that "many countries" or even "most of the modern world" have such a database.
-Sometimes they even name specific names of countries. Frequently, these errors stem from
+Among the propaganda being spread by the supporters of the Israeli database there are often
+claims that "many countries" or even "most of the modern world" have such databases.
+Sometimes they even name specific countries. Frequently, these errors stem from
 the fact that many countries have a
 [biometric passport](https://en.wikipedia.org/wiki/Biometric_passport#Countries_using_biometric_passports)
 or some other form of biometric ID card. The *crucial* difference between storing the biometric information
 of a single person on a card and maintaining a database that would enable identification of the entire
-population from an arbitrary photo or fingerprint.
+population from an arbitrary photo or fingerprint gets lost in the spin.
 
 If you read Hebrew, some of the debate regarding the situation in "other countries"
 is covered [here](http://m.no2bio.org/post-other-countries.html).
