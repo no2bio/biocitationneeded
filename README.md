@@ -17,12 +17,12 @@ Note: no more markdown. Things are simpler now ;)
 #### Html templates
 * `_index.template` &mdash; html template of homepage
 
-* `_country.template` &mdash; html template of a country page
+* `_country.template` &mdash; html template of a country's page
 
 #### Data
 * `citations.json` &mdash; theoretically, contains all data. Practically,
   partial templates are used (and reused) when there's need to write more than a single paragraph
-  of markup (easier to edit text when it's not inside a json string ;) ).
+  of html (easier to edit text when it's not inside a json string ;) ).
 
 * Partial templates (`*.template` except for `_*.template`) &mdash; contain html content
   you can import into `citations.json` by writing a string like `"<biopass-wikipedia.temlplate"`.
