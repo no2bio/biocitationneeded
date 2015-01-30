@@ -70,6 +70,8 @@
         },
         data: map_data,
         hideAntarctica: true,
+        projection: 'mercator',
+/*
         // This projection is a tweak so that Israel doesn't look too small
         // but it crops out stuff. To do: something better.
         setProjection: function(element) {
@@ -82,6 +84,7 @@
             .projection(projection);
           return {path: path, projection: projection};
        },
+*/
        geographyConfig: {
          highlightFillColor: '#FFFF00'
        },

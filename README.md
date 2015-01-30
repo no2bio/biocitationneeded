@@ -31,18 +31,17 @@ This little project tries to crowdsource
 **link-backed** information regarding various issues per country. Namely, does `country X` have:
 
 1. A biometric passport
-2. Biometric databases of minorities, foreigners, prisoners, etc.
-3. A compulsory ID card for all citizens (each citizen has a unique identifier)
-4. A compulsory biometric database for all citizens
+2. A compulsory ID card for all citizens (each citizen has a unique identifier)
+3. A compulsory biometric database for all citizens
 
 [if you think we should be asking *other* questios, feel free to comment,
 but the idea is to keep it as simple as a few "does `country X` have ..." questions ]
 
 A good example for a link-backed answer for `1.` is this
 [Wikipedia entry](https://en.wikipedia.org/wiki/Biometric_passport#Countries_using_biometric_passports),
-since it answers the questions for many countries in one go.
+since it answers the question for many countries in one go.
 
-Any link that can answer these 4 questions with a `yes`/`no`/`it's-complicated` for 1 or
+Any link that can answer 1 or more of these 3 questions with a `yes`/`no`/`it's-complicated` for 1 or
 more countries is welcome. It's hard to find proof that something *doesn't exist*, but sometimes there's
 proof that it was *proposed* (implies that it didn't exist at the time of the proposal) or even [*abolished*](https://archive.today/56VM0).
 

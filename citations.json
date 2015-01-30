@@ -1,26 +1,4 @@
 {
-    "tags": [
-        {
-            "description": "", 
-            "name": "intro"
-        }, 
-        {
-            "description": "Biometric passport", 
-            "name": "biopass"
-        }, 
-        {
-            "description": "Retains biometric information of minorities, foreigners, prisoners, unemployed, etc.", 
-            "name": "minoritybiodb"
-        }, 
-        {
-            "description": "ID card for all citizens", 
-            "name": "idcard"
-        }, 
-        {
-            "description": "Biometric database of all citizens", 
-            "name": "biodb"
-        }
-    ], 
     "countries": [
         {
             "mapid": "AND", 
@@ -66,6 +44,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "ALB", 
@@ -106,6 +92,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "ARG", 
@@ -126,6 +120,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "AUT", 
@@ -141,6 +151,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-none"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "No"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "AUS", 
@@ -176,6 +202,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "BIH", 
@@ -201,6 +235,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "BEL", 
@@ -221,6 +263,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "BGR", 
@@ -263,6 +313,16 @@
             "id": "bn"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "BOL", 
             "id": "bo", 
             "name": "Bolivia"
@@ -276,6 +336,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "BRA", 
@@ -298,11 +366,31 @@
             "name": "Bouvet Island"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "BWA", 
             "id": "bw", 
             "name": "Botswana"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "BLR", 
             "id": "by", 
             "name": "Belarus"
@@ -321,6 +409,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "CAN", 
@@ -356,6 +460,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "CHE", 
@@ -381,6 +501,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "CHL", 
@@ -401,6 +529,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "CHN", 
@@ -408,6 +544,16 @@
             "id": "cn"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "COL", 
             "id": "co", 
             "name": "Colombia"
@@ -418,6 +564,16 @@
             "name": "Costa Rica"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "CUB", 
             "id": "cu", 
             "name": "Cuba"
@@ -441,6 +597,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "CYP", 
@@ -456,6 +620,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "CZE", 
@@ -471,6 +643,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "DEU", 
@@ -491,6 +671,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-none"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "No"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "DNK", 
@@ -536,6 +732,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "EST", 
@@ -551,6 +755,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "EGY", 
@@ -576,6 +788,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "ESP", 
@@ -596,6 +816,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "FIN", 
@@ -631,6 +867,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "FRA", 
@@ -664,12 +916,13 @@
                 }, 
                 {
                     "content": [
-                        "The national ID was <a href=\"https://archive.today/56VM0\">abolished</a> in the 50s by Churchill.\nThere was an attempt to impose one. See <a href=\"http://www.no2id.net/\">No2ID.net</a>."
+                        "<idcard-wikipedia-none", 
+                        "The national ID was <a href=\"https://archive.today/56VM0\">abolished</a> in the 50s by Churchill.\nDuring the early 21<sup>st</sup> century, there was a failed <a href=\"https://en.wikipedia.org/wiki/Identity_Cards_Act_2006\">attempt</a> to reinstate one. See also <a href=\"http://www.no2id.net/\">No2ID.net</a>."
                     ], 
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                },
+                }, 
                 {
                     "content": [
                         "See above"
@@ -729,9 +982,6 @@
             "name": "Greenland"
         }, 
         {
-            "mapid": "GMB", 
-            "id": "gm", 
-            "name": "Gambia",
             "citations": [
                 {
                     "content": [
@@ -739,8 +989,8 @@
                     ], 
                     "tag": "idcard", 
                     "styling": "bad", 
-                    "value": "Yes"
-                },
+                    "value": "Compulsory"
+                }, 
                 {
                     "content": [
                         "See above"
@@ -749,7 +999,10 @@
                     "styling": "bad", 
                     "value": "Yes"
                 }
-            ] 
+            ], 
+            "mapid": "GMB", 
+            "id": "gm", 
+            "name": "Gambia"
         }, 
         {
             "mapid": "GIN", 
@@ -775,6 +1028,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "GRC", 
@@ -787,6 +1048,16 @@
             "name": "South Georgia and the South Sandwich Islands"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "GTM", 
             "id": "gt", 
             "name": "Guatemala"
@@ -815,6 +1086,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "HKG", 
@@ -840,6 +1119,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "HRV", 
@@ -860,6 +1147,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "HUN", 
@@ -875,6 +1170,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "IDN", 
@@ -890,6 +1193,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-none"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "No"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "IRL", 
@@ -900,17 +1219,18 @@
             "citations": [
                 {
                     "content": [
-                        "This intro should probably come from a file, just showing how you can do this inline"
+                        "<intro-il"
                     ], 
-                    "tag": "intro"
-                },
+                    "tag": "intro", 
+                    "value": "No"
+                }, 
                 {
                     "content": [
                         "To do: document agron etc."
                     ], 
                     "tag": "idcard", 
                     "styling": "bad", 
-                    "value": "Yes"
+                    "value": "Compulsory"
                 }, 
                 {
                     "content": [
@@ -920,19 +1240,18 @@
                     "tag": "biopass", 
                     "styling": "bad", 
                     "value": "Pending inclusion in biometric database"
-                },
+                }, 
                 {
                     "content": [
-                        "Since day 1"
+                        "<idcard-wikipedia-compulsory"
                     ], 
                     "tag": "idcard", 
                     "styling": "bad", 
-                    "value": "Yes"
-                },
+                    "value": "Compulsory"
+                }, 
                 {
                     "content": [
-                        "<biodb-wikipedia",
-                        "See also: <a target=\"_blanks\" href=\"http://english.no2bio.org\">No2Bio.org</a>"
+                        "<biodb-wikipedia"
                     ], 
                     "tag": "biodb", 
                     "styling": "good", 
@@ -957,7 +1276,7 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
-                },
+                }, 
                 {
                     "content": [
                         "<biodb-wikipedia"
@@ -965,7 +1284,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "Not compulsory"
-                },
+                }, 
                 {
                     "content": [
                         "See above"
@@ -993,15 +1312,15 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
-                },
+                }, 
                 {
                     "content": [
                         "<biodb-wikipedia"
                     ], 
                     "tag": "idcard", 
                     "styling": "bad", 
-                    "value": "Yes"
-                },
+                    "value": "Compulsory"
+                }, 
                 {
                     "content": [
                         "See above"
@@ -1024,6 +1343,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "IRN", 
@@ -1039,6 +1366,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "ISL", 
@@ -1054,6 +1397,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "ITA", 
@@ -1071,6 +1430,16 @@
             "name": "Jamaica"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "JOR", 
             "id": "jo", 
             "name": "Jordan"
@@ -1084,6 +1453,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "JPN", 
@@ -1091,6 +1476,16 @@
             "id": "jp"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "KEN", 
             "id": "ke", 
             "name": "Kenya"
@@ -1121,6 +1516,16 @@
             "name": "Saint Kitts and Nevis"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "PRK", 
             "id": "kp", 
             "name": "North Korea"
@@ -1134,6 +1539,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "KOR", 
@@ -1141,6 +1554,16 @@
             "id": "kr"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "KWT", 
             "id": "kw", 
             "name": "Kuwait"
@@ -1161,6 +1584,16 @@
             "name": "Lao People's Democratic Republic"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "LBN", 
             "id": "lb", 
             "name": "Lebanon"
@@ -1171,11 +1604,39 @@
             "name": "Saint Lucia"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
+                }
+            ], 
             "mapid": "LIE", 
             "id": "li", 
             "name": "Liechtenstein"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "LKA", 
             "id": "lk", 
             "name": "Sri Lanka"
@@ -1199,6 +1660,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "LTU", 
@@ -1214,6 +1691,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "LUX", 
@@ -1229,6 +1714,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "LVA", 
@@ -1249,6 +1742,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "MAR", 
@@ -1269,6 +1770,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "MDA", 
@@ -1284,6 +1793,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "MNE", 
@@ -1291,6 +1808,16 @@
             "id": "me"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "MDG", 
             "id": "mg", 
             "name": "Madagascar"
@@ -1309,6 +1836,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "MKD", 
@@ -1384,6 +1919,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "MLT", 
@@ -1416,6 +1959,24 @@
             "name": "Malawi"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
+                }
+            ], 
             "mapid": "MEX", 
             "id": "mx", 
             "name": "Mexico"
@@ -1429,6 +1990,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "MYS", 
@@ -1436,6 +2005,16 @@
             "id": "my"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "MOZ", 
             "id": "mz", 
             "name": "Mozambique"
@@ -1489,6 +2068,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "NLD", 
@@ -1504,6 +2091,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-none"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "No"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "NOR", 
@@ -1534,6 +2137,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-none"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "No"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "NZL", 
@@ -1546,11 +2165,31 @@
             "name": "Oman"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "PAN", 
             "id": "pa", 
             "name": "Panama"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "PER", 
             "id": "pe", 
             "name": "Peru"
@@ -1574,6 +2213,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-none"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "No"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "PHL", 
@@ -1589,18 +2244,18 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
-                },
+                }, 
                 {
                     "content": [
-                        "<idcard-pk-wikipedia"
+                        "<idcard-wikipedia-compulsory"
                     ], 
                     "tag": "idcard", 
                     "styling": "bad", 
-                    "value": "Yes"
-                },
+                    "value": "Compulsory"
+                }, 
                 {
                     "content": [
-                        "See above"
+                        "<idcard-pk-wikipedia"
                     ], 
                     "tag": "biodb", 
                     "styling": "bad", 
@@ -1620,6 +2275,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "POL", 
@@ -1642,6 +2305,16 @@
             "name": "Puerto Rico"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "PSE", 
             "id": "ps", 
             "name": "Palestine, State of"
@@ -1655,6 +2328,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "PRT", 
@@ -1680,6 +2361,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "QAT", 
@@ -1700,6 +2389,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "ROU", 
@@ -1715,6 +2412,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "SRB", 
@@ -1730,6 +2435,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "RUS", 
@@ -1750,6 +2463,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "SAU", 
@@ -1790,6 +2511,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "SWE", 
@@ -1805,6 +2542,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "SGP", 
@@ -1825,6 +2570,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "SVN", 
@@ -1960,6 +2713,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "THA", 
@@ -2035,6 +2796,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "TUR", 
@@ -2042,6 +2811,24 @@
             "id": "tr"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
+                }
+            ], 
             "mapid": "TTO", 
             "id": "tt", 
             "name": "Trinidad and Tobago"
@@ -2060,6 +2847,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "TWN", 
@@ -2080,6 +2875,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "UKR", 
@@ -2087,6 +2890,16 @@
             "id": "ua"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "UGA", 
             "id": "ug", 
             "name": "Uganda"
@@ -2105,6 +2918,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-non-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "USA", 
@@ -2150,6 +2979,14 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                }, 
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "VEN", 
@@ -2167,6 +3004,16 @@
             "name": "Virgin Islands (U.S.)"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "VNM", 
             "id": "vn", 
             "name": "Vietnam"
@@ -2212,6 +3059,16 @@
             "name": "Mayotte"
         }, 
         {
+            "citations": [
+                {
+                    "content": [
+                        "<idcard-wikipedia-compulsory"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                }
+            ], 
             "mapid": "ZAF", 
             "id": "za", 
             "name": "South Africa"
@@ -2225,6 +3082,24 @@
             "mapid": "ZWE", 
             "id": "zw", 
             "name": "Zimbabwe"
+        }
+    ], 
+    "tags": [
+        {
+            "description": "", 
+            "name": "intro"
+        }, 
+        {
+            "description": "Biometric passport", 
+            "name": "biopass"
+        }, 
+        {
+            "description": "National ID card", 
+            "name": "idcard"
+        }, 
+        {
+            "description": "Biometric database of all citizens", 
+            "name": "biodb"
         }
     ]
 }
