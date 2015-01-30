@@ -42,12 +42,14 @@ A good example for a link-backed answer for `1.` is this
 since it answers the question for many countries in one go.
 
 Any link that can answer 1 or more of these 3 questions with a `yes`/`no`/`it's-complicated` for 1 or
-more countries is welcome. It's hard to find proof that something *doesn't exist*, but sometimes there's
-proof that it was *proposed* (implies that it didn't exist at the time of the proposal) or even [*abolished*](https://archive.today/56VM0).
+more countries is welcome.
 
 ### How to help
 
-The simplest way to suggest links is via my [contact form](https://swatwt.com/whatmail).
+If you have a link that could add information to this project, or even correct
+something [wrong on the internet](https://xkcd.com/386/) written here, please suggest it.
+
+The simplest way to do that is via my [contact form](https://swatwt.com/whatmail).
 Remember to write how you want to be credited (name + link).
 
 Also feel free to fork this gist and edit stuff yourself (either the information, or the code),
