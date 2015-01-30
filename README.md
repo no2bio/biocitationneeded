@@ -47,7 +47,7 @@ more countries is welcome.
 ### How to help
 
 If you have a link that could add information to this project, or even correct
-something [wrong on the internet](https://xkcd.com/386/) written here, please suggest it.
+something [wrong](https://xkcd.com/386/) written here, please suggest it.
 
 The simplest way to do that is via my [contact form](https://swatwt.com/whatmail).
 Remember to write how you want to be credited (name + link).
