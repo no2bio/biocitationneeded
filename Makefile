@@ -1,6 +1,6 @@
 all: index.html
 
-# This also created README.template
+# This also creates README.template
 # Sorry about that. At least it's .gitignored ;)
 templates := $(patsubst %.md,%.template,$(wildcard *.md))
 
