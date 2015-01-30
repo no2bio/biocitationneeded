@@ -3091,7 +3091,7 @@
             "name": "idcard"
         }, 
         {
-            "description": "Compulsory Biometric database", 
+            "description": "Compulsory biometric database", 
             "name": "biodb"
         }
     ]
