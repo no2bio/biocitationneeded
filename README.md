@@ -60,10 +60,11 @@ but don't feel obliged. The important thing is the information itself.
 
 * Python 2 (not 3)
 * [pystache](https://pypi.python.org/pypi/pystache/)
+* [Markdown](http://daringfireball.net/projects/markdown/) (command line).
 
 ### Rendering everything
 
-* `./build.sh`
+* `make` ;)
 
 ### Files
 
@@ -79,6 +80,11 @@ but don't feel obliged. The important thing is the information itself.
   of html (easier to edit text when it's not inside a json string ;) ).
 
 * Partial templates (`*.template` except for `_*.template`) &mdash; contain html content
-  you can import into `citations.json` by writing a string like `"<biopass-wikipedia.temlplate"`.
+  you can import into `citations.json` by writing a string like `"<biopass-wikipedia"`
+  (to include the template `biopass-wikipedia.template`.
   Mustache can be used with the relevant tag and country
   context (e.g. `{{country.name}}` or `{{tag.description}}`). See `biopass-wikipedia.temlplate` example.
+
+* `*.md` &mdash; in most cases, the `*.template` files are generated from
+  their corresponding `*.md` markdown files. For example, `biodb-wikipedia.template`
+  gets generated from `biodb-wikipedia.md` by `make`.

@@ -664,11 +664,19 @@
                 }, 
                 {
                     "content": [
-                        "There was an attempt to ... <a href=\"https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3\">etc.</a>"
+                        "The national ID was <a href=\"https://archive.today/56VM0\">abolished</a> in the 50s by Churchill.\nThere was an attempt to impose one. See <a href=\"http://www.no2id.net/\">No2ID.net</a>."
                     ], 
                     "tag": "idcard", 
                     "styling": "good", 
-                    "value": "Not since Churchill <a href=\"https://archive.today/56VM0\">cancelled them in the 50s</a>."
+                    "value": "No"
+                },
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "No"
                 }
             ], 
             "mapid": "GBR", 
@@ -723,7 +731,25 @@
         {
             "mapid": "GMB", 
             "id": "gm", 
-            "name": "Gambia"
+            "name": "Gambia",
+            "citations": [
+                {
+                    "content": [
+                        "<biodb-wikipedia"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Yes"
+                },
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "bad", 
+                    "value": "Yes"
+                }
+            ] 
         }, 
         {
             "mapid": "GIN", 
@@ -894,6 +920,23 @@
                     "tag": "biopass", 
                     "styling": "bad", 
                     "value": "Pending inclusion in biometric database"
+                },
+                {
+                    "content": [
+                        "Since day 1"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Yes"
+                },
+                {
+                    "content": [
+                        "<biodb-wikipedia",
+                        "See also: <a target=\"_blanks\" href=\"http://english.no2bio.org\">No2Bio.org</a>"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
                 }
             ], 
             "mapid": "ISR", 
@@ -914,6 +957,22 @@
                     "tag": "biopass", 
                     "styling": "good", 
                     "value": "Yes"
+                },
+                {
+                    "content": [
+                        "<biodb-wikipedia"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
+                },
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "good", 
+                    "value": "Not compulsory"
                 }
             ], 
             "mapid": "IND", 
@@ -933,6 +992,22 @@
                     ], 
                     "tag": "biopass", 
                     "styling": "good", 
+                    "value": "Yes"
+                },
+                {
+                    "content": [
+                        "<biodb-wikipedia"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Yes"
+                },
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "bad", 
                     "value": "Yes"
                 }
             ], 
@@ -1513,6 +1588,22 @@
                     ], 
                     "tag": "biopass", 
                     "styling": "good", 
+                    "value": "Yes"
+                },
+                {
+                    "content": [
+                        "<idcard-pk-wikipedia"
+                    ], 
+                    "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Yes"
+                },
+                {
+                    "content": [
+                        "See above"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "bad", 
                     "value": "Yes"
                 }
             ], 

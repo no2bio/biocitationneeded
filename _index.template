@@ -16,7 +16,6 @@
     </div>
     <h2>The #BioCitationNeeded project</h2>
   
-    <p>The only non-repetitive stuff is at <a href="#il">Israel</a> and <a href="#gb">UK</a>, but I hope the
     standard of <code>citations.json</code> is simple and flexible enough for what we need.</p>
     <div style="text-align:center">
       <select id="tag" onchange="colormap(this.value)">
