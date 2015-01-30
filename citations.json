@@ -1226,14 +1226,6 @@
                 }, 
                 {
                     "content": [
-                        "To do: document agron etc."
-                    ], 
-                    "tag": "idcard", 
-                    "styling": "bad", 
-                    "value": "Compulsory"
-                }, 
-                {
-                    "content": [
                         "<biopass-wikipedia", 
                         "Having said that, citizens who refuse to volunteer for the biometric database pilot are forced to issue an easy to forge paper passport, and are charged a fee of <em>???</em> (which is waived for those who volunteer)<sup><em>[citation needed]</em></sup>."
                     ], 
@@ -1243,7 +1235,8 @@
                 }, 
                 {
                     "content": [
-                        "<idcard-wikipedia-compulsory"
+                        "<idcard-wikipedia-compulsory",
+                        "To do: document agron etc."
                     ], 
                     "tag": "idcard", 
                     "styling": "bad", 
