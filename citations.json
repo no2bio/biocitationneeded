@@ -3094,11 +3094,11 @@
             "name": "biopass"
         }, 
         {
-            "description": "National ID card", 
+            "description": "Compulsory ID card for citizens", 
             "name": "idcard"
         }, 
         {
-            "description": "Biometric database of all citizens", 
+            "description": "Compulsory Biometric database for citizens", 
             "name": "biodb"
         }
     ]
