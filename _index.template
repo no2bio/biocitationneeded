@@ -53,9 +53,10 @@
           {{mapid}}: {
             fillKey: "defaultFill",
             {{#citations}}
-            {{#styling}}
-              {{tag.name}}: "{{styling}}",
-            {{/styling}}
+              {{tag.name}}: {
+                styling: "{{#styling}}{{.}}{{/styling}}{{^styling}}defaultFill{{/styling}}",
+                value: "{{value}}"
+              },
             {{/citations}}
           },
         {{/countries}}
@@ -70,7 +71,8 @@
         fills: {
           defaultFill: "#7F7F7F",
           good: "#00FF00",
-          bad: "#FF0000"
+          bad: "#FF0000",
+          complicated: "#0000FF"
         },
         data: map_data,
         hideAntarctica: true,
@@ -90,7 +92,14 @@
        },
 */
        geographyConfig: {
-         highlightFillColor: '#FFFF00'
+         highlightFillColor: '#FFFF00',
+         popupTemplate: function(geography, data) {
+          var value = current_tag && data[current_tag] && data[current_tag].value || '';
+          return '<div class="hoverinfo"><strong>' +
+            geography.properties.name +
+            (value?':':'') + '</strong> ' +
+            value + '</div>';
+         },
        },
        done: function(datamap) {
          var svg = datamap.svg;
@@ -101,9 +110,10 @@
       });
 
       function colormap(tag) {
+        window.current_tag = tag;
         var colors = {}
         for (country in map_data) {
-          colors[country] = { fillKey: map_data[country][tag] || "defaultFill" };
+          colors[country] = { fillKey: map_data[country][tag] && map_data[country][tag].styling || "defaultFill" };
         }
         map.updateChoropleth(colors);
       }

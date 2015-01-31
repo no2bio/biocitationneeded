@@ -31,8 +31,8 @@ This little project tries to crowdsource
 **link-backed** information regarding various issues per country. Namely, does `country X` have:
 
 1. A biometric passport
-2. A compulsory ID card for all citizens (each citizen has a unique identifier)
-3. A compulsory biometric database for all citizens
+2. A national ID card (compulsory / non compulsory)
+3. A national biometric database (compulsory / non compulsory)
 
 [if you think we should be asking *other* questios, feel free to comment,
 but the idea is to keep it as simple as a few "does `country X` have ..." questions ]

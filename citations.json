@@ -1,4 +1,22 @@
 {
+    "tags": [
+        {
+            "description": "", 
+            "name": "intro"
+        }, 
+        {
+            "description": "Biometric passport", 
+            "name": "biopass"
+        }, 
+        {
+            "description": "National ID card", 
+            "name": "idcard"
+        }, 
+        {
+            "description": "Biometric database", 
+            "name": "biodb"
+        }
+    ], 
     "countries": [
         {
             "mapid": "AND", 
@@ -126,7 +144,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -415,7 +433,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -466,7 +484,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -822,7 +840,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -873,7 +891,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -1235,7 +1253,7 @@
                 }, 
                 {
                     "content": [
-                        "<idcard-wikipedia-compulsory",
+                        "<idcard-wikipedia-compulsory", 
                         "To do: document agron etc."
                     ], 
                     "tag": "idcard", 
@@ -1247,7 +1265,7 @@
                         "<biodb-wikipedia"
                     ], 
                     "tag": "biodb", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }
             ], 
@@ -1275,7 +1293,7 @@
                         "<biodb-wikipedia"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -1283,7 +1301,7 @@
                         "See above"
                     ], 
                     "tag": "biodb", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }
             ], 
@@ -1365,7 +1383,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -1396,7 +1414,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -1452,7 +1470,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -1603,7 +1621,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -1659,7 +1677,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -1958,7 +1976,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -2510,7 +2528,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -2810,7 +2828,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -2917,7 +2935,7 @@
                         "<idcard-wikipedia-non-compulsory"
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
+                    "styling": "complicated", 
                     "value": "Not compulsory"
                 }, 
                 {
@@ -3075,24 +3093,6 @@
             "mapid": "ZWE", 
             "id": "zw", 
             "name": "Zimbabwe"
-        }
-    ], 
-    "tags": [
-        {
-            "description": "", 
-            "name": "intro"
-        }, 
-        {
-            "description": "Biometric passport", 
-            "name": "biopass"
-        }, 
-        {
-            "description": "National ID card", 
-            "name": "idcard"
-        }, 
-        {
-            "description": "Compulsory biometric database", 
-            "name": "biodb"
         }
     ]
 }
