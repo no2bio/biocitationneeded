@@ -12,7 +12,7 @@ deals with the *Israeli* law that might soon force all citizens to submit their 
 (2 fingerprints and a biometric facial photo) to a database. You can read more about it
 [here](http://english.no2bio.org).
 
-Intuitively, one would assume Israel is the only country in the world that has such a world,
+Intuitively, one would assume Israel is the only country in the world that has such a law,
 but - as the saying goes - *[citation needed]* :).
 
 Among the propaganda being spread by the supporters of the Israeli database there are often
