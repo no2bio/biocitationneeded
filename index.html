@@ -631,7 +631,7 @@
           <dd>
             <ul>
                   <li>National ID card: <span class="bad">Compulsory</span></li>
-                  <li>Biometric database: <span class="bad">Yes</span></li>
+                  <li>Biometric database: <span class="bad">Compulsory</span></li>
             </ul>
           </dd>
         </dl>
@@ -822,7 +822,7 @@
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
                   <li>National ID card: <span class="bad">Compulsory</span></li>
-                  <li>Biometric database: <span class="bad">Yes</span></li>
+                  <li>Biometric database: <span class="bad">Compulsory</span></li>
             </ul>
           </dd>
         </dl>
@@ -1306,7 +1306,7 @@
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
                   <li>National ID card: <span class="bad">Compulsory</span></li>
-                  <li>Biometric database: <span class="bad">Yes</span></li>
+                  <li>Biometric database: <span class="bad">Compulsory</span></li>
             </ul>
           </dd>
         </dl>
@@ -2403,7 +2403,7 @@
               },
               biodb: {
                 styling: "bad",
-                value: "Yes"
+                value: "Compulsory"
               },
           },
           GEO: {
@@ -2567,7 +2567,7 @@
               },
               biodb: {
                 styling: "bad",
-                value: "Yes"
+                value: "Compulsory"
               },
           },
           IRL: {
@@ -2978,7 +2978,7 @@
               },
               biodb: {
                 styling: "bad",
-                value: "Yes"
+                value: "Compulsory"
               },
           },
           PLW: {
@@ -3747,9 +3747,9 @@
         element: document.getElementById('worldmap'),
         fills: {
           defaultFill: "#7F7F7F",
-          good: "#00FF00",
-          bad: "#FF0000",
-          complicated: "#0000FF"
+          good: "#3FFF3F",
+          bad: "#FF3F3F",
+          complicated: "#3F3FFF"
         },
         data: map_data,
         hideAntarctica: true,
@@ -3769,7 +3769,7 @@
        },
 */
        geographyConfig: {
-         highlightFillColor: '#FFFF00',
+         highlightFillColor: '#3F3F3F',
          popupTemplate: function(geography, data) {
           var value = current_tag && data[current_tag] && data[current_tag].value || '';
           return '<div class="hoverinfo"><strong>' +

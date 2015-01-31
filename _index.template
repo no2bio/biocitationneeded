@@ -70,9 +70,9 @@
         element: document.getElementById('worldmap'),
         fills: {
           defaultFill: "#7F7F7F",
-          good: "#00FF00",
-          bad: "#FF0000",
-          complicated: "#0000FF"
+          good: "#3FFF3F",
+          bad: "#FF3F3F",
+          complicated: "#3F3FFF"
         },
         data: map_data,
         hideAntarctica: true,
@@ -92,7 +92,7 @@
        },
 */
        geographyConfig: {
-         highlightFillColor: '#FFFF00',
+         highlightFillColor: '#3F3F3F',
          popupTemplate: function(geography, data) {
           var value = current_tag && data[current_tag] && data[current_tag].value || '';
           return '<div class="hoverinfo"><strong>' +

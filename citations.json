@@ -1015,7 +1015,7 @@
                     ], 
                     "tag": "biodb", 
                     "styling": "bad", 
-                    "value": "Yes"
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "GMB", 
@@ -1338,7 +1338,7 @@
                     ], 
                     "tag": "biodb", 
                     "styling": "bad", 
-                    "value": "Yes"
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "IRQ", 
@@ -2270,7 +2270,7 @@
                     ], 
                     "tag": "biodb", 
                     "styling": "bad", 
-                    "value": "Yes"
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "PAK", 
