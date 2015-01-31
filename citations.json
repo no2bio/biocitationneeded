@@ -146,15 +146,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "AUT", 
             "name": "Austria", 
@@ -177,15 +169,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "AUS", 
             "name": "Australia", 
@@ -435,15 +419,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "CAN", 
             "name": "Canada", 
@@ -486,15 +462,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "CHE", 
             "name": "Switzerland", 
@@ -697,15 +665,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "DNK", 
             "name": "Denmark", 
@@ -842,15 +802,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "FIN", 
             "name": "Finland", 
@@ -893,15 +845,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "FRA", 
             "name": "France", 
@@ -940,15 +884,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "GBR", 
             "name": "United Kingdom", 
@@ -1219,15 +1155,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "IRL", 
             "name": "Ireland", 
@@ -1385,15 +1313,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "ISL", 
             "name": "Iceland", 
@@ -1416,15 +1336,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "ITA", 
             "name": "Italy", 
@@ -1472,15 +1384,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "JPN", 
             "name": "Japan", 
@@ -1623,15 +1527,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "LIE", 
             "id": "li", 
@@ -1679,15 +1575,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "LTU", 
             "name": "Lithuania", 
@@ -1978,15 +1866,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "MEX", 
             "id": "mx", 
@@ -2110,15 +1990,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "NOR", 
             "name": "Norway", 
@@ -2156,15 +2028,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "NZL", 
             "name": "New Zealand", 
@@ -2232,15 +2096,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "PHL", 
             "name": "Philippines", 
@@ -2530,15 +2386,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "SWE", 
             "name": "Sweden", 
@@ -2830,15 +2678,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "TTO", 
             "id": "tt", 
@@ -2937,15 +2777,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                }, 
-                {
-                    "content": [
-                        "See above"
-                    ], 
-                    "tag": "biodb", 
-                    "styling": "good", 
-                    "value": "No"
-                }
+                } 
             ], 
             "mapid": "USA", 
             "name": "United States", 
