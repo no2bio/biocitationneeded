@@ -72,6 +72,8 @@ Also feel free to fork this gist and edit stuff yourself (either the information
 #### Layout html templates (`_*.template`)
 * `_index.template` &mdash; html template of homepage
 
+* `_index-he.template` &mdash; html template of Hebrew version
+
 * `_country.template` &mdash; html template of a country's page
 
 #### Data
@@ -88,3 +90,9 @@ Also feel free to fork this gist and edit stuff yourself (either the information
 * `*.md` &mdash; in most cases, the `*.template` files are generated from
   their corresponding `*.md` markdown files. For example, `biodb-wikipedia.template`
   gets generated from `biodb-wikipedia.md` by `make`.
+
+* `en2he.csv` &mdash; a tweak to translate citation values ("Compulsory", "No", etc.)
+  and country names to Hebrew. If you add new citation values, run `python2 makeen2he.py`:
+  it will create `en2he-new.csv` containing whatever `en2he.csv` had, plus all additional
+  values that were added to `citations.csv`. You can then edit the csv file with `soffice`
+  etc. and add Hebrew translations.

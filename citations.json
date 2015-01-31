@@ -2,18 +2,22 @@
     "tags": [
         {
             "description": "", 
+            "he": "", 
             "name": "intro"
         }, 
         {
             "description": "Biometric passport", 
+            "he": "דרכון ביומטרי",
             "name": "biopass"
         }, 
         {
             "description": "National ID card", 
+            "he": "תעודת זהות לאומית",
             "name": "idcard"
         }, 
         {
             "description": "Biometric database", 
+            "he": "מאגר ביומטרי",
             "name": "biodb"
         }
     ], 

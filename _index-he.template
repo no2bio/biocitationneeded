@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>עולם הביומטריה</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="datamaps.world.min.js"></script>
+  </head>
+  <body style="direction:rtl" onload="colormap(document.getElementById('tag').value)">
+    <h2>עולם הביומטריה</h2>
+    <p>
+      או: כשאת
+      <a target="_blank" href="https://www.youtube.com/watch?v=VxclO2hNF64">אומרת<a/>
+      <em>"מאגר ... בכפיה ... כמו שעשו בשאר המדינות בעולם"</em>,
+      למה את מתכוונת?
+    </p> 
+    <p>
+      <select id="tag" onchange="colormap(this.value)">
+          <option selected value="">--בחרו נושא--</option>
+          {{#tags}}
+            {{#description}}{{! skip intro }}
+              <option value="{{name}}">{{he}}
+            {{/description}}
+          {{/tags}}
+      </select>
+    </p>
+    <p style="direction:ltr"><a href="index.html">English</a><p>
+    <div id="worldmap" style="margin:0 auto; position:relative; width: 900px; height: 400px"></div>
+<hr>
+<p style="direction:ltr">If you believe the information here is <a href="https://xkcd.com/386/">wrong</a> or incomplete,
+[and have <em>links</em> to back your claim], please <a href="https://swatwt.com/whatmail">let us know</a>.</p>
+    <script>
+      var map_data = {
+        {{#countries}}
+          {{mapid}}: {
+            fillKey: "defaultFill",
+            hebcountry: "{{he}}", /* {{.}} */
+            {{#citations}}
+              {{tag.name}}: {
+                styling: "{{#styling}}{{.}}{{/styling}}{{^styling}}defaultFill{{/styling}}",
+                value: "{{he}}",
+              },
+            {{/citations}}
+          },
+        {{/countries}}
+      };
+      var slugs = {
+        {{#countries}}
+          {{mapid}}: "{{id}}",
+        {{/countries}}
+      };
+      var map = new Datamap({
+        element: document.getElementById('worldmap'),
+        fills: {
+          defaultFill: "#7F7F7F",
+          good: "#339900",
+          bad: "#CC0000",
+          complicated: "#3333FF"
+        },
+        data: map_data,
+        hideAntarctica: true,
+        // This projection is a tweak so that Israel doesn't look too small
+        // but it crops out stuff. To do: something better.
+        setProjection: function(element) {
+          var projection = d3.geo.conicEquidistant()
+            .center([31.3, 34.5])
+            .scale(350)
+            .translate([element.clientWidth / 2, element.clientHeight / 2])
+            .precision(.1);
+          var path = d3.geo.path()
+            .projection(projection);
+          return {path: path, projection: projection};
+       },
+       geographyConfig: {
+         highlightFillColor: '#3F3F3F',
+         popupTemplate: function(geography, data) {
+          var value = current_tag && data[current_tag] && data[current_tag].value || '';
+          return '<div class="hoverinfo"><strong>' +
+            data.hebcountry +
+            (value?':':'') + '</strong> ' +
+            value + '</div>';
+         },
+       },
+       done: function(datamap) {
+         var svg = datamap.svg;
+         svg.selectAll('.datamaps-subunit').on('click', function(d) {
+           location.href='country-'+slugs[d.id]+'.html';
+         });
+       }
+      });
+
+      function colormap(tag) {
+        window.current_tag = tag;
+        var colors = {}
+        for (country in map_data) {
+          colors[country] = { fillKey: map_data[country][tag] && map_data[country][tag].styling || "defaultFill" };
+        }
+        map.updateChoropleth(colors);
+      }
+    </script>
+  </body>
+</html>
