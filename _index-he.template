@@ -36,7 +36,7 @@
         {{#countries}}
           {{mapid}}: {
             fillKey: "defaultFill",
-            hebcountry: "{{he}}", /* {{.}} */
+            hebcountry: "{{he}}",
             {{#citations}}
               {{tag.name}}: {
                 styling: "{{#styling}}{{.}}{{/styling}}{{^styling}}defaultFill{{/styling}}",
