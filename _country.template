@@ -46,9 +46,9 @@
           <dl>
             {{#citations}}
               {{#tag.description}}{{! all but intro }}
-                <dt><h4>{{.}}: <span{{#styling}} class="{{.}}"{{/styling}}>{{{value}}}</span></h4><dt>
+                <dt>{{.}}: <span{{#styling}} class="{{.}}"{{/styling}}>{{{value}}}</span></dt>
                 <dd>
-                  <p>{{{rendered}}}</p>
+                  {{{rendered}}}
                 </dd>
               {{/tag.description}}
             {{/citations}}
