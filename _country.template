@@ -37,7 +37,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h3>{{name}} ({{id}})</h3>
+          <h3>{{name}} <small>({{id}})</small></h3>
           {{#citations}}
             {{^tag.description}}{{! get only intro (no tag description) }}
               <p>{{{rendered}}}</p>
