@@ -77,11 +77,13 @@
        geographyConfig: {
          highlightFillColor: '#3F3F3F',
          popupTemplate: function(geography, data) {
-          var value = current_tag && data[current_tag] && data[current_tag].value || '';
+          var value = 'אין [עדיין] מידע...';
+          if (current_tag && data[current_tag]) {
+               value = data[current_tag].value || value;
+          }
           return '<div class="hoverinfo"><strong>' +
             data.hebcountry +
-            (value?':':'') + '</strong> ' +
-            value + '</div>';
+            ':</strong> ' + value + '</div>';
          },
        },
        done: function(datamap) {

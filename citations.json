@@ -1222,7 +1222,8 @@
                 }, 
                 {
                     "content": [
-                        "<biodb-wikipedia"
+                        "<biodb-wikipedia",
+                        "<idcard-in-tazir"
                     ], 
                     "tag": "idcard", 
                     "styling": "complicated", 
