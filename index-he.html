@@ -24,7 +24,7 @@
             
               <option value="idcard">תעודת זהות לאומית
             
-              <option value="biodb">מאגר ביומטרי
+              <option value="biodb">מאגר ביומטרי לאומי
       </select>
     </p>
     <p style="direction:ltr"><a href="index.html">English</a><p>
@@ -89,6 +89,10 @@
                 styling: "bad",
                 value: "חובה",
               },
+              biodb: {
+                styling: "bad",
+                value: "חובה",
+              },
           },
           ARM: {
             fillKey: "defaultFill",
@@ -112,6 +116,10 @@
               idcard: {
                 styling: "good",
                 value: "לא",
+              },
+              biodb: {
+                styling: "rejected",
+                value: "בוטל",
               },
           },
           AUT: {
@@ -280,6 +288,10 @@
               idcard: {
                 styling: "complicated",
                 value: "לא חובה",
+              },
+              biodb: {
+                styling: "rejected",
+                value: "בוטל",
               },
           },
           CPV: {
@@ -512,6 +524,10 @@
               idcard: {
                 styling: "complicated",
                 value: "לא חובה",
+              },
+              biodb: {
+                styling: "rejected",
+                value: "בוטל",
               },
           },
           GUF: {
@@ -817,6 +833,10 @@
                 styling: "bad",
                 value: "חובה",
               },
+              biodb: {
+                styling: "bad",
+                value: "חובה",
+              },
           },
           KIR: {
             fillKey: "defaultFill",
@@ -1100,6 +1120,10 @@
               idcard: {
                 styling: "good",
                 value: "לא",
+              },
+              biodb: {
+                styling: "rejected",
+                value: "בוטל",
               },
           },
           NIC: {
@@ -1654,8 +1678,12 @@
                 value: "כן",
               },
               idcard: {
-                styling: "good",
-                value: "לא",
+                styling: "rejected",
+                value: "בוטל",
+              },
+              biodb: {
+                styling: "rejected",
+                value: "בוטל",
               },
           },
           USA: {
@@ -1668,6 +1696,10 @@
               idcard: {
                 styling: "complicated",
                 value: "לא חובה",
+              },
+              biodb: {
+                styling: "rejected",
+                value: "בוטל",
               },
           },
           UMI: {
@@ -1993,9 +2025,10 @@
         element: document.getElementById('worldmap'),
         fills: {
           defaultFill: "#7F7F7F",
-          good: "#339900",
+          good: "#336600",
           bad: "#CC0000",
-          complicated: "#3333FF"
+          complicated: "#3333FF",
+          rejected: "#33CC00"
         },
         data: map_data,
         hideAntarctica: true,
@@ -2003,8 +2036,9 @@
         // but it crops out stuff. To do: something better.
         setProjection: function(element) {
           var projection = d3.geo.azimuthalEquidistant()
-            .center([31.3, 34.5])
-            .scale(250)
+            //.center([31.3, 34.5])
+            .center([31, 20])
+            .scale(220)
             .translate([element.clientWidth / 2, element.clientHeight / 2])
             .clipAngle(180 - 1e-3)
             .precision(.1);

@@ -23,7 +23,7 @@
             
               <option value="idcard">National ID card
             
-              <option value="biodb">Biometric database
+              <option value="biodb">National Biometric database
       </select>
     </p>
     <p style="text-align:right; direction:rtl"><a href="index-he.html">עברית</a><p>
@@ -105,6 +105,7 @@
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
                   <li>National ID card: <span class="bad">Compulsory</span></li>
+                  <li>National Biometric database: <span class="bad">Compulsory</span></li>
             </ul>
           </dd>
         </dl>
@@ -129,6 +130,7 @@
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
                   <li>National ID card: <span class="good">No</span></li>
+                  <li>National Biometric database: <span class="rejected">Rejected</span></li>
             </ul>
           </dd>
         </dl>
@@ -321,6 +323,7 @@
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
                   <li>National ID card: <span class="complicated">Not compulsory</span></li>
+                  <li>National Biometric database: <span class="rejected">Rejected</span></li>
             </ul>
           </dd>
         </dl>
@@ -589,6 +592,7 @@
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
                   <li>National ID card: <span class="complicated">Not compulsory</span></li>
+                  <li>National Biometric database: <span class="rejected">Rejected</span></li>
             </ul>
           </dd>
         </dl>
@@ -626,7 +630,7 @@
           <dd>
             <ul>
                   <li>National ID card: <span class="bad">Compulsory</span></li>
-                  <li>Biometric database: <span class="bad">Compulsory</span></li>
+                  <li>National Biometric database: <span class="bad">Compulsory</span></li>
             </ul>
           </dd>
         </dl>
@@ -788,7 +792,7 @@
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
                   <li>National ID card: <span class="complicated">Not compulsory</span></li>
-                  <li>Biometric database: <span class="complicated">Not compulsory</span></li>
+                  <li>National Biometric database: <span class="complicated">Not compulsory</span></li>
             </ul>
           </dd>
         </dl>
@@ -816,7 +820,7 @@
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
                   <li>National ID card: <span class="bad">Compulsory</span></li>
-                  <li>Biometric database: <span class="bad">Compulsory</span></li>
+                  <li>National Biometric database: <span class="bad">Compulsory</span></li>
             </ul>
           </dd>
         </dl>
@@ -843,7 +847,7 @@
                   <li>: <span>No</span></li>
                   <li>Biometric passport: <span class="bad">Pending inclusion in biometric database</span></li>
                   <li>National ID card: <span class="bad">Compulsory</span></li>
-                  <li>Biometric database: <span class="complicated">Not compulsory</span></li>
+                  <li>National Biometric database: <span class="complicated">Not compulsory</span></li>
             </ul>
           </dd>
         </dl>
@@ -899,6 +903,7 @@
           <dd>
             <ul>
                   <li>National ID card: <span class="bad">Compulsory</span></li>
+                  <li>National Biometric database: <span class="bad">Compulsory</span></li>
             </ul>
           </dd>
         </dl>
@@ -1216,6 +1221,7 @@
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
                   <li>National ID card: <span class="good">No</span></li>
+                  <li>National Biometric database: <span class="rejected">Rejected</span></li>
             </ul>
           </dd>
         </dl>
@@ -1292,7 +1298,7 @@
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
                   <li>National ID card: <span class="bad">Compulsory</span></li>
-                  <li>Biometric database: <span class="bad">Compulsory</span></li>
+                  <li>National Biometric database: <span class="bad">Compulsory</span></li>
             </ul>
           </dd>
         </dl>
@@ -1810,7 +1816,8 @@
           <dd>
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
-                  <li>National ID card: <span class="good">No</span></li>
+                  <li>National ID card: <span class="rejected">Rejected</span></li>
+                  <li>National Biometric database: <span class="rejected">Rejected</span></li>
             </ul>
           </dd>
         </dl>
@@ -1820,6 +1827,7 @@
             <ul>
                   <li>Biometric passport: <span class="good">Yes</span></li>
                   <li>National ID card: <span class="complicated">Not compulsory</span></li>
+                  <li>National Biometric database: <span class="rejected">Rejected</span></li>
             </ul>
           </dd>
         </dl>
@@ -1976,6 +1984,10 @@
                 styling: "bad",
                 value: "Compulsory"
               },
+              biodb: {
+                styling: "bad",
+                value: "Compulsory"
+              },
           },
           ARM: {
             fillKey: "defaultFill",
@@ -1996,6 +2008,10 @@
               idcard: {
                 styling: "good",
                 value: "No"
+              },
+              biodb: {
+                styling: "rejected",
+                value: "Rejected"
               },
           },
           AUT: {
@@ -2139,6 +2155,10 @@
               idcard: {
                 styling: "complicated",
                 value: "Not compulsory"
+              },
+              biodb: {
+                styling: "rejected",
+                value: "Rejected"
               },
           },
           CPV: {
@@ -2336,6 +2356,10 @@
               idcard: {
                 styling: "complicated",
                 value: "Not compulsory"
+              },
+              biodb: {
+                styling: "rejected",
+                value: "Rejected"
               },
           },
           GUF: {
@@ -2602,6 +2626,10 @@
                 styling: "bad",
                 value: "Compulsory"
               },
+              biodb: {
+                styling: "bad",
+                value: "Compulsory"
+              },
           },
           KIR: {
             fillKey: "defaultFill",
@@ -2844,6 +2872,10 @@
               idcard: {
                 styling: "good",
                 value: "No"
+              },
+              biodb: {
+                styling: "rejected",
+                value: "Rejected"
               },
           },
           NIC: {
@@ -3322,8 +3354,12 @@
                 value: "Yes"
               },
               idcard: {
-                styling: "good",
-                value: "No"
+                styling: "rejected",
+                value: "Rejected"
+              },
+              biodb: {
+                styling: "rejected",
+                value: "Rejected"
               },
           },
           USA: {
@@ -3335,6 +3371,10 @@
               idcard: {
                 styling: "complicated",
                 value: "Not compulsory"
+              },
+              biodb: {
+                styling: "rejected",
+                value: "Rejected"
               },
           },
           UMI: {
@@ -3646,9 +3686,10 @@
         element: document.getElementById('worldmap'),
         fills: {
           defaultFill: "#7F7F7F",
-          good: "#339900",
+          good: "#336600",
           bad: "#CC0000",
-          complicated: "#3333FF"
+          complicated: "#3333FF",
+          rejected: "#33CC00"
         },
         data: map_data,
         hideAntarctica: true,

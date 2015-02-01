@@ -16,8 +16,8 @@
             "name": "idcard"
         }, 
         {
-            "description": "Biometric database", 
-            "he": "מאגר ביומטרי",
+            "description": "National Biometric database", 
+            "he": "מאגר ביומטרי לאומי",
             "name": "biodb"
         }
     ], 
@@ -122,6 +122,14 @@
                     "tag": "idcard", 
                     "styling": "bad", 
                     "value": "Compulsory"
+                },
+                {
+                    "content": [
+                        "<biodb-argentina"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "ARG", 
@@ -173,6 +181,14 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
+                }, 
+                {
+                    "content": [
+                        "<biodb-eff-rejected"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "rejected", 
+                    "value": "Rejected"
                 } 
             ], 
             "mapid": "AUS", 
@@ -423,6 +439,14 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "<biodb-eff-rejected"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "rejected", 
+                    "value": "Rejected"
                 } 
             ], 
             "mapid": "CAN", 
@@ -849,6 +873,14 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
+                },
+                {
+                    "content": [
+                        "<biodb-eff-rejected-fr"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "rejected", 
+                    "value": "Rejected"
                 } 
             ], 
             "mapid": "FRA", 
@@ -886,8 +918,16 @@
                         "The national ID was <a href=\"https://archive.today/56VM0\">abolished</a> in the 50s by Churchill.\nDuring the early 21<sup>st</sup> century, there was a failed <a href=\"https://en.wikipedia.org/wiki/Identity_Cards_Act_2006\">attempt</a> to reinstate one. See also <a href=\"http://www.no2id.net/\">No2ID.net</a>."
                     ], 
                     "tag": "idcard", 
-                    "styling": "good", 
-                    "value": "No"
+                    "styling": "rejected", 
+                    "value": "Rejected"
+                }, 
+                {
+                    "content": [
+                        "<biodb-eff-rejected-uk"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "rejected", 
+                    "value": "Rejected"
                 } 
             ], 
             "mapid": "GBR", 
@@ -1402,6 +1442,14 @@
                         "<idcard-wikipedia-compulsory"
                     ], 
                     "tag": "idcard", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
+                },
+                {
+                    "content": [
+                        "<biodb-kenya"
+                    ], 
+                    "tag": "biodb", 
                     "styling": "bad", 
                     "value": "Compulsory"
                 }
@@ -2033,6 +2081,14 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
+                }, 
+                {
+                    "content": [
+                        "<biodb-eff-rejected"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "rejected", 
+                    "value": "Rejected"
                 } 
             ], 
             "mapid": "NZL", 
@@ -2782,6 +2838,14 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
+                }, 
+                {
+                    "content": [
+                        "<biodb-eff-rejected"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "rejected", 
+                    "value": "Rejected"
                 } 
             ], 
             "mapid": "USA", 
