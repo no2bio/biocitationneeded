@@ -29,6 +29,7 @@ for country in content['countries']:
     file("country-{}.html".format(country['id']),"w").write(pystache.render(t_country,country).encode('utf-8'))
 
 content['countries'].sort(key=lambda x:x['name']) # D'Oh
+content['numtags'] = len(content['tags'])-1 # needed for html
 
 file('index.html',"w").write(pystache.render(import_template('_index'),content).encode('utf-8'))
 file('index-he.html',"w").write(pystache.render(import_template('_index-he'),content).encode('utf-8'))

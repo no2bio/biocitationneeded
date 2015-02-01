@@ -1,37 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>עולם הביומטריה</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="html5shiv.min.js"></script>
+      <script src="respond.min.js"></script>
+    <![endif]-->
+    <script src="d3.min.js"></script>
+    <script src="topojson.min.js"></script>
     <script src="datamaps.world.min.js"></script>
   </head>
-  <body style="direction:rtl" onload="colormap(document.getElementById('tag').value)">
-    <h2>עולם הביומטריה</h2>
-    <p>
-      או: כשאת
-      <a target="_blank" href="https://www.youtube.com/watch?v=VxclO2hNF64">אומרת<a/>
-      <em>"מאגר ... חובה ... כמו שעשו בשאר המדינות בעולם"</em>,
-      למה את מתכוונת?
-    </p> 
-    <p>
-      <select id="tag" onchange="colormap(this.value)">
-          <option selected value="">--בחרו נושא--</option>
-          {{#tags}}
-            {{#description}}{{! skip intro }}
-              <option value="{{name}}">{{he}}
-            {{/description}}
-          {{/tags}}
-      </select>
-    </p>
-    <p style="direction:ltr"><a href="index.html">English</a><p>
-    <div id="worldmap" style="margin:0 auto; position:relative; width: 900px; height: 400px"></div>
-<hr>
-<p style="direction:ltr">If you believe the information here is <a href="https://xkcd.com/386/">wrong</a> or incomplete
-[and have <em>links</em> to back your claim], please <a href="https://swatwt.com/whatmail">let us know</a>.</p>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">#BioCitationNeeded</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">English</a></li>
+            <li class="active"><a href="index-he.html">עברית</a></li>
+            <li><a target="_blank" href="https://gist.github.com/thedod/70f3e820380598c352c3#file-readme-md">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container rtl">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>
+            עולם הביומטריה
+            <small>
+              או: כשאת
+              <a target="_blank" href="https://www.youtube.com/watch?v=VxclO2hNF64">אומרת</a>
+              <em>"מאגר ... חובה ... כמו שעשו בשאר המדינות בעולם"</em>,
+              למה את מתכוונת?
+            </small> 
+          </h3> 
+          <form>
+            <select size="{{numtags}}" class="form-control" id="tag" onchange="colormap(this.value)">
+                {{#tags}}
+                  {{#description}}{{! skip intro }}
+                    <option value="{{name}}">{{he}}
+                  {{/description}}
+                {{/tags}}
+            </select>
+          </form>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="worldmap" style="margin:4px auto; position:relative; width: 100%; height: 400px"></div>
+        </div>
+      </div>
+      <hr>
+      <footer>
+        If you believe the information here is <a href="https://xkcd.com/386/">wrong</a> or incomplete
+        [and have <em>links</em> to back your claim], please
+        <a href="https://swatwt.com/whatmail">let us know</a>.
+      </footer>
+    </div><!-- /.container -->
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="ie10-viewport-bug-workaround.js"></script>
     <script>
+      $(function() {
+        colormap(document.getElementById('tag').value);
+      });
       var map_data = {
         {{#countries}}
           {{mapid}}: {
