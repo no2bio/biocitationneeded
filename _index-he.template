@@ -29,7 +29,7 @@
     <p style="direction:ltr"><a href="index.html">English</a><p>
     <div id="worldmap" style="margin:0 auto; position:relative; width: 900px; height: 400px"></div>
 <hr>
-<p style="direction:ltr">If you believe the information here is <a href="https://xkcd.com/386/">wrong</a> or incomplete,
+<p style="direction:ltr">If you believe the information here is <a href="https://xkcd.com/386/">wrong</a> or incomplete
 [and have <em>links</em> to back your claim], please <a href="https://swatwt.com/whatmail">let us know</a>.</p>
     <script>
       var map_data = {

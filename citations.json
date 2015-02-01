@@ -2020,7 +2020,15 @@
                     "tag": "idcard", 
                     "styling": "bad", 
                     "value": "Compulsory"
-                }
+                },
+                {
+                    "content": [
+                        "<biodb-eff-rejected-nl"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "rejected", 
+                    "value": "Rejected"
+                } 
             ], 
             "mapid": "NLD", 
             "name": "The Netherlands", 
