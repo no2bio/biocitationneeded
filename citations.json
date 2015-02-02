@@ -1176,6 +1176,14 @@
                     "tag": "idcard", 
                     "styling": "bad", 
                     "value": "Compulsory"
+                },
+                {
+                    "content": [
+                        "<biodb-indonesia-wikipedia"
+                    ], 
+                    "tag": "biodb", 
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "IDN", 
