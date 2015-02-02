@@ -1179,7 +1179,8 @@
                 },
                 {
                     "content": [
-                        "<biodb-indonesia-wikipedia"
+                        "<biodb-indonesia-wikipedia",
+                        "<biodb-indonesia-avi"
                     ], 
                     "tag": "biodb", 
                     "styling": "bad", 
@@ -2199,7 +2200,8 @@
                 }, 
                 {
                     "content": [
-                        "<idcard-pk-wikipedia"
+                        "<idcard-pk-wikipedia",
+                        "<biodb-pk-avi"
                     ], 
                     "tag": "biodb", 
                     "styling": "bad", 

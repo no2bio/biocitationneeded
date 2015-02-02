@@ -1,6 +1,6 @@
 ##### Contributed by [Nir Hirshman](http://nirshman.com/)
 
-* [EFF](https://archive.today/2FkvP):
+* [EFF](https://archive.today/2FkvP#selection-369.0-377.46):
 
   *The Netherlands' storage of a biometric database
   [was suspended](http://www.rijksoverheid.nl/documenten-en-publicaties/kamerstukken/2011/09/26/beantwoording-kamervragen-over-verwijderen-vingerafdrukken-uit-de-decentrale-reisdocumentenadministraties.html)

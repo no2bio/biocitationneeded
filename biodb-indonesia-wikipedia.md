@@ -5,4 +5,3 @@ The [Indonesian identity card](https://en.wikipedia.org/wiki/Indonesian_identity
 Since they record more information than they store on the card, this *most probably* implies
 a biometric database.
 
-Got additional links regarding Indonesia? **Please help**.
