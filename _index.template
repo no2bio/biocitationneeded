@@ -39,10 +39,10 @@
     </nav>
     <div class="container">
       <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-8">
           <h3>The #BioCitationNeeded project</h3>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <form>
             <select class="form-control" size="{{numtags}}" id="tag" onchange="colormap(this.value)">
                 {{#tags}}
@@ -59,7 +59,7 @@
           <div id="worldmap" style="margin:4px auto; position:relative; width: 100%; height: 400px"></div>
           {{#countries}}{{#any_citations}}
             <dl class="dl-horizontal">
-              <dt id="{{id}}"><a href="country-{{id}}.html">{{name}}</a></dt>
+              <dt id="{{id}}"><a title="{{name}}" href="country-{{id}}.html">{{name}}</a></dt>
               <dd>
                 <ul class="list-group">
                   {{#citations}}
