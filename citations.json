@@ -1220,8 +1220,7 @@
                     "content": [
                         "<intro-il"
                     ], 
-                    "tag": "intro", 
-                    "value": "No"
+                    "tag": "intro" 
                 }, 
                 {
                     "content": [
@@ -1519,7 +1518,8 @@
                 }, 
                 {
                     "content": [
-                        "<idcard-wikipedia-compulsory"
+                        "<idcard-wikipedia-compulsory",
+                        "<idcard-kr-j2k"
                     ], 
                     "tag": "idcard", 
                     "styling": "bad", 
