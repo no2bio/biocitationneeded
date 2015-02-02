@@ -26,6 +26,7 @@ for country in content['countries']:
         if citation.has_key('value'):
             citation['he'] = en2he.get(citation['value'],'') or citation['value']
         citation['rendered'] = pystache.render(template,citation,country=country)
+        country['any_citations'] = len(country.get('citations',[]))
     file("country-{}.html".format(country['id']),"w").write(pystache.render(t_country,country).encode('utf-8'))
 
 content['countries'].sort(key=lambda x:x['name']) # D'Oh
