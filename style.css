@@ -1,11 +1,12 @@
 body {
-  padding-top: 50px;
+  padding-top: 69px;
 }
 .starter-template {
   padding: 40px 15px;
   text-align: center;
 }
 .rtl { direction:rtl }
+.ltr { direction:ltr }
 .good { color:#336600 }
 .bad { color:#CC0000 }
 .complicated { color:#3333FF }

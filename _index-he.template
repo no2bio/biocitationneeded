@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>עולם הביומטריה</title>
+    <title>ביומטריה בעולם</title>
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -40,17 +40,13 @@
     <div class="container rtl">
       <div class="row">
         <div class="col-md-12">
-          <h3>
-            עולם הביומטריה
-            <small>
-              או: כשאת
-              <a target="_blank" href="https://www.youtube.com/watch?v=VxclO2hNF64">אומרת</a>
-              <em>"מאגר ... חובה ... כמו שעשו בשאר המדינות בעולם"</em>,
-              למה את מתכוונת?
-            </small> 
-          </h3> 
+          <h3>ביומטריה בעולם</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
           <form>
-            <select size="{{numtags}}" id="tag" onchange="colormap(this.value)">
+            <select class="form-control" size="{{numtags}}" id="tag" onchange="colormap(this.value)">
                 {{#tags}}
                   {{#description}}{{! skip intro }}
                     <option value="{{name}}">{{he}}
@@ -58,7 +54,19 @@
                 {{/tags}}
             </select>
           </form>
-          </div>
+        </div>
+        <div class="col-md-9">
+          <p>
+במדינות רבות יש כיום דרכונים ביומטריים, אבל בניגוד ל<a
+target="_blank" href="https://www.youtube.com/watch?v=VxclO2hNF64">שקרים</a>
+של תומכי המאגר  הביומטרי בישראל, מאגרים יש רק במדינות טוטאליטריות.
+לחצו על הקטגוריות שבמסגרת ותראו. את המפה המלאה (כולל אוסטרליה) תמצאו
+<a href="index.html">כאן</a>.
+          </p> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
         </div>
       </div>
       <div class="row">
@@ -67,7 +75,7 @@
         </div>
       </div>
       <hr>
-      <footer>
+      <footer class="ltr">
         If you believe the information here is <a href="https://xkcd.com/386/">wrong</a> or incomplete
         [and have <em>links</em> to back your claim], please
         <a href="https://swatwt.com/whatmail">let us know</a>.
