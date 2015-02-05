@@ -2119,7 +2119,7 @@ target="_blank" href="https://www.youtube.com/watch?v=VxclO2hNF64">דברי</a>
        geographyConfig: {
          highlightFillColor: '#3F3F3F',
          popupTemplate: function(geography, data) {
-          var value = 'אין [עדיין] מידע...';
+          var value = current_tag&&'אין [עדיין] מידע...'||'בחרו מפה...';
           if (current_tag && data[current_tag]) {
                value = data[current_tag].value || value;
           }

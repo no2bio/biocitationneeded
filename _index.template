@@ -137,7 +137,7 @@
        geographyConfig: {
          highlightFillColor: '#3F3F3F',
          popupTemplate: function(geography, data) {
-          var value = 'No information [yet]...';
+          var value = current_tag&&'No information [yet]...'||'Please select a map...';
           if (current_tag && data[current_tag]) {
                value = data[current_tag].value || value;
           }
