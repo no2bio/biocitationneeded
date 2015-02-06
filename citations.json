@@ -184,7 +184,8 @@
                 }, 
                 {
                     "content": [
-                        "<biodb-eff-rejected"
+                        "<biodb-eff-rejected",
+                        "<biodb-australia-concern"
                     ], 
                     "tag": "biodb", 
                     "styling": "rejected", 
@@ -924,7 +925,7 @@
                 {
                     "content": [
                         "<biodb-eff-rejected-uk",
-                        "<biodb-uk-dna"
+                        "<biodb-uk-concern"
                     ], 
                     "tag": "biodb", 
                     "styling": "rejected", 
