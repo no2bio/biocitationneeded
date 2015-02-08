@@ -47,7 +47,7 @@
             <select class="form-control" size="{{numtags}}" id="tag" onchange="colormap(this.value)">
                 {{#tags}}
                   {{#description}}{{! skip intro }}
-                    <option value="{{name}}">{{description}}
+                    <option value="{{name}}"{{#isdefault}} selected{{/isdefault}}>{{description}}</option>
                   {{/description}}
                 {{/tags}}
             </select>

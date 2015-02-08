@@ -18,7 +18,8 @@
         {
             "description": "National Biometric database", 
             "he": "מאגר ביומטרי לאומי",
-            "name": "biodb"
+            "name": "biodb",
+            "isdefault": true
         }
     ], 
     "countries": [
