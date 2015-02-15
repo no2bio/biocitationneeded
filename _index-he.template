@@ -124,7 +124,7 @@ target="_blank" href="https://www.youtube.com/watch?v=VxclO2hNF64">דברי</a>
           good: "#336600",
           bad: "#CC0000",
           complicated: "#3333FF",
-          rejected: "#33CC00"
+          better: "#33CC00"
         },
         data: map_data,
         hideAntarctica: true,

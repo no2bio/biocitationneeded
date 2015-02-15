@@ -1,27 +1,4 @@
 {
-    "tags": [
-        {
-            "description": "", 
-            "he": "", 
-            "name": "intro"
-        }, 
-        {
-            "description": "Biometric passport", 
-            "he": "דרכון ביומטרי",
-            "name": "biopass"
-        }, 
-        {
-            "description": "National ID card", 
-            "he": "תעודת זהות לאומית",
-            "name": "idcard"
-        }, 
-        {
-            "description": "National Biometric database", 
-            "he": "מאגר ביומטרי לאומי",
-            "name": "biodb",
-            "isdefault": true
-        }
-    ], 
     "countries": [
         {
             "mapid": "AND", 
@@ -35,7 +12,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -65,7 +42,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -88,7 +65,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -110,11 +87,12 @@
             "citations": [
                 {
                     "content": [
-                        "<biopass-wikipedia"
+                        "<biopass-wikipedia",
+                        "<biopass-loc-lea-access"
                     ], 
                     "tag": "biopass", 
                     "styling": "good", 
-                    "value": "Yes"
+                    "value": "Data retention, LEA access"
                 }, 
                 {
                     "content": [
@@ -123,7 +101,7 @@
                     "tag": "idcard", 
                     "styling": "bad", 
                     "value": "Compulsory"
-                },
+                }, 
                 {
                     "content": [
                         "<biodb-argentina"
@@ -149,7 +127,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -159,7 +137,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                } 
+                }
             ], 
             "mapid": "AUT", 
             "name": "Austria", 
@@ -169,11 +147,12 @@
             "citations": [
                 {
                     "content": [
-                        "<biopass-wikipedia"
+                        "<biopass-wikipedia",
+                        "<biopass-loc-lea-access"
                     ], 
                     "tag": "biopass", 
                     "styling": "good", 
-                    "value": "Yes"
+                    "value": "Data retention, LEA access"
                 }, 
                 {
                     "content": [
@@ -185,13 +164,13 @@
                 }, 
                 {
                     "content": [
-                        "<biodb-eff-rejected",
+                        "<biodb-eff-rejected", 
                         "<biodb-australia-concern"
                     ], 
                     "tag": "biodb", 
-                    "styling": "rejected", 
+                    "styling": "better", 
                     "value": "Rejected"
-                } 
+                }
             ], 
             "mapid": "AUS", 
             "name": "Australia", 
@@ -209,7 +188,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -224,7 +203,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -257,7 +236,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -285,7 +264,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -328,7 +307,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -355,11 +334,12 @@
             "citations": [
                 {
                     "content": [
-                        "<biopass-wikipedia"
+                        "<biopass-wikipedia",
+                        "<biopass-loc-lea-access"
                     ], 
                     "tag": "biopass", 
                     "styling": "good", 
-                    "value": "Yes"
+                    "value": "Data retention, LEA access"
                 }, 
                 {
                     "content": [
@@ -431,7 +411,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -447,9 +427,9 @@
                         "<biodb-eff-rejected"
                     ], 
                     "tag": "biodb", 
-                    "styling": "rejected", 
+                    "styling": "better", 
                     "value": "Rejected"
-                } 
+                }
             ], 
             "mapid": "CAN", 
             "name": "Canada", 
@@ -482,7 +462,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -492,7 +472,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                } 
+                }
             ], 
             "mapid": "CHE", 
             "name": "Switzerland", 
@@ -515,7 +495,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -543,7 +523,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -611,7 +591,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -634,7 +614,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -657,7 +637,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -685,7 +665,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -695,7 +675,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                } 
+                }
             ], 
             "mapid": "DNK", 
             "name": "Denmark", 
@@ -713,7 +693,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -738,7 +718,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -761,7 +741,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -794,7 +774,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -822,7 +802,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -832,7 +812,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                } 
+                }
             ], 
             "mapid": "FIN", 
             "name": "Finland", 
@@ -862,11 +842,12 @@
             "citations": [
                 {
                     "content": [
-                        "<biopass-wikipedia"
+                        "<biopass-wikipedia",
+                        "<biopass-loc-lea-access"
                     ], 
                     "tag": "biopass", 
                     "styling": "good", 
-                    "value": "Yes"
+                    "value": "Data retention, LEA access"
                 }, 
                 {
                     "content": [
@@ -875,15 +856,15 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                },
+                }, 
                 {
                     "content": [
                         "<biodb-eff-rejected-fr"
                     ], 
                     "tag": "biodb", 
-                    "styling": "rejected", 
+                    "styling": "better", 
                     "value": "Rejected"
-                } 
+                }
             ], 
             "mapid": "FRA", 
             "name": "France", 
@@ -896,7 +877,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -911,7 +892,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -920,18 +901,18 @@
                         "The national ID was <a href=\"https://archive.today/56VM0\">abolished</a> in the 50s by Churchill.\nDuring the early 21<sup>st</sup> century, there was a failed <a href=\"https://en.wikipedia.org/wiki/Identity_Cards_Act_2006\">attempt</a> to reinstate one. See also <a href=\"http://www.no2id.net/\">No2ID.net</a>."
                     ], 
                     "tag": "idcard", 
-                    "styling": "rejected", 
+                    "styling": "better", 
                     "value": "Rejected"
                 }, 
                 {
                     "content": [
-                        "<biodb-eff-rejected-uk",
+                        "<biodb-eff-rejected-uk", 
                         "<biodb-uk-concern"
                     ], 
                     "tag": "biodb", 
-                    "styling": "rejected", 
+                    "styling": "better", 
                     "value": "Rejected"
-                } 
+                }
             ], 
             "mapid": "GBR", 
             "name": "United Kingdom", 
@@ -964,7 +945,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -1027,7 +1008,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1085,7 +1066,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1118,7 +1099,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1146,7 +1127,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1169,7 +1150,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1179,10 +1160,10 @@
                     "tag": "idcard", 
                     "styling": "bad", 
                     "value": "Compulsory"
-                },
+                }, 
                 {
                     "content": [
-                        "<biodb-indonesia-wikipedia",
+                        "<biodb-indonesia-wikipedia", 
                         "<biodb-indonesia-avi"
                     ], 
                     "tag": "biodb", 
@@ -1201,7 +1182,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1211,7 +1192,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                } 
+                }
             ], 
             "mapid": "IRL", 
             "name": "Ireland", 
@@ -1223,12 +1204,13 @@
                     "content": [
                         "<intro-il"
                     ], 
-                    "tag": "intro" 
+                    "tag": "intro"
                 }, 
                 {
                     "content": [
                         "<biopass-wikipedia", 
-                        "Having said that, citizens who refuse to volunteer for the biometric database pilot are forced to issue an easy to forge paper passport, and are charged a fee of <em>???</em> (which is waived for those who volunteer)<sup><em>[citation needed]</em></sup>."
+                        "Having said that, citizens who refuse to volunteer for the biometric database pilot are forced to issue an easy to forge paper passport, and are charged a fee of <em>???</em> (which is waived for those who volunteer)<sup><em>[citation needed]</em></sup>.",
+                        "<biopass-loc-lea-access"
                     ], 
                     "tag": "biopass", 
                     "styling": "bad", 
@@ -1268,12 +1250,12 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
                     "content": [
-                        "<biodb-wikipedia",
+                        "<biodb-wikipedia", 
                         "<idcard-in-tazir"
                     ], 
                     "tag": "idcard", 
@@ -1305,7 +1287,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1336,7 +1318,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1359,7 +1341,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1369,7 +1351,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                } 
+                }
             ], 
             "mapid": "ISL", 
             "name": "Iceland", 
@@ -1382,7 +1364,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1392,7 +1374,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                } 
+                }
             ], 
             "mapid": "ITA", 
             "name": "Italy", 
@@ -1430,7 +1412,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1440,7 +1422,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                } 
+                }
             ], 
             "mapid": "JPN", 
             "name": "Japan", 
@@ -1455,7 +1437,7 @@
                     "tag": "idcard", 
                     "styling": "bad", 
                     "value": "Compulsory"
-                },
+                }, 
                 {
                     "content": [
                         "<biodb-kenya"
@@ -1516,12 +1498,12 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
                     "content": [
-                        "<idcard-wikipedia-compulsory",
+                        "<idcard-wikipedia-compulsory", 
                         "<idcard-kr-j2k"
                     ], 
                     "tag": "idcard", 
@@ -1592,7 +1574,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                } 
+                }
             ], 
             "mapid": "LIE", 
             "id": "li", 
@@ -1630,7 +1612,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1640,7 +1622,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                } 
+                }
             ], 
             "mapid": "LTU", 
             "name": "Lithuania", 
@@ -1653,7 +1635,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1676,7 +1658,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1704,7 +1686,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1732,7 +1714,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1755,7 +1737,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1798,7 +1780,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1836,7 +1818,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -1861,7 +1843,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -1881,7 +1863,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -1909,7 +1891,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -1931,7 +1913,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                } 
+                }
             ], 
             "mapid": "MEX", 
             "id": "mx", 
@@ -1944,7 +1926,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2002,7 +1984,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -2022,7 +2004,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2032,15 +2014,15 @@
                     "tag": "idcard", 
                     "styling": "bad", 
                     "value": "Compulsory"
-                },
+                }, 
                 {
                     "content": [
                         "<biodb-eff-rejected-nl"
                     ], 
                     "tag": "biodb", 
-                    "styling": "rejected", 
+                    "styling": "better", 
                     "value": "Rejected"
-                } 
+                }
             ], 
             "mapid": "NLD", 
             "name": "The Netherlands", 
@@ -2053,7 +2035,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2063,7 +2045,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                } 
+                }
             ], 
             "mapid": "NOR", 
             "name": "Norway", 
@@ -2088,11 +2070,12 @@
             "citations": [
                 {
                     "content": [
-                        "<biopass-wikipedia"
+                        "<biopass-wikipedia",
+                        "<biopass-loc-lea-access"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
-                    "value": "Yes"
+                    "styling": "better", 
+                    "value": "Data retention, LEA access"
                 }, 
                 {
                     "content": [
@@ -2107,9 +2090,9 @@
                         "<biodb-eff-rejected"
                     ], 
                     "tag": "biodb", 
-                    "styling": "rejected", 
+                    "styling": "better", 
                     "value": "Rejected"
-                } 
+                }
             ], 
             "mapid": "NZL", 
             "name": "New Zealand", 
@@ -2167,7 +2150,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2177,7 +2160,7 @@
                     "tag": "idcard", 
                     "styling": "good", 
                     "value": "No"
-                } 
+                }
             ], 
             "mapid": "PHL", 
             "name": "Philippines", 
@@ -2190,7 +2173,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2203,7 +2186,7 @@
                 }, 
                 {
                     "content": [
-                        "<idcard-pk-wikipedia",
+                        "<idcard-pk-wikipedia", 
                         "<biodb-pk-avi"
                     ], 
                     "tag": "biodb", 
@@ -2222,7 +2205,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2275,7 +2258,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2308,7 +2291,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2336,7 +2319,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2359,7 +2342,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2382,7 +2365,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2410,7 +2393,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2443,7 +2426,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -2458,7 +2441,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2468,7 +2451,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                } 
+                }
             ], 
             "mapid": "SWE", 
             "name": "Sweden", 
@@ -2481,7 +2464,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2509,7 +2492,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2537,7 +2520,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -2567,7 +2550,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -2587,7 +2570,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -2637,7 +2620,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -2652,7 +2635,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2675,7 +2658,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -2700,7 +2683,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -2715,7 +2698,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -2735,7 +2718,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2760,7 +2743,7 @@
                     "tag": "idcard", 
                     "styling": "complicated", 
                     "value": "Not compulsory"
-                } 
+                }
             ], 
             "mapid": "TTO", 
             "id": "tt", 
@@ -2778,7 +2761,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2803,11 +2786,12 @@
             "citations": [
                 {
                     "content": [
-                        "<biopass-wikipedia"
+                        "<biopass-wikipedia",
+                        "<biopass-loc-lea-access"
                     ], 
                     "tag": "biopass", 
                     "styling": "good", 
-                    "value": "Yes"
+                    "value": "Data retention, LEA access"
                 }, 
                 {
                     "content": [
@@ -2846,11 +2830,12 @@
             "citations": [
                 {
                     "content": [
-                        "<biopass-wikipedia"
+                        "<biopass-wikipedia",
+                        "<biopass-loc-lea-access"
                     ], 
                     "tag": "biopass", 
                     "styling": "good", 
-                    "value": "Yes"
+                    "value": "Data retention, LEA access"
                 }, 
                 {
                     "content": [
@@ -2865,9 +2850,9 @@
                         "<biodb-eff-rejected"
                     ], 
                     "tag": "biodb", 
-                    "styling": "rejected", 
+                    "styling": "better", 
                     "value": "Rejected"
-                } 
+                }
             ], 
             "mapid": "USA", 
             "name": "United States", 
@@ -2885,7 +2870,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -2910,7 +2895,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }, 
                 {
@@ -2973,7 +2958,7 @@
                         "<biopass-wikipedia"
                     ], 
                     "tag": "biopass", 
-                    "styling": "good", 
+                    "styling": "better", 
                     "value": "Yes"
                 }
             ], 
@@ -3015,6 +3000,29 @@
             "mapid": "ZWE", 
             "id": "zw", 
             "name": "Zimbabwe"
+        }
+    ], 
+    "tags": [
+        {
+            "description": "", 
+            "name": "intro", 
+            "he": ""
+        }, 
+        {
+            "description": "Biometric passport", 
+            "name": "biopass", 
+            "he": "\u05d3\u05e8\u05db\u05d5\u05df \u05d1\u05d9\u05d5\u05de\u05d8\u05e8\u05d9"
+        }, 
+        {
+            "description": "National ID card", 
+            "name": "idcard", 
+            "he": "\u05ea\u05e2\u05d5\u05d3\u05ea \u05d6\u05d4\u05d5\u05ea \u05dc\u05d0\u05d5\u05de\u05d9\u05ea"
+        }, 
+        {
+            "isdefault": true, 
+            "description": "National Biometric database", 
+            "name": "biodb", 
+            "he": "\u05de\u05d0\u05d2\u05e8 \u05d1\u05d9\u05d5\u05de\u05d8\u05e8\u05d9 \u05dc\u05d0\u05d5\u05de\u05d9"
         }
     ]
 }
