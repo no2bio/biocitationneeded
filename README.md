@@ -1,8 +1,5 @@
 ## The #BioCitationNeeded project
 
-You can see the latest version at
-[https://dubiousdod.org/biocitationneeded](https://dubiousdod.org/biocitationneeded).
-
 Map was done with [DataMaps](http://datamaps.github.io/). Respect.
 
 ### What is this?
@@ -52,7 +49,7 @@ something [wrong](https://xkcd.com/386/) written here, please suggest it.
 The simplest way to do that is via my [contact form](https://swatwt.com/whatmail).
 Remember to write how you want to be credited (name + link).
 
-Also feel free to fork this gist and edit stuff yourself (either the information, or the code).
+Also feel free to fork this and edit stuff yourself (either the information, or the code).
 
 ## For those about to fork (we salute you):
 
