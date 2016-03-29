@@ -22,7 +22,7 @@ of a single person on a card and maintaining a database that would enable identi
 population from an arbitrary photo or fingerprint gets lost in the spin.
 
 If you read Hebrew, some of the debate regarding the situation in "other countries"
-is covered [here](http://m.no2bio.org/post-other-countries.html).
+is covered [here](https://no2bio.org/other-countries/).
 
 This little project tries to crowdsource
 **link-backed** information regarding various issues per country. Namely, does `country X` have:
