@@ -1213,13 +1213,13 @@
                         "<biopass-loc-lea-access"
                     ], 
                     "tag": "biopass", 
-                    "styling": "bad", 
-                    "value": "Pending inclusion in biometric database"
+                    "styling": "good", 
+                    "value": "Yes"
                 }, 
                 {
                     "content": [
                         "<idcard-wikipedia-compulsory", 
-                        "To do: document agron etc."
+                        "To do: document Agron leaks etc."
                     ], 
                     "tag": "idcard", 
                     "styling": "bad", 
@@ -1230,8 +1230,8 @@
                         "<biodb-wikipedia"
                     ], 
                     "tag": "biodb", 
-                    "styling": "complicated", 
-                    "value": "Not compulsory"
+                    "styling": "bad", 
+                    "value": "Compulsory"
                 }
             ], 
             "mapid": "ISR", 
